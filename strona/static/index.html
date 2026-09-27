@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0A1318">
+<meta name="description" content="HALUCYNACJE — gra planszowa o redakcji, która codziennie pracuje z syntetycznymi kolegami i nie może wpuścić na antenę żadnej halucynacji. Intro, zasady i pliki do druku za darmo.">
+<meta property="og:title" content="HALUCYNACJE">
+<title>HALUCYNACJE — gra</title>
+<link rel="icon" href="/s/logo.svg?v=3" type="image/svg+xml">
+<link rel="preload" href="/s/fonty/exo2-600-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/s/jezyki.css?v=9">
+</head>
+<body>
+<main>
+  <img class="logo" src="/s/logo.svg?v=3" alt="Logo HALUCYNACJE: sześć wijących się języków wokół ust — kwiatek czy języki?" width="168" height="168">
+  <h1 class="sr">HALUCYNACJE</h1>
+  <div class="scena" aria-hidden="true">
+    <svg id="napis" viewBox="0 0 1000 240" preserveAspectRatio="xMidYMid meet"><text id="slowo" x="500" y="162" text-anchor="middle">Halucynacje</text></svg>
+  </div>
+  <p class="jez"><span id="jez">po polsku</span> · <span id="licz" class="licz"></span></p>
+  <div class="wybor">
+    <label for="jezyk-nazw"><span aria-hidden="true">🌐</span> Nazwy języków</label>
+    <div class="sel"><select id="jezyk-nazw" aria-describedby="ile-opis"><option value="pl">polski</option></select></div>
+    <span id="ile-opis" class="sr"><span id="ile-nazw"></span> języków do wyboru</span>
+  </div>
+
+  <section class="opis">
+    <p><a class="btn gl intro-btn" href="/intro">▶ Obejrzyj intro</a></p>
+    <p><b>HALUCYNACJE</b> to gra o redakcji Radia Wnet: osiem osób i dziesiątki syntetycznych kolegów, którzy codziennie przepuszczają przez siebie tysiące słów. Jedno z nich jest halucynacją — maszyny albo człowieka. Nie może trafić na antenę.</p>
+    <p>Kwiatek czy języki? Tak właśnie wygląda halucynacja. Świat gry jest w budowie — zostaw e-mail, a damy znać, gdy wystartuje pełna wersja. Jeden e-mail, nic więcej.</p>
+  </section>
+
+  <section class="gra" aria-labelledby="gra-t">
+    <span class="znacznik">Gra planszowa · bezpłatny PDF</span>
+    <h2 id="gra-t">Świat anteny</h2>
+    <p>Pierwszy rozdział HALUCYNACJI możesz rozegrać już dziś — na stole, z kośćmi, nożyczkami i kartonem po pizzy. <b>Każdy heks to jedna godzina radia.</b>
+    Im więcej w niej mowy, tym wyżej wznosi się ląd; godziny samej muzyki toną w morzu. Gracie razem jako redakcja: w 7 turach — dniach tygodnia — opracowujecie godziny, zanim trafią do archiwum. Maszyny są szybkie, ale zostawiają ślady ryzyka; przed publikacją — test prawdy.</p>
+    <div class="podglady">
+      <figure><img src="/pobierz/podglad_mapa.png" alt="Fragment planszy: heksy-godziny z terenem od morza po zielone wzgórza, na trzech leżą stosy żetonów" loading="lazy" width="900" height="1273"><figcaption>Plansza 1:1 · teren z procentu słowa</figcaption></figure>
+      <figure><img src="/pobierz/podglad_zetony.png" alt="Arkusz 108 kwadratowych żetonów z ikonami, w kolorach: zielony, niebieski, złoty i fioletowy" loading="lazy" width="900" height="1273"><figcaption>108 żetonów do wycięcia</figcaption></figure>
+    </div>
+    <ul class="cechy">
+      <li><b>1–8 osób · 30–45 minut</b>kooperacja od 12 lat; osiem postaci redakcji, wszyscy wygrywają albo przegrywają razem</li>
+      <li><b>Więcej transkrypcji = mniej halucynacji</b>k6 + siła ≥ 7, znaczniki ryzyka, test prawdy i tor skandalu — od sprostowania po zwolnienia</li>
+      <li><b>72 karty przekonań</b>ludzkie halucynacje z różnych kultur — z ukrytymi prawdami o nas samych</li>
+      <li><b>Domowa drukarka wystarczy</b>zestaw startowy to 5 kartek A4; karty — dwustronnie na papierze fotograficznym</li>
+    </ul>
+    <div class="cta">
+      <a class="btn gl" href="/pobierz/Halucynacje_Swiat_anteny_zestaw_startowy_A4.pdf" download>Pobierz zestaw startowy (A4)</a>
+      <a class="btn dr" href="/zasady">Przeczytaj zasady</a>
+      <a class="btn dr" href="/zasady#pobierz">Wszystkie pliki</a>
+    </div>
+    <div id="pliki" class="pliki"></div>
+    <p class="uwaga">Plansze scenariuszy powstają z ramówek trzech typów rozgłośni; mapa prawdy — z prawdziwych pomiarów anteny. Zasady 2.0 sprawdzone symulacją partii — czekamy na wasze uwagi po grze.</p>
+  </section>
+
+  <section class="gra" aria-labelledby="mapy-t">
+    <span class="znacznik">Mapa nie jest terytorium</span>
+    <h2 id="mapy-t">Dwie mapy jednej anteny</h2>
+    <p>Cztery tygodnie Radia Wnet narysowaliśmy dwa razy: <b>generatorem 2D</b> — do gry i do czytania — i <b>proceduralnie w Blenderze</b> — do oglądania.
+    Z tych samych pomiarów, bez słuchania ani minuty: wysokość to procent słowa, domy to głosy, las to rozmowa, morze to muzyka, latarnie to audycje, które od lat stoją w tym samym miejscu.
+    Jedna plansza A0 mieści około 13 tysięcy faktów o antenie. Legenda uczy je czytać w minutę.</p>
+    <div class="dwie-mapy">
+      <figure><img src="/s/img/mapa_prawdy.jpg?v=5" alt="Mapa prawdy 2D: heksy-godziny z terenem, nazwami audycji, osadami i latarniami" loading="lazy" width="1200" height="1200"><figcaption>2D · plansza do gry</figcaption></figure>
+      <figure><img src="/s/img/swiat3d_orto.jpg?v=1" alt="Ten sam świat w 3D: relief, osady, las i heksy z kolorowych laserów" loading="lazy" width="1200" height="1406"><figcaption>3D · Blender, heksy z laserów</figcaption></figure>
+    </div>
+    <blockquote><p>„Mapa nie jest terytorium.”</p><footer>— Alfred Korzybski, 1931</footer></blockquote>
+    <p>Obie mapy są uproszczeniem — jak u Borgesa, gdzie mapa w skali 1:1 przykryła całe cesarstwo i nikomu się nie przydała. Dlatego mapy same siebie sprawdzają: test zgodności porównuje 2D i 3D heks po heksie. W grze o halucynacjach nawet rysunek musi przejść test prawdy.</p>
+    <div class="cta">
+      <a class="btn gl" href="/legenda">Jak czytać mapę</a>
+      <a class="btn dr" href="/swiat3d">Obróć świat 3D</a>
+      <a class="btn dr" href="/spolecznosc">Open source · decyzja nr 1</a>
+    </div>
+  </section>
+
+  <form id="zapis" class="zapis" novalidate>
+    <label for="email">Twój e-mail</label>
+    <div class="rz">
+      <input id="email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="ty@przyklad.pl" required>
+      <button type="submit" id="wyslij">Powiadom mnie</button>
+    </div>
+    <input class="pulapka" name="www" id="www" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <label class="zg"><input type="checkbox" id="zgoda"> Zgadzam się na jedną wiadomość o resecie świata gry. Adres służy tylko do niej; możesz poprosić o usunięcie w każdej chwili.</label>
+    <p class="adm" id="adm">Sprawdzam, czy zapisy są otwarte…</p>
+    <p class="kom" id="kom" role="status" aria-live="polite"></p>
+    <details class="klauzula" id="klauzula" hidden><summary>Informacja o przetwarzaniu danych (RODO)</summary><p id="klauzula-tekst"></p></details>
+  </form>
+
+  <form id="wypis" class="zapis wypis" novalidate hidden>
+    <label for="email-wypis">Wypisz mnie · wycofaj zgodę</label>
+    <div class="rz"><input id="email-wypis" type="email" autocomplete="email" inputmode="email" placeholder="adres podany przy zapisie"><button type="submit" class="drugi">Usuń mój adres</button></div>
+    <p class="kom" id="kom-wypis" role="status" aria-live="polite"></p>
+  </form>
+
+  <footer>
+    Słowo „język” we wszystkich językach: <a href="https://www.wikidata.org/wiki/Q34770" rel="noopener">Wikidane Q34770</a> (CC0), brakujące dopełnione bezpłatnym tłumaczem (oznaczone w danych).
+    · Radio Wnet · Szpieg+ · strona przygotowana z pomocą AI (Claude).
+  </footer>
+</main>
+<script src="/s/jezyki.js?v=5"></script>
+<script src="/s/swiat.js?v=2"></script>
+</body>
+</html>

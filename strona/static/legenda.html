@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0A1318">
+<meta name="description" content="Legenda mapy HALUCYNACJE: ile informacji o czterech tygodniach Radia Wnet ukrywa proceduralna mapa terenu i jej model 3D — i jak je odczytać bez słuchania anteny.">
+<title>Legenda — HALUCYNACJE · Świat anteny</title>
+<link rel="icon" href="/s/logo.svg?v=3" type="image/svg+xml">
+<link rel="stylesheet" href="/s/jezyki.css?v=9">
+</head>
+<body>
+<main class="zasady podstrona">
+  <nav class="gora"><a href="/"><img src="/s/logo.svg?v=3" alt="" width="36" height="36"> HALUCYNACJE</a><a href="/zasady">Zasady</a><a href="/swiat3d">Świat 3D</a><a href="/spolecznosc">Open source</a></nav>
+  <h1>Legenda: ile mapa wie o antenie</h1>
+  <p class="podt">Cztery tygodnie Radia Wnet (31.08–27.09.2026), 672 godziny, jedna plansza — i ani minuty słuchania.</p>
+
+  <section class="blok">
+    <p class="wst">Każdy heks to jedna godzina anteny. Teren, osady, latarnie i znaki wynikają wyłącznie z pomiarów Szpiega+ i z publicznej ramówki — nic nie jest dorysowane. Legenda na planszy ma trzy części: <b>anatomię jednego heksu</b>, <b>osiem prawdziwych heksów-rekordów</b> jako przykłady czytania terenu i <b>liczniki</b> — ile faktów o antenie mieści się na jednym arkuszu A0.</p>
+    <figure class="szeroka"><img src="/s/img/legenda_a0.jpg?v=1" alt="Legenda planszy A0: po lewej powiększony heks z ponumerowanymi znakami, pośrodku osiem heksów-przykładów terenu, po prawej liczniki danych i cytat Korzybskiego" loading="lazy" width="1600" height="620"><figcaption>Legenda z planszy 1 (A0). Pełny plik: <a href="/zasady#pobierz">do pobrania</a>.</figcaption></figure>
+  </section>
+
+  <section class="blok">
+    <h2>Co koduje jeden heks</h2>
+    <div class="tabela"><table>
+      <thead><tr><th>Na mapie 2D</th><th>W świecie 3D (Blender)</th><th>Co to znaczy</th><th>Skąd wiemy</th></tr></thead>
+      <tbody>
+        <tr><td>kolor i wysokość terenu, liczba „73–81%”</td><td>wysokość reliefu; morze poniżej progu</td><td>ile w tej godzinie było słowa (dolna i górna granica)</td><td>2–4 niezależne metody: segmentacja mowy/muzyki, transkrypcja, tagi dźwięku, Scribe</td></tr>
+        <tr><td>osada 1–3 domów</td><td>4 domy na każdy znak</td><td>ile głosów naprawdę mówiło (krótkie wejścia ważą mało)</td><td>diaryzacja: odwrotność indeksu Simpsona z czasu mówców</td></tr>
+        <tr><td>las / skały</td><td>drzewa / nagie zbocza</td><td>rozmowa czy monolog</td><td>rozkład czasu między mówców</td></tr>
+        <tr><td>strome, żebrowane zbocza</td><td>ostrzejszy relief</td><td>tempo mowy</td><td>sylaby na sekundę w turach, bez serwisu informacyjnego</td></tr>
+        <tr><td>poszarpany brzeg, wyspy</td><td>archipelag</td><td>godzina rwana: mowa i muzyka na przemian</td><td>liczba przejść mowa↔muzyka</td></tr>
+        <tr><td>turkusowa laguna, plaża</td><td>płytka woda</td><td>mowa na tle muzyki (zapowiedź na utworze)</td><td>tagi dźwięku (sieć EfficientAT)</td></tr>
+        <tr><td>♪</td><td>—</td><td>automat zapisał śpiew jako słowa: to nie jest mowa</td><td>porównanie transkrypcji z segmentacją mowy</td></tr>
+        <tr><td>drgające smugi</td><td>(w przygotowaniu)</td><td>miraż: transkrypcja może być niepewna</td><td>pewność słów, kalibrowana drugą transkrypcją</td></tr>
+        <tr><td>2×T, jaśniejszy heks</td><td>—</td><td>dwie niezależne transkrypcje: mniej halucynacji</td><td>lokalny Whisper + Scribe w chmurze</td></tr>
+        <tr><td>nazwa audycji, obrys w kolorze</td><td>kolor laserów nad heksem</td><td>co było w ramówce i jakiego rodzaju</td><td>metadane godziny i publiczny kalendarz ramówki</td></tr>
+        <tr><td>latarnia + „8 lat”</td><td>latarnia (na morzu: na wysepce)</td><td>audycja od lat w tym samym miejscu</td><td>35 392 wpisy kalendarza z 7 lat</td></tr>
+        <tr><td>mgła, pergamin</td><td>—</td><td>metody się kłócą / brak nagrania</td><td>rozrzut metod / brak pliku</td></tr>
+      </tbody>
+    </table></div>
+    <p>W przygotowaniu (pomiar trwa): <b>piksele i słuchawka</b> — mowa przez łącze zdalne rozpoznana po „ścianie” w widmie (telefon ~3,4 kHz, HD Voice ~7 kHz); <b>Kolumna Zygmunta</b> — studio na Krakowskim Przedmieściu zajęte, rozpoznane po odcisku toru dźwięku.</p>
+  </section>
+
+  <section class="blok">
+    <h2>Dwie mapy, jedno terytorium</h2>
+    <blockquote><p>„Mapa nie jest terytorium.”</p><footer>— Alfred Korzybski, 1931</footer></blockquote>
+    <p>Rysujemy antenę dwa razy: generatorem 2D (do gry i do czytania) i proceduralnie w Blenderze (do oglądania). Obie mapy powstają z tych samych danych — i obie są tylko mapami: anteny się słucha, nie ogląda. Borges opisał cesarskich kartografów, którzy zrobili mapę w skali 1:1; pokryła całe cesarstwo i do niczego się nie nadawała. Dlatego nasza mapa <b>upraszcza</b> — a gracz uczy się, co w tym uproszczeniu zgubiono.</p>
+    <p>Dwie mapy jednego terytorium nie mogą sobie przeczyć. Po każdej zmianie uruchamiamy <b>test zgodności</b>:</p>
+    <div class="tabela"><table>
+      <thead><tr><th>Test</th><th>Sprawdza</th><th>Wynik (27.09.2026)</th></tr></thead>
+      <tbody>
+        <tr><td>T1 ląd / morze</td><td>ten sam heks jest lądem w 2D i w 3D</td><td>196 heksów, 0 różnic</td></tr>
+        <tr><td>T2 osady</td><td>domy w 3D = 4 × znaki domów w 2D</td><td>1560 domów, 0 różnic</td></tr>
+        <tr><td>T3 latarnie</td><td>te same heksy (także na morzu)</td><td>62 = 62</td></tr>
+        <tr><td>T4 kolor audycji</td><td>obrys w 2D = kolor laserów w 3D</td><td>0 różnic</td></tr>
+        <tr><td>T5 linia brzegowa</td><td>środki heksów nad wodą ⇔ ląd w 2D; wysokość rośnie z % słowa</td><td>98% · Spearman 0,90</td></tr>
+        <tr><td>T6 plik glTF</td><td>teren, domy i lasery są w pliku dla UE / Unity / Godota</td><td>zgodne</td></tr>
+      </tbody>
+    </table></div>
+    <p class="uwaga">Pierwsze uruchomienie testu znalazło dwie prawdziwe rozbieżności: latarnie na morzu istniały tylko w 2D, a kolory audycji sprzed 12.09 — tylko w 3D. Obie poprawione. W grze o halucynacjach mapy muszą same siebie sprawdzać.</p>
+  </section>
+  <footer>HALUCYNACJE · Radio Wnet · Szpieg+ · przygotowane z pomocą AI (Claude, Anthropic) · <a href="/">gra.l00p.ai</a></footer>
+</main>
+</body>
+</html>

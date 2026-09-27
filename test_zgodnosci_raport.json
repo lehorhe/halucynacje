@@ -1,0 +1,62 @@
+{
+ "T1_lad_morze": {
+  "heksow": 196,
+  "niezgodnych": 0,
+  "przyklady": []
+ },
+ "T2_osady": {
+  "domow_3d": 1560,
+  "niezgodnych_heksow": 0,
+  "przyklady": []
+ },
+ "T3_latarnie": {
+  "w_2d": 62,
+  "w_3d": 62,
+  "tylko_2d": [],
+  "tylko_3d": [],
+  "na_morzu_3d": 16
+ },
+ "T4_kolory_audycji": {
+  "heksow": 196,
+  "niezgodnych": 0,
+  "przyklady": [],
+  "rozklad": {
+   "None": 92,
+   "styl": 30,
+   "pub": 35,
+   "zagr": 15,
+   "muz": 14,
+   "kult": 6,
+   "wiara": 4
+  }
+ },
+ "T5_brzeg": {
+  "zgodnosc_srodkow": 0.98,
+  "spearman_wysokosc_slowo": 0.894
+ },
+ "T6_glb_pelny": {
+  "MB": 30.2,
+  "wezly": 15440,
+  "siatki": 464,
+  "domy": 1560,
+  "teren": true,
+  "lasery_swiecace": 7,
+  "rozszerzenia": [
+   "KHR_materials_emissive_strength",
+   "KHR_materials_specular"
+  ]
+ },
+ "T6_glb_web": {
+  "MB": 6.0,
+  "wezly": 2020,
+  "siatki": 461,
+  "domy": 1560,
+  "teren": true,
+  "lasery_swiecace": 7,
+  "rozszerzenia": [
+   "KHR_materials_emissive_strength",
+   "KHR_materials_specular"
+  ]
+ },
+ "wynik": "ZGODNE"
+}

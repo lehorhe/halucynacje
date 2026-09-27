@@ -1,0 +1,126 @@
+{
+ "wersja": "2026-09-26.1",
+ "opis": "Plansza warstw Szpiega+: pola hex (warstwy) w pierścieniach odległości od rzeczywistości, stosy żetonów (konkretne przebiegi przetwarzania) i relacje między nimi. Jedno źródło prawdy dla makiety, broszury, planszy drukowanej i silnika gry.",
+ "pierscienie": [
+  {"n": 0, "nazwa": "Rzeczywistość", "opis": "to, co naprawdę poszło w eter — nagranie anteny"},
+  {"n": 1, "nazwa": "Zapis", "opis": "bezpośrednie pomiary nagrania: inne nagrania z czasem, wideo, słowa, scena dźwiękowa"},
+  {"n": 2, "nazwa": "Rozbiór", "opis": "struktura wyprowadzona z zapisu: głosy, rozdziały, nazwy, utwory"},
+  {"n": 3, "nazwa": "Tożsamość i ochrona", "opis": "kto mówi i czego nie wolno pokazać"},
+  {"n": 4, "nazwa": "Paczka", "opis": "wybór redakcji: wypowiedzi z czasem antenowym i podpisem"},
+  {"n": 5, "nazwa": "Tekst", "opis": "tekst redakcyjny sprawdzony zdanie po zdaniu wobec nagrania"},
+  {"n": 6, "nazwa": "Wyjście", "opis": "szkic na wnet.fm, odcinek w podcaście — zawsze przez człowieka"}
+ ],
+ "pola": [
+  {"id": "audio",      "q": 0, "r": 0,  "nazwa": "Nagranie anteny",       "skrot": "Nagranie", "ikona": "audio",   "teren": "rzeczywistosc"},
+  {"id": "inne_audio", "q": -1, "r": 0, "nazwa": "Inne nagrania z czasem", "skrot": "Nasłuch", "ikona": "nasluch", "teren": "zapis"},
+  {"id": "wideo",      "q": -1, "r": 1, "nazwa": "Wideo zsynchronizowane", "skrot": "Wideo",   "ikona": "wideo",   "teren": "zapis"},
+  {"id": "tekst",      "q": 1, "r": -1, "nazwa": "Słowa (transkrypcja)",   "skrot": "Słowa",   "ikona": "tekst",   "teren": "zapis"},
+  {"id": "scena",      "q": 0, "r": 1,  "nazwa": "Scena dźwiękowa",        "skrot": "Scena",   "ikona": "scena",   "teren": "zapis"},
+  {"id": "glosy",      "q": 2, "r": -1, "nazwa": "Głosy (diaryzacja)",     "skrot": "Głosy",   "ikona": "diar",    "teren": "rozbior"},
+  {"id": "rozdzialy",  "q": 1, "r": -2, "nazwa": "Rozdziały",              "skrot": "Rozdz.",  "ikona": "rozdzialy","teren": "rozbior"},
+  {"id": "nazwy",      "q": 2, "r": -2, "nazwa": "Nazwy (encje)",          "skrot": "Nazwy",   "ikona": "tag",     "teren": "rozbior"},
+  {"id": "utwory",     "q": 1, "r": 1,  "nazwa": "Utwory",                 "skrot": "Utwory",  "ikona": "nuta",    "teren": "rozbior"},
+  {"id": "kto",        "q": 3, "r": -2, "nazwa": "Kto mówi",               "skrot": "Kto",     "ikona": "kto",     "teren": "tozsamosc"},
+  {"id": "dane",       "q": 3, "r": -3, "nazwa": "Dane do ukrycia",        "skrot": "Dane",    "ikona": "tarcza",  "teren": "tozsamosc"},
+  {"id": "paczka",     "q": 4, "r": -3, "nazwa": "Paczka",                 "skrot": "Paczka",  "ikona": "paczka",  "teren": "paczka"},
+  {"id": "tekst_red",  "q": 5, "r": -4, "nazwa": "Tekst sprawdzony",       "skrot": "Tekst",   "ikona": "sprawdz", "teren": "tekst"},
+  {"id": "wyjscie",    "q": 6, "r": -5, "nazwa": "Wyjście (szkic, odcinek)","skrot": "Wyjście","ikona": "wpis",    "teren": "wyjscie"}
+ ],
+ "tereny": {
+  "rzeczywistosc": {"nazwa": "Rzeczywistość", "kolor": "#1F3F4A"},
+  "zapis":         {"nazwa": "Zapis",         "kolor": "#367F96"},
+  "rozbior":       {"nazwa": "Rozbiór",       "kolor": "#5E9AAE"},
+  "tozsamosc":     {"nazwa": "Tożsamość",     "kolor": "#84B0BF"},
+  "paczka":        {"nazwa": "Paczka",        "kolor": "#C9A34A"},
+  "tekst":         {"nazwa": "Tekst",         "kolor": "#E0B84F"},
+  "wyjscie":       {"nazwa": "Wyjście",       "kolor": "#F9B009"}
+ },
+ "gdzie": {
+  "L": "lokalnie na ZBooku · 0 zł · nic nie wychodzi",
+  "C": "w chmurze · płatne · dane opuszczają ZBooka",
+  "H": "człowiek · decyzja i podpis",
+  "W": "wnet.fm / podcast · wyjście na zewnątrz"
+ },
+ "statystyki": {
+  "slowo": {
+   "nazwa": "% słowa w godzinie",
+   "opis": "Udział mowy w godzinie anteny, liczony pośrednio: godzina minus rozpoznana muzyka. Pokazujemy PRZEDZIAŁ z niezależnych metod lokalnych, nie jedną liczbę.",
+   "pole": "scena",
+   "metody": {
+    "smd":      {"nazwa": "mowa/muzyka (inaSpeechSegmenter)", "gdzie": "L", "tryb": "batch", "zeton": "smd", "zrodlo_danych": "meta.statystyki.mowa_s · miod.speech_dur"},
+    "segmenty": {"nazwa": "segmenty mowy w transkrypcji", "gdzie": "wg żetonu słów", "tryb": "batch", "pole": "tekst", "zrodlo_danych": "meta.statystyki.mowa_s_segmenty"},
+    "tagi":     {"nazwa": "tagi dźwięku na żywo (EfficientAT: mowa, mowa na tle muzyki)", "gdzie": "L", "tryb": "live", "zeton": "tagi", "zrodlo_danych": "Super-słuch: odcinki sceny"}
+   },
+   "zgodne_pp": 5.0,
+   "koncesja": {"prog_pct": 32.53, "podstawa": "tydzień, 06:00–23:00 (119 h), bez lipca i sierpnia; godzina to wskaźnik orientacyjny, nie rozliczenie",
+                "zrodlo": "Sejf 70_Zasady/Koncesja 739-2018-R"},
+   "licencja": {"opis": "Licencjonujemy mowę (muzyka, reklamy i materiały obce wyłączone), więc podstawą ceny godziny są minuty mowy = % słowa × godzina; stawka zależy od pakietu (A/B/C), który wynika ze stanu planszy.",
+                "jednostka": "godzina mowy", "pakiety": {"A": "audio + metadane", "B": "A + transkrypcja z czasem słów + diaryzacja", "C": "B + weryfikacja człowieka + karta praw"},
+                "cennik": "POUFNY — poza gitem: szpieg_media/licencje/cennik.json (env SZPIEG_CENNIK)",
+                "zrodlo": "sesja w chmurze „Licencja big data dla AI — negocjacje” (25–26.09.2026): term sheet (szkic) i benchmark Audacy"}
+  }
+ },
+ "zetony": [
+  {"id": "archiwum",       "pole": "audio", "skrot": "ARC", "nazwa": "Archiwum godziny (szpieg.wnet.fm)", "gdzie": "L", "tryb": "batch", "sila": 5, "koszt": "0 zł", "zrodlo_danych": true, "wymaga": []},
+  {"id": "swiadek",        "pole": "inne_audio", "skrot": "ŚWD", "nazwa": "Świadek anteny: nasłuch z odciskiem SHA-256", "gdzie": "L", "tryb": "live", "sila": 5, "koszt": "0 zł", "zrodlo_danych": true, "wymaga": []},
+  {"id": "strumien",       "pole": "inne_audio", "skrot": "STR", "nazwa": "Strumień na żywo (Icecast)", "gdzie": "L", "tryb": "live", "sila": 4, "koszt": "0 zł", "zrodlo_danych": true, "wymaga": []},
+  {"id": "wideo_sync",     "pole": "wideo", "skrot": "VID", "nazwa": "Wideo zsynchronizowane z czasem anteny", "gdzie": "L", "tryb": "batch", "sila": 5, "koszt": "0 zł", "zrodlo_danych": true, "wymaga": []},
+
+  {"id": "live_lokal",     "pole": "tekst", "skrot": "L·LIVE", "nazwa": "Słowa na żywo: whisper lokalnie", "gdzie": "L", "tryb": "live", "sila": 2, "koszt": "0 zł", "wer": "nie mierzono (wyższy niż batch)", "znaczniki": "slowo",
+   "wymaga": [{"pole": "inne_audio", "zeton": ["strumien"]}]},
+  {"id": "live_chmura",    "pole": "tekst", "skrot": "C·LIVE", "nazwa": "Słowa na żywo: Scribe realtime", "gdzie": "C", "tryb": "live", "sila": 3, "koszt": "~0,39 $/h", "wer": "nie mierzono", "znaczniki": "slowo",
+   "wymaga": [{"pole": "inne_audio", "zeton": ["strumien"]}]},
+  {"id": "batch_lokal",    "pole": "tekst", "skrot": "L·GODZ", "nazwa": "Słowa po godzinie: kolonia (whisper)", "gdzie": "L", "tryb": "batch", "sila": 4, "koszt": "0 zł", "wer": "ok. 5%", "znaczniki": "slowo",
+   "wymaga": [{"pole": "audio"}]},
+  {"id": "batch_chmura",   "pole": "tekst", "skrot": "C·GODZ", "nazwa": "Słowa po godzinie: Scribe v2", "gdzie": "C", "tryb": "batch", "sila": 4, "koszt": "płatne", "wer": "ok. 5%", "znaczniki": "slowo",
+   "wymaga": [{"pole": "audio"}]},
+  {"id": "zewnetrzna",     "pole": "tekst", "skrot": "ZEW", "nazwa": "Transkrypcja z zewnątrz (bez czasu słów)", "gdzie": "L", "tryb": "batch", "sila": 1, "koszt": "0 zł", "wer": "nieznany", "znaczniki": "segment",
+   "wymaga": []},
+  {"id": "weryfikacja",    "pole": "tekst", "skrot": "RED✓", "nazwa": "Weryfikacja redaktora", "gdzie": "H", "tryb": "czlowiek", "sila": 6, "koszt": "czas redaktora", "wer": "ok. 2%", "znaczniki": "slowo", "nakladka": true,
+   "wymaga": [{"pole": "tekst", "znaczniki": "slowo", "bez": ["weryfikacja"]}, {"pole": "audio"}]},
+
+  {"id": "tagi",           "pole": "scena", "skrot": "TAG", "nazwa": "Tagi dźwięku (mowa, muzyka, 527 klas)", "gdzie": "L", "tryb": "live", "sila": 3, "koszt": "0 zł",
+   "wymaga": [{"pole": "audio", "lub": "inne_audio"}]},
+  {"id": "smd",            "pole": "scena", "skrot": "SMD", "nazwa": "Mowa / muzyka (inaSpeechSegmenter)", "gdzie": "L", "tryb": "batch", "sila": 4, "koszt": "0 zł",
+   "wymaga": [{"pole": "audio"}]},
+
+  {"id": "diar_lokal",     "pole": "glosy", "skrot": "L·DIAR", "nazwa": "Diaryzacja po godzinie (pyannote)", "gdzie": "L", "tryb": "batch", "sila": 4, "koszt": "0 zł",
+   "wymaga": [{"pole": "audio"}, {"pole": "tekst", "znaczniki": "slowo"}]},
+  {"id": "diar_live",      "pole": "glosy", "skrot": "L·ECAPA", "nazwa": "Diaryzacja na żywo (ECAPA)", "gdzie": "L", "tryb": "live", "sila": 2, "koszt": "0 zł",
+   "wymaga": [{"pole": "inne_audio", "zeton": ["strumien"]}, {"pole": "tekst", "znaczniki": "slowo"}]},
+  {"id": "diar_chmura",    "pole": "glosy", "skrot": "C·DIAR", "nazwa": "Diaryzacja Scribe (razem z tekstem)", "gdzie": "C", "tryb": "batch", "sila": 4, "koszt": "w cenie Scribe",
+   "wymaga": [{"pole": "audio"}, {"pole": "tekst", "zeton": ["batch_chmura"]}]},
+
+  {"id": "rozdz_model",    "pole": "rozdzialy", "skrot": "ROZ", "nazwa": "Rozdziały z modelu", "gdzie": "C", "tryb": "batch", "sila": 3, "koszt": "płatne (lokalnie 0 zł, gdy wolny)",
+   "wymaga": [{"pole": "tekst"}]},
+  {"id": "encje_model",    "pole": "nazwy", "skrot": "ENC", "nazwa": "Nazwy: osoby, organizacje, miejsca", "gdzie": "C", "tryb": "batch", "sila": 3, "koszt": "płatne",
+   "wymaga": [{"pole": "tekst"}]},
+  {"id": "odcisk",         "pole": "utwory", "skrot": "FP", "nazwa": "Odcisk utworu (AcoustID, MusicBrainz)", "gdzie": "L", "tryb": "batch", "sila": 4, "koszt": "0 zł",
+   "wymaga": [{"pole": "audio"}, {"pole": "scena"}]},
+  {"id": "typ_sluchacza",  "pole": "utwory", "skrot": "TYP", "nazwa": "Typ słuchacza (misja „od muzyki”)", "gdzie": "H", "tryb": "czlowiek", "sila": 3, "koszt": "0 zł",
+   "wymaga": [{"pole": "scena"}]},
+
+  {"id": "glosoteka",      "pole": "kto", "skrot": "GŁO", "nazwa": "Głosoteka: barwa głosu (dwie zgodne oceny)", "gdzie": "L", "tryb": "batch", "sila": 4, "koszt": "0 zł",
+   "wymaga": [{"pole": "glosy"}, {"pole": "audio", "lub": "inne_audio"}]},
+  {"id": "kontekst",       "pole": "kto", "skrot": "KTX", "nazwa": "Kontekst: zapowiedź i pożegnanie", "gdzie": "L", "tryb": "live", "sila": 2, "koszt": "0 zł",
+   "wymaga": [{"pole": "glosy"}, {"pole": "tekst"}]},
+  {"id": "przedstawienia", "pole": "kto", "skrot": "PRZ", "nazwa": "Przedstawienia z treści (model)", "gdzie": "C", "tryb": "batch", "sila": 3, "koszt": "płatne",
+   "wymaga": [{"pole": "glosy"}, {"pole": "tekst"}]},
+  {"id": "wydawca",        "pole": "kto", "skrot": "WYD✓", "nazwa": "Wydawca pasma rozstrzyga głos", "gdzie": "H", "tryb": "czlowiek", "sila": 6, "koszt": "czas człowieka", "nakladka": true,
+   "wymaga": [{"pole": "kto", "bez": ["wydawca"]}]},
+
+  {"id": "pii",            "pole": "dane", "skrot": "PII", "nazwa": "Kontrola danych do ukrycia", "gdzie": "L", "tryb": "batch", "sila": 3, "koszt": "0 zł",
+   "wymaga": [{"pole": "tekst"}], "wzmacnia": ["nazwy", "kto"]},
+
+  {"id": "paczka",         "pole": "paczka", "skrot": "PAK", "nazwa": "Paczka: wypowiedzi z czasem i podpisem", "gdzie": "H", "tryb": "czlowiek", "sila": 5, "koszt": "0 zł",
+   "wymaga": [{"pole": "audio"}, {"pole": "tekst", "znaczniki": "slowo"}, {"pole": "dane"}], "wzmacnia": ["kto"]},
+  {"id": "gem",            "pole": "tekst_red", "skrot": "GEM", "nazwa": "Tekst z Gema (poza Szpiegiem+)", "gdzie": "C", "tryb": "czlowiek", "sila": 2, "koszt": "abonament Gema",
+   "wymaga": [{"pole": "paczka"}]},
+  {"id": "sprawdzenie",    "pole": "tekst_red", "skrot": "SPR", "nazwa": "Sprawdzenie zdanie po zdaniu (program, 0 zł)", "gdzie": "L", "tryb": "batch", "sila": 5, "koszt": "0 zł", "nakladka": true,
+   "wymaga": [{"pole": "tekst_red", "zeton": ["gem"]}, {"pole": "tekst", "znaczniki": "slowo"}]},
+  {"id": "szkic_wp",       "pole": "wyjscie", "skrot": "WP", "nazwa": "Szkic na wnet.fm (publikuje człowiek)", "gdzie": "W", "tryb": "czlowiek", "sila": 5, "koszt": "0 zł",
+   "wymaga": [{"pole": "tekst_red", "zeton": ["sprawdzenie"]}]},
+  {"id": "odcinek",        "pole": "wyjscie", "skrot": "POD", "nazwa": "Odcinek w podcaście (nieodwracalne)", "gdzie": "W", "tryb": "czlowiek", "sila": 5, "koszt": "0 zł · nieodwracalne",
+   "wymaga": [{"pole": "paczka"}, {"pole": "dane"}]}
+ ]
+}

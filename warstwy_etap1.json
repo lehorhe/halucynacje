@@ -1,0 +1,5541 @@
+{
+"pokrycie": {
+"tagi": 258,
+"pasmo": 0,
+"godzin": 652
+},
+"kalibracja": {
+"a": 6.712,
+"b": 7.025,
+"r": 0.4857790232371699,
+"godziny": [
+{
+"godz": "2026_08_31_05",
+"rozbieznosc": 19.4,
+"niska_pewnosc": 0.31,
+"slow_ref": 371,
+"smd_pct": 6.2
+},
+{
+"godz": "2026_08_31_07",
+"rozbieznosc": 10.9,
+"niska_pewnosc": 0.61,
+"slow_ref": 5388,
+"smd_pct": 75.1
+},
+{
+"godz": "2026_08_31_15",
+"rozbieznosc": 60.3,
+"niska_pewnosc": 2.31,
+"slow_ref": 531,
+"smd_pct": 13.9
+},
+{
+"godz": "2026_08_31_23",
+"rozbieznosc": 13.5,
+"niska_pewnosc": 0.52,
+"slow_ref": 4718,
+"smd_pct": 65.0
+},
+{
+"godz": "2026_09_02_08",
+"rozbieznosc": 9.6,
+"niska_pewnosc": 0.3,
+"slow_ref": 8324,
+"smd_pct": 99.4
+},
+{
+"godz": "2026_09_03_11",
+"rozbieznosc": 9.5,
+"niska_pewnosc": 0.35,
+"slow_ref": 6968,
+"smd_pct": 89.8
+},
+{
+"godz": "2026_09_03_23",
+"rozbieznosc": 9.4,
+"niska_pewnosc": 0.31,
+"slow_ref": 5016,
+"smd_pct": 71.3
+},
+{
+"godz": "2026_09_04_04",
+"rozbieznosc": 8.3,
+"niska_pewnosc": 0.52,
+"slow_ref": 5549,
+"smd_pct": 71.7
+},
+{
+"godz": "2026_09_04_09",
+"rozbieznosc": 12.5,
+"niska_pewnosc": 0.64,
+"slow_ref": 8088,
+"smd_pct": 99.3
+},
+{
+"godz": "2026_09_04_11",
+"rozbieznosc": 8.4,
+"niska_pewnosc": 0.33,
+"slow_ref": 7880,
+"smd_pct": 100.0
+},
+{
+"godz": "2026_09_04_20",
+"rozbieznosc": 8.7,
+"niska_pewnosc": 0.53,
+"slow_ref": 1578,
+"smd_pct": 21.4
+},
+{
+"godz": "2026_09_04_21",
+"rozbieznosc": 18.1,
+"niska_pewnosc": 1.71,
+"slow_ref": 513,
+"smd_pct": 9.1
+},
+{
+"godz": "2026_09_06_17",
+"rozbieznosc": 9.7,
+"niska_pewnosc": 0.55,
+"slow_ref": 6941,
+"smd_pct": 100.0
+},
+{
+"godz": "2026_09_07_04",
+"rozbieznosc": 10.2,
+"niska_pewnosc": 0.3,
+"slow_ref": 324,
+"smd_pct": 5.3
+},
+{
+"godz": "2026_09_09_05",
+"rozbieznosc": 14.3,
+"niska_pewnosc": 0.71,
+"slow_ref": 1410,
+"smd_pct": 26.9
+},
+{
+"godz": "2026_09_13_01",
+"rozbieznosc": 7.7,
+"niska_pewnosc": 0.48,
+"slow_ref": 7951,
+"smd_pct": 100.0
+},
+{
+"godz": "2026_09_17_05",
+"rozbieznosc": 15.8,
+"niska_pewnosc": 0.27,
+"slow_ref": 2528,
+"smd_pct": 32.4
+}
+]
+},
+"godziny": {
+"2026-08-30 00": {
+"przejscia": 9,
+"tempo": 4.72,
+"tempo_s": 1436,
+"serwis": false,
+"niska_pewnosc_pct": 0.83,
+"rozbieznosc_szac": 12.5
+},
+"2026-08-30 01": {
+"przejscia": 21,
+"tempo": 4.26,
+"tempo_s": 721,
+"serwis": true,
+"niska_pewnosc_pct": 0.36,
+"rozbieznosc_szac": 9.3
+},
+"2026-08-30 02": {
+"przejscia": 5,
+"tempo": 4.45,
+"tempo_s": 2588,
+"serwis": false,
+"niska_pewnosc_pct": 0.41,
+"rozbieznosc_szac": 9.6
+},
+"2026-08-30 03": {
+"przejscia": 7,
+"tempo": 4.76,
+"tempo_s": 2316,
+"serwis": false,
+"niska_pewnosc_pct": 0.59,
+"rozbieznosc_szac": 10.8
+},
+"2026-08-30 04": {
+"przejscia": 6,
+"tempo": 6.18,
+"tempo_s": 1372,
+"serwis": false,
+"niska_pewnosc_pct": 0.47,
+"rozbieznosc_szac": 10.0
+},
+"2026-08-30 05": {
+"przejscia": 22,
+"tempo": null,
+"tempo_s": 9,
+"serwis": false
+},
+"2026-08-30 06": {
+"przejscia": 13,
+"tempo": null,
+"tempo_s": 18,
+"serwis": false
+},
+"2026-08-30 07": {
+"przejscia": 19,
+"tempo": null,
+"tempo_s": 12,
+"serwis": false
+},
+"2026-08-30 10": {
+"przejscia": 17,
+"tempo": 4.74,
+"tempo_s": 1924,
+"serwis": false,
+"niska_pewnosc_pct": 0.73,
+"rozbieznosc_szac": 11.9
+},
+"2026-08-31 00": {
+"przejscia": 10,
+"tempo": 4.1,
+"tempo_s": 1210,
+"serwis": false,
+"niska_pewnosc_pct": 0.35,
+"rozbieznosc_szac": 9.2,
+"mowa_muzyka_s": 10.0
+},
+"2026-08-31 01": {
+"przejscia": 1,
+"tempo": 4.02,
+"tempo_s": 3440,
+"serwis": false,
+"niska_pewnosc_pct": 0.04,
+"rozbieznosc_szac": 7.0
+},
+"2026-08-31 02": {
+"przejscia": 1,
+"tempo": 4.82,
+"tempo_s": 2558,
+"serwis": false,
+"niska_pewnosc_pct": 0.5,
+"rozbieznosc_szac": 10.2
+},
+"2026-08-31 03": {
+"przejscia": 0,
+"tempo": 4.58,
+"tempo_s": 3425,
+"serwis": false,
+"niska_pewnosc_pct": 0.75,
+"rozbieznosc_szac": 12.0,
+"mowa_muzyka_s": 3.0
+},
+"2026-08-31 05": {
+"przejscia": 20,
+"tempo": null,
+"tempo_s": 117,
+"serwis": false,
+"niska_pewnosc_pct": 0.31,
+"rozbieznosc_szac": 8.9,
+"mowa_muzyka_s": 24.0,
+"dwie_transkrypcje": true,
+"rozbieznosc_zmierzona": 19.4
+},
+"2026-08-31 06": {
+"przejscia": 6,
+"tempo": 4.44,
+"tempo_s": 2833,
+"serwis": false,
+"niska_pewnosc_pct": 0.4,
+"rozbieznosc_szac": 9.5
+},
+"2026-08-31 07": {
+"przejscia": 10,
+"tempo": 4.55,
+"tempo_s": 2583,
+"serwis": false,
+"niska_pewnosc_pct": 0.61,
+"rozbieznosc_szac": 11.0,
+"dwie_transkrypcje": true,
+"rozbieznosc_zmierzona": 10.9
+},
+"2026-08-31 08": {
+"przejscia": 6,
+"tempo": 4.98,
+"tempo_s": 3005,
+"serwis": false,
+"niska_pewnosc_pct": 0.18,
+"rozbieznosc_szac": 8.0
+},
+"2026-08-31 09": {
+"przejscia": 19,
+"tempo": 4.0,
+"tempo_s": 1801,
+"serwis": false,
+"niska_pewnosc_pct": 0.51,
+"rozbieznosc_szac": 10.3
+},
+"2026-08-31 10": {
+"przejscia": 7,
+"tempo": 3.97,
+"tempo_s": 2345,
+"serwis": true,
+"niska_pewnosc_pct": 0.84,
+"rozbieznosc_szac": 12.6
+},
+"2026-08-31 11": {
+"przejscia": 6,
+"tempo": 4.85,
+"tempo_s": 3030,
+"serwis": false,
+"niska_pewnosc_pct": 0.37,
+"rozbieznosc_szac": 9.3
+},
+"2026-08-31 12": {
+"przejscia": 5,
+"tempo": 4.68,
+"tempo_s": 2029,
+"serwis": false,
+"niska_pewnosc_pct": 1.99,
+"rozbieznosc_szac": 20.7
+},
+"2026-08-31 13": {
+"przejscia": 7,
+"tempo": 4.58,
+"tempo_s": 2798,
+"serwis": false,
+"niska_pewnosc_pct": 0.36,
+"rozbieznosc_szac": 9.3
+},
+"2026-08-31 14": {
+"przejscia": 37,
+"tempo": 4.23,
+"tempo_s": 1178,
+"serwis": false,
+"niska_pewnosc_pct": 0.38,
+"rozbieznosc_szac": 9.4,
+"mowa_muzyka_s": 43.5
+},
+"2026-08-31 15": {
+"przejscia": 38,
+"tempo": 4.31,
+"tempo_s": 274,
+"serwis": false,
+"niska_pewnosc_pct": 2.31,
+"rozbieznosc_szac": 23.0,
+"mowa_muzyka_s": 14.0,
+"dwie_transkrypcje": true,
+"rozbieznosc_zmierzona": 60.3
+},
+"2026-08-31 16": {
+"przejscia": 5,
+"tempo": 5.4,
+"tempo_s": 3308,
+"serwis": false,
+"niska_pewnosc_pct": 0.55,
+"rozbieznosc_szac": 10.6,
+"mowa_muzyka_s": 11.5
+},
+"2026-08-31 17": {
+"przejscia": 21,
+"tempo": 4.75,
+"tempo_s": 944,
+"serwis": true,
+"niska_pewnosc_pct": 0.34,
+"rozbieznosc_szac": 9.1,
+"mowa_muzyka_s": 28.0
+},
+"2026-08-31 18": {
+"przejscia": 12,
+"tempo": 4.22,
+"tempo_s": 1803,
+"serwis": false,
+"niska_pewnosc_pct": 0.7,
+"rozbieznosc_szac": 11.6
+},
+"2026-08-31 19": {
+"przejscia": 17,
+"tempo": 3.61,
+"tempo_s": 1428,
+"serwis": true,
+"niska_pewnosc_pct": 0.77,
+"rozbieznosc_szac": 12.1
+},
+"2026-08-31 20": {
+"przejscia": 19,
+"tempo": 3.61,
+"tempo_s": 521,
+"serwis": false,
+"niska_pewnosc_pct": 1.44,
+"rozbieznosc_szac": 16.8,
+"mowa_muzyka_s": 116.0
+},
+"2026-08-31 21": {
+"przejscia": 22,
+"tempo": 3.58,
+"tempo_s": 378,
+"serwis": false,
+"niska_pewnosc_pct": 2.33,
+"rozbieznosc_szac": 23.0
+},
+"2026-08-31 22": {
+"przejscia": 16,
+"tempo": null,
+"tempo_s": 71,
+"serwis": false,
+"mowa_muzyka_s": 28.0
+},
+"2026-08-31 23": {
+"przejscia": 6,
+"tempo": 4.54,
+"tempo_s": 2247,
+"serwis": false,
+"niska_pewnosc_pct": 0.52,
+"rozbieznosc_szac": 10.4,
+"dwie_transkrypcje": true,
+"rozbieznosc_zmierzona": 13.5
+},
+"2026-09-01 00": {
+"przejscia": 5,
+"tempo": 4.93,
+"tempo_s": 2660,
+"serwis": false,
+"niska_pewnosc_pct": 0.32,
+"rozbieznosc_szac": 8.9
+},
+"2026-09-01 01": {
+"przejscia": 4,
+"tempo": 4.23,
+"tempo_s": 2878,
+"serwis": false,
+"niska_pewnosc_pct": 0.77,
+"rozbieznosc_szac": 12.1
+},
+"2026-09-01 02": {
+"przejscia": 13,
+"tempo": 4.65,
+"tempo_s": 2148,
+"serwis": false,
+"niska_pewnosc_pct": 0.36,
+"rozbieznosc_szac": 9.2
+},
+"2026-09-01 03": {
+"przejscia": 30,
+"tempo": 4.44,
+"tempo_s": 1385,
+"serwis": false,
+"niska_pewnosc_pct": 1.57,
+"rozbieznosc_szac": 17.8
+},
+"2026-09-01 04": {
+"przejscia": 15,
+"tempo": 4.66,
+"tempo_s": 780,
+"serwis": true,
+"niska_pewnosc_pct": 1.25,
+"rozbieznosc_szac": 15.5,
+"mowa_muzyka_s": 3.0
+},
+"2026-09-01 05": {
+"przejscia": 14,
+"tempo": null,
+"tempo_s": 46,
+"serwis": false,
+"mowa_muzyka_s": 9.5
+},
+"2026-09-01 06": {
+"przejscia": 9,
+"tempo": 4.22,
+"tempo_s": 2654,
+"serwis": false,
+"niska_pewnosc_pct": 0.42,
+"rozbieznosc_szac": 9.6
+},
+"2026-09-01 07": {
+"przejscia": 7,
+"tempo": 4.83,
+"tempo_s": 2900,
+"serwis": false,
+"niska_pewnosc_pct": 0.33,
+"rozbieznosc_szac": 9.0
+},
+"2026-09-01 08": {
+"przejscia": 6,
+"tempo": 4.99,
+"tempo_s": 3259,
+"serwis": false,
+"niska_pewnosc_pct": 0.24,
+"rozbieznosc_szac": 8.4,
+"mowa_muzyka_s": 44.5
+},
+"2026-09-01 09": {
+"przejscia": 12,
+"tempo": 4.41,
+"tempo_s": 2284,
+"serwis": false,
+"niska_pewnosc_pct": 0.43,
+"rozbieznosc_szac": 9.7
+},
+"2026-09-01 10": {
+"przejscia": 2,
+"tempo": 4.97,
+"tempo_s": 3170,
+"serwis": false,
+"niska_pewnosc_pct": 0.5,
+"rozbieznosc_szac": 10.3,
+"mowa_muzyka_s": 41.0
+},
+"2026-09-01 11": {
+"przejscia": 4,
+"tempo": 4.66,
+"tempo_s": 2949,
+"serwis": false,
+"niska_pewnosc_pct": 1.28,
+"rozbieznosc_szac": 15.7
+},
+"2026-09-01 12": {
+"przejscia": 7,
+"tempo": 4.53,
+"tempo_s": 2935,
+"serwis": false,
+"niska_pewnosc_pct": 0.44,
+"rozbieznosc_szac": 9.8
+},
+"2026-09-01 13": {
+"przejscia": 11,
+"tempo": 4.42,
+"tempo_s": 2795,
+"serwis": false,
+"niska_pewnosc_pct": 0.83,
+"rozbieznosc_szac": 12.5
+},
+"2026-09-01 14": {
+"przejscia": 11,
+"tempo": 5.47,
+"tempo_s": 2465,
+"serwis": false,
+"niska_pewnosc_pct": 1.13,
+"rozbieznosc_szac": 14.7
+},
+"2026-09-01 15": {
+"przejscia": 29,
+"tempo": 3.98,
+"tempo_s": 1462,
+"serwis": false,
+"niska_pewnosc_pct": 0.74,
+"rozbieznosc_szac": 11.9
+},
+"2026-09-01 16": {
+"przejscia": 7,
+"tempo": 5.18,
+"tempo_s": 2800,
+"serwis": false,
+"niska_pewnosc_pct": 0.29,
+"rozbieznosc_szac": 8.7
+},
+"2026-09-01 17": {
+"przejscia": 3,
+"tempo": 4.29,
+"tempo_s": 3086,
+"serwis": false,
+"niska_pewnosc_pct": 0.26,
+"rozbieznosc_szac": 8.6
+},
+"2026-09-01 18": {
+"przejscia": 2,
+"tempo": 5.5,
+"tempo_s": 3330,
+"serwis": false,
+"niska_pewnosc_pct": 0.57,
+"rozbieznosc_szac": 10.7,
+"mowa_muzyka_s": 13.0
+},
+"2026-09-01 19": {
+"przejscia": 1,
+"tempo": 5.36,
+"tempo_s": 1884,
+"serwis": false,
+"niska_pewnosc_pct": 0.37,
+"rozbieznosc_szac": 9.3
+},
+"2026-09-01 20": {
+"przejscia": 2,
+"tempo": 5.06,
+"tempo_s": 3271,
+"serwis": false,
+"niska_pewnosc_pct": 0.36,
+"rozbieznosc_szac": 9.3,
+"mowa_muzyka_s": 17.5
+},
+"2026-09-01 21": {
+"przejscia": 11,
+"tempo": 4.97,
+"tempo_s": 120,
+"serwis": false,
+"niska_pewnosc_pct": 0.36,
+"rozbieznosc_szac": 9.2,
+"mowa_muzyka_s": 24.5
+},
+"2026-09-01 22": {
+"przejscia": 6,
+"tempo": 4.23,
+"tempo_s": 3072,
+"serwis": false,
+"niska_pewnosc_pct": 12.81,
+"rozbieznosc_szac": 40.0
+},
+"2026-09-01 23": {
+"przejscia": 6,
+"tempo": 4.84,
+"tempo_s": 2608,
+"serwis": false,
+"niska_pewnosc_pct": 0.45,
+"rozbieznosc_szac": 9.9
+},
+"2026-09-02 00": {
+"przejscia": 6,
+"tempo": 5.06,
+"tempo_s": 2589,
+"serwis": false,
+"niska_pewnosc_pct": 0.37,
+"rozbieznosc_szac": 9.3
+},
+"2026-09-02 01": {
+"przejscia": 10,
+"tempo": 4.28,
+"tempo_s": 2195,
+"serwis": false,
+"niska_pewnosc_pct": 0.82,
+"rozbieznosc_szac": 12.5
+},
+"2026-09-02 02": {
+"przejscia": 3,
+"tempo": 4.95,
+"tempo_s": 2758,
+"serwis": false,
+"niska_pewnosc_pct": 0.7,
+"rozbieznosc_szac": 11.6
+},
+"2026-09-02 03": {
+"przejscia": 9,
+"tempo": 5.47,
+"tempo_s": 2416,
+"serwis": false,
+"niska_pewnosc_pct": 1.06,
+"rozbieznosc_szac": 14.2
+},
+"2026-09-02 04": {
+"przejscia": 13,
+"tempo": 4.57,
+"tempo_s": 1697,
+"serwis": false,
+"niska_pewnosc_pct": 0.81,
+"rozbieznosc_szac": 12.4
+},
+"2026-09-02 05": {
+"przejscia": 16,
+"tempo": null,
+"tempo_s": 73,
+"serwis": false,
+"mowa_muzyka_s": 2.0
+},
+"2026-09-02 06": {
+"przejscia": 11,
+"tempo": 4.5,
+"tempo_s": 2961,
+"serwis": false,
+"niska_pewnosc_pct": 0.6,
+"rozbieznosc_szac": 10.9
+},
+"2026-09-02 07": {
+"przejscia": 4,
+"tempo": 5.33,
+"tempo_s": 3328,
+"serwis": false,
+"niska_pewnosc_pct": 0.33,
+"rozbieznosc_szac": 9.0,
+"mowa_muzyka_s": 95.0
+},
+"2026-09-02 08": {
+"przejscia": 2,
+"tempo": 5.05,
+"tempo_s": 3502,
+"serwis": false,
+"niska_pewnosc_pct": 0.3,
+"rozbieznosc_szac": 8.9,
+"mowa_muzyka_s": 36.0,
+"dwie_transkrypcje": true,
+"rozbieznosc_zmierzona": 9.6
+},
+"2026-09-02 09": {
+"przejscia": 7,
+"tempo": 4.43,
+"tempo_s": 2640,
+"serwis": false,
+"niska_pewnosc_pct": 0.4,
+"rozbieznosc_szac": 9.5
+},
+"2026-09-02 10": {
+"przejscia": 9,
+"tempo": 4.86,
+"tempo_s": 2851,
+"serwis": false,
+"niska_pewnosc_pct": 0.63,
+"rozbieznosc_szac": 11.1
+},
+"2026-09-02 11": {
+"przejscia": 4,
+"tempo": 4.75,
+"tempo_s": 2930,
+"serwis": false,
+"niska_pewnosc_pct": 0.52,
+"rozbieznosc_szac": 10.4,
+"mowa_muzyka_s": 78.0
+},
+"2026-09-02 12": {
+"przejscia": 17,
+"tempo": 4.89,
+"tempo_s": 345,
+"serwis": false,
+"niska_pewnosc_pct": 0.14,
+"rozbieznosc_szac": 7.7,
+"mowa_muzyka_s": 35.5
+},
+"2026-09-02 13": {
+"przejscia": 9,
+"tempo": 4.75,
+"tempo_s": 2975,
+"serwis": false,
+"niska_pewnosc_pct": 0.68,
+"rozbieznosc_szac": 11.5,
+"mowa_muzyka_s": 55.0
+},
+"2026-09-02 14": {
+"przejscia": 2,
+"tempo": 4.72,
+"tempo_s": 3303,
+"serwis": false,
+"niska_pewnosc_pct": 0.61,
+"rozbieznosc_szac": 11.0
+},
+"2026-09-02 15": {
+"przejscia": 25,
+"tempo": 4.17,
+"tempo_s": 435,
+"serwis": false,
+"niska_pewnosc_pct": 0.59,
+"rozbieznosc_szac": 10.8,
+"mowa_muzyka_s": 96.5
+},
+"2026-09-02 16": {
+"przejscia": 5,
+"tempo": 4.83,
+"tempo_s": 2967,
+"serwis": false,
+"niska_pewnosc_pct": 0.6,
+"rozbieznosc_szac": 11.0
+},
+"2026-09-02 17": {
+"przejscia": 7,
+"tempo": 5.19,
+"tempo_s": 2775,
+"serwis": false,
+"niska_pewnosc_pct": 0.2,
+"rozbieznosc_szac": 8.1
+},
+"2026-09-02 18": {
+"przejscia": 5,
+"tempo": 4.84,
+"tempo_s": 3098,
+"serwis": false,
+"niska_pewnosc_pct": 0.28,
+"rozbieznosc_szac": 8.7
+},
+"2026-09-02 19": {
+"przejscia": 10,
+"tempo": 4.24,
+"tempo_s": 2415,
+"serwis": false,
+"niska_pewnosc_pct": 0.55,
+"rozbieznosc_szac": 10.5
+},
+"2026-09-02 20": {
+"przejscia": 4,
+"tempo": 4.31,
+"tempo_s": 3128,
+"serwis": false,
+"niska_pewnosc_pct": 0.25,
+"rozbieznosc_szac": 8.5
+},
+"2026-09-02 21": {
+"przejscia": 17,
+"tempo": 4.23,
+"tempo_s": 1756,
+"serwis": false,
+"niska_pewnosc_pct": 0.77,
+"rozbieznosc_szac": 12.1
+},
+"2026-09-02 22": {
+"przejscia": 9,
+"tempo": 4.05,
+"tempo_s": 1415,
+"serwis": false,
+"niska_pewnosc_pct": 0.39,
+"rozbieznosc_szac": 9.4
+},
+"2026-09-02 23": {
+"przejscia": 8,
+"tempo": 5.35,
+"tempo_s": 2865,
+"serwis": false,
+"niska_pewnosc_pct": 0.52,
+"rozbieznosc_szac": 10.4
+},
+"2026-09-03 00": {
+"przejscia": 6,
+"tempo": 5.12,
+"tempo_s": 2881,
+"serwis": false,
+"niska_pewnosc_pct": 0.39,
+"rozbieznosc_szac": 9.5
+},
+"2026-09-03 01": {
+"przejscia": 0,
+"tempo": null,
+"tempo_s": 28,
+"serwis": false,
+"mowa_muzyka_s": 9.0
+},
+"2026-09-03 02": {
+"przejscia": 7,
+"tempo": 4.96,
+"tempo_s": 2367,
+"serwis": false,
+"niska_pewnosc_pct": 0.89,
+"rozbieznosc_szac": 13.0
+},
+"2026-09-03 03": {
+"przejscia": 4,
+"tempo": 4.72,
+"tempo_s": 3173,
+"serwis": false,
+"niska_pewnosc_pct": 0.64,
+"rozbieznosc_szac": 11.2
+},
+"2026-09-03 04": {
+"przejscia": 9,
+"tempo": 4.35,
+"tempo_s": 1205,
+"serwis": false,
+"niska_pewnosc_pct": 0.78,
+"rozbieznosc_szac": 12.2
+},
+"2026-09-03 05": {
+"przejscia": 14,
+"tempo": null,
+"tempo_s": 68,
+"serwis": false,
+"mowa_muzyka_s": 0.0
+},
+"2026-09-03 06": {
+"przejscia": 8,
+"tempo": 4.06,
+"tempo_s": 2780,
+"serwis": true,
+"niska_pewnosc_pct": 0.6,
+"rozbieznosc_szac": 11.0
+},
+"2026-09-03 07": {
+"przejscia": 3,
+"tempo": 5.33,
+"tempo_s": 2507,
+"serwis": true,
+"niska_pewnosc_pct": 0.06,
+"rozbieznosc_szac": 7.1,
+"mowa_muzyka_s": 100.0
+},
+"2026-09-03 08": {
+"przejscia": 0,
+"tempo": 5.58,
+"tempo_s": 2369,
+"serwis": true,
+"niska_pewnosc_pct": 5.93,
+"rozbieznosc_szac": 40.0,
+"mowa_muzyka_s": 42.0
+},
+"2026-09-03 09": {
+"przejscia": 7,
+"tempo": 4.32,
+"tempo_s": 2696,
+"serwis": false,
+"niska_pewnosc_pct": 0.32,
+"rozbieznosc_szac": 9.0
+},
+"2026-09-03 10": {
+"przejscia": 4,
+"tempo": 5.42,
+"tempo_s": 3014,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.1
+},
+"2026-09-03 11": {
+"przejscia": 4,
+"tempo": 4.89,
+"tempo_s": 3097,
+"serwis": false,
+"niska_pewnosc_pct": 0.35,
+"rozbieznosc_szac": 9.1,
+"dwie_transkrypcje": true,
+"rozbieznosc_zmierzona": 9.5
+},
+"2026-09-03 12": {
+"przejscia": 11,
+"tempo": 4.55,
+"tempo_s": 1995,
+"serwis": true,
+"niska_pewnosc_pct": 0.27,
+"rozbieznosc_szac": 8.6
+},
+"2026-09-03 13": {
+"przejscia": 8,
+"tempo": 4.72,
+"tempo_s": 2956,
+"serwis": false,
+"niska_pewnosc_pct": 0.53,
+"rozbieznosc_szac": 10.5,
+"mowa_muzyka_s": 93.0
+},
+"2026-09-03 14": {
+"przejscia": 17,
+"tempo": null,
+"tempo_s": 68,
+"serwis": false,
+"mowa_muzyka_s": 7.0
+},
+"2026-09-03 15": {
+"przejscia": 3,
+"tempo": 4.61,
+"tempo_s": 3115,
+"serwis": false,
+"niska_pewnosc_pct": 0.37,
+"rozbieznosc_szac": 9.3
+},
+"2026-09-03 16": {
+"przejscia": 12,
+"tempo": 5.24,
+"tempo_s": 2231,
+"serwis": false,
+"niska_pewnosc_pct": 0.26,
+"rozbieznosc_szac": 8.5
+},
+"2026-09-03 17": {
+"przejscia": 2,
+"tempo": 4.84,
+"tempo_s": 3244,
+"serwis": false,
+"niska_pewnosc_pct": 0.16,
+"rozbieznosc_szac": 7.9,
+"mowa_muzyka_s": 94.0
+},
+"2026-09-03 18": {
+"przejscia": 9,
+"tempo": 4.9,
+"tempo_s": 3037,
+"serwis": false,
+"niska_pewnosc_pct": 0.45,
+"rozbieznosc_szac": 9.9
+},
+"2026-09-03 19": {
+"przejscia": 5,
+"tempo": 4.67,
+"tempo_s": 3081,
+"serwis": false,
+"niska_pewnosc_pct": 0.6,
+"rozbieznosc_szac": 10.9,
+"mowa_muzyka_s": 46.5
+},
+"2026-09-03 20": {
+"przejscia": 23,
+"tempo": 5.38,
+"tempo_s": 1924,
+"serwis": false,
+"niska_pewnosc_pct": 0.59,
+"rozbieznosc_szac": 10.9
+},
+"2026-09-03 21": {
+"przejscia": 34,
+"tempo": 3.81,
+"tempo_s": 213,
+"serwis": false,
+"niska_pewnosc_pct": 2.07,
+"rozbieznosc_szac": 21.3
+},
+"2026-09-03 22": {
+"przejscia": 21,
+"tempo": 4.22,
+"tempo_s": 179,
+"serwis": false,
+"niska_pewnosc_pct": 4.76,
+"rozbieznosc_szac": 40.0
+},
+"2026-09-03 23": {
+"przejscia": 13,
+"tempo": 4.51,
+"tempo_s": 2395,
+"serwis": false,
+"niska_pewnosc_pct": 0.31,
+"rozbieznosc_szac": 8.9,
+"dwie_transkrypcje": true,
+"rozbieznosc_zmierzona": 9.4
+},
+"2026-09-04 00": {
+"przejscia": 6,
+"tempo": 4.64,
+"tempo_s": 2831,
+"serwis": false,
+"niska_pewnosc_pct": 1.05,
+"rozbieznosc_szac": 14.1
+},
+"2026-09-04 01": {
+"przejscia": 10,
+"tempo": 4.16,
+"tempo_s": 2203,
+"serwis": false,
+"niska_pewnosc_pct": 0.33,
+"rozbieznosc_szac": 9.0
+},
+"2026-09-04 02": {
+"przejscia": 6,
+"tempo": 5.38,
+"tempo_s": 2530,
+"serwis": false,
+"niska_pewnosc_pct": 0.49,
+"rozbieznosc_szac": 10.1
+},
+"2026-09-04 03": {
+"przejscia": 14,
+"tempo": 4.58,
+"tempo_s": 1946,
+"serwis": false,
+"niska_pewnosc_pct": 0.46,
+"rozbieznosc_szac": 9.9
+},
+"2026-09-04 04": {
+"przejscia": 8,
+"tempo": 4.85,
+"tempo_s": 2514,
+"serwis": false,
+"niska_pewnosc_pct": 0.52,
+"rozbieznosc_szac": 10.4,
+"dwie_transkrypcje": true,
+"rozbieznosc_zmierzona": 8.3
+},
+"2026-09-04 05": {
+"przejscia": 17,
+"tempo": 5.16,
+"tempo_s": 145,
+"serwis": true,
+"niska_pewnosc_pct": 0.42,
+"rozbieznosc_szac": 9.7,
+"mowa_muzyka_s": 2.5
+},
+"2026-09-04 06": {
+"przejscia": 21,
+"tempo": null,
+"tempo_s": 58,
+"serwis": false,
+"mowa_muzyka_s": 33.0,
+"dwie_transkrypcje": true
+},
+"2026-09-04 07": {
+"przejscia": 0,
+"tempo": 5.63,
+"tempo_s": 2413,
+"serwis": true,
+"niska_pewnosc_pct": 0.05,
+"rozbieznosc_szac": 7.0,
+"mowa_muzyka_s": 47.5
+},
+"2026-09-04 08": {
+"przejscia": 0,
+"tempo": 5.76,
+"tempo_s": 2707,
+"serwis": true,
+"niska_pewnosc_pct": 0.0,
+"rozbieznosc_szac": 6.7,
+"mowa_muzyka_s": 42.5
+},
+"2026-09-04 09": {
+"przejscia": 2,
+"tempo": 4.96,
+"tempo_s": 3491,
+"serwis": false,
+"niska_pewnosc_pct": 0.64,
+"rozbieznosc_szac": 11.2,
+"mowa_muzyka_s": 36.5,
+"dwie_transkrypcje": true,
+"rozbieznosc_zmierzona": 12.5
+},
+"2026-09-04 10": {
+"przejscia": 2,
+"tempo": 4.96,
+"tempo_s": 3030,
+"serwis": true,
+"niska_pewnosc_pct": 0.45,
+"rozbieznosc_szac": 9.9
+},
+"2026-09-04 11": {
+"przejscia": 0,
+"tempo": 5.04,
+"tempo_s": 3457,
+"serwis": false,
+"niska_pewnosc_pct": 0.33,
+"rozbieznosc_szac": 9.0,
+"dwie_transkrypcje": true,
+"rozbieznosc_zmierzona": 8.4
+},
+"2026-09-04 12": {
+"przejscia": 1,
+"tempo": 5.35,
+"tempo_s": 2500,
+"serwis": true,
+"niska_pewnosc_pct": 0.52,
+"rozbieznosc_szac": 10.3
+},
+"2026-09-04 13": {
+"przejscia": 1,
+"tempo": 5.0,
+"tempo_s": 3326,
+"serwis": true,
+"niska_pewnosc_pct": 0.4,
+"rozbieznosc_szac": 9.5,
+"mowa_muzyka_s": 44.0
+},
+"2026-09-04 14": {
+"przejscia": 28,
+"tempo": 4.37,
+"tempo_s": 850,
+"serwis": false,
+"niska_pewnosc_pct": 0.61,
+"rozbieznosc_szac": 11.0,
+"mowa_muzyka_s": 72.5
+},
+"2026-09-04 15": {
+"przejscia": 2,
+"tempo": 3.56,
+"tempo_s": 3078,
+"serwis": false,
+"niska_pewnosc_pct": 0.43,
+"rozbieznosc_szac": 9.7
+},
+"2026-09-04 16": {
+"przejscia": 8,
+"tempo": 5.15,
+"tempo_s": 2151,
+"serwis": false,
+"niska_pewnosc_pct": 0.29,
+"rozbieznosc_szac": 8.8
+},
+"2026-09-04 17": {
+"przejscia": 7,
+"tempo": 5.2,
+"tempo_s": 2173,
+"serwis": false,
+"niska_pewnosc_pct": 0.41,
+"rozbieznosc_szac": 9.6
+},
+"2026-09-04 18": {
+"przejscia": 3,
+"tempo": 4.7,
+"tempo_s": 3011,
+"serwis": true,
+"niska_pewnosc_pct": 0.47,
+"rozbieznosc_szac": 10.0
+},
+"2026-09-04 19": {
+"przejscia": 16,
+"tempo": 4.94,
+"tempo_s": 2103,
+"serwis": false,
+"niska_pewnosc_pct": 0.35,
+"rozbieznosc_szac": 9.2
+},
+"2026-09-04 20": {
+"przejscia": 31,
+"tempo": 4.62,
+"tempo_s": 682,
+"serwis": false,
+"niska_pewnosc_pct": 0.53,
+"rozbieznosc_szac": 10.4,
+"mowa_muzyka_s": 50.0,
+"dwie_transkrypcje": true,
+"rozbieznosc_zmierzona": 8.7
+},
+"2026-09-04 21": {
+"przejscia": 21,
+"tempo": 4.85,
+"tempo_s": 206,
+"serwis": false,
+"niska_pewnosc_pct": 1.71,
+"rozbieznosc_szac": 18.7,
+"mowa_muzyka_s": 24.0,
+"dwie_transkrypcje": true,
+"rozbieznosc_zmierzona": 18.1
+},
+"2026-09-04 22": {
+"przejscia": 22,
+"tempo": 4.68,
+"tempo_s": 192,
+"serwis": false,
+"niska_pewnosc_pct": 0.92,
+"rozbieznosc_szac": 13.2,
+"mowa_muzyka_s": 40.0
+},
+"2026-09-04 23": {
+"przejscia": 10,
+"tempo": 5.01,
+"tempo_s": 2509,
+"serwis": false,
+"niska_pewnosc_pct": 0.41,
+"rozbieznosc_szac": 9.6
+},
+"2026-09-05 00": {
+"przejscia": 6,
+"tempo": 4.99,
+"tempo_s": 2507,
+"serwis": false,
+"niska_pewnosc_pct": 0.47,
+"rozbieznosc_szac": 10.0
+},
+"2026-09-05 01": {
+"przejscia": 5,
+"tempo": 4.94,
+"tempo_s": 3024,
+"serwis": false,
+"niska_pewnosc_pct": 0.7,
+"rozbieznosc_szac": 11.6
+},
+"2026-09-05 02": {
+"przejscia": 4,
+"tempo": 4.84,
+"tempo_s": 3021,
+"serwis": false,
+"niska_pewnosc_pct": 0.67,
+"rozbieznosc_szac": 11.4,
+"mowa_muzyka_s": 11.5
+},
+"2026-09-05 03": {
+"przejscia": 4,
+"tempo": 3.53,
+"tempo_s": 2965,
+"serwis": false,
+"niska_pewnosc_pct": 0.45,
+"rozbieznosc_szac": 9.9
+},
+"2026-09-05 04": {
+"przejscia": 9,
+"tempo": 5.04,
+"tempo_s": 1791,
+"serwis": false,
+"niska_pewnosc_pct": 0.44,
+"rozbieznosc_szac": 9.8
+},
+"2026-09-05 05": {
+"przejscia": 16,
+"tempo": null,
+"tempo_s": 4,
+"serwis": false,
+"mowa_muzyka_s": 6.0,
+"dwie_transkrypcje": true
+},
+"2026-09-05 06": {
+"przejscia": 10,
+"tempo": null,
+"tempo_s": 24,
+"serwis": false,
+"mowa_muzyka_s": 0.0,
+"dwie_transkrypcje": true
+},
+"2026-09-05 07": {
+"przejscia": 17,
+"tempo": null,
+"tempo_s": 53,
+"serwis": false,
+"mowa_muzyka_s": 26.5
+},
+"2026-09-05 08": {
+"przejscia": 3,
+"tempo": 3.85,
+"tempo_s": 3209,
+"serwis": false,
+"niska_pewnosc_pct": 0.61,
+"rozbieznosc_szac": 11.0,
+"mowa_muzyka_s": 33.0
+},
+"2026-09-05 09": {
+"przejscia": 7,
+"tempo": 4.07,
+"tempo_s": 2830,
+"serwis": false,
+"niska_pewnosc_pct": 0.57,
+"rozbieznosc_szac": 10.7,
+"mowa_muzyka_s": 69.5
+},
+"2026-09-05 10": {
+"przejscia": 7,
+"tempo": 4.35,
+"tempo_s": 2943,
+"serwis": false,
+"niska_pewnosc_pct": 0.53,
+"rozbieznosc_szac": 10.4
+},
+"2026-09-05 11": {
+"przejscia": 15,
+"tempo": 4.34,
+"tempo_s": 192,
+"serwis": false,
+"niska_pewnosc_pct": 0.0,
+"rozbieznosc_szac": 6.7,
+"mowa_muzyka_s": 56.5
+},
+"2026-09-05 13": {
+"przejscia": 18,
+"tempo": 3.76,
+"tempo_s": 1838,
+"serwis": false,
+"niska_pewnosc_pct": 0.42,
+"rozbieznosc_szac": 9.6,
+"mowa_muzyka_s": 155.5
+},
+"2026-09-05 14": {
+"przejscia": 27,
+"tempo": 3.65,
+"tempo_s": 1012,
+"serwis": false,
+"niska_pewnosc_pct": 0.37,
+"rozbieznosc_szac": 9.3,
+"mowa_muzyka_s": 45.0
+},
+"2026-09-05 15": {
+"przejscia": 23,
+"tempo": 4.21,
+"tempo_s": 906,
+"serwis": false,
+"niska_pewnosc_pct": 0.78,
+"rozbieznosc_szac": 12.2,
+"mowa_muzyka_s": 98.5
+},
+"2026-09-05 16": {
+"przejscia": 10,
+"tempo": 4.68,
+"tempo_s": 2121,
+"serwis": false,
+"niska_pewnosc_pct": 0.55,
+"rozbieznosc_szac": 10.6
+},
+"2026-09-05 17": {
+"przejscia": 38,
+"tempo": 4.11,
+"tempo_s": 487,
+"serwis": true,
+"niska_pewnosc_pct": 0.84,
+"rozbieznosc_szac": 12.6,
+"mowa_muzyka_s": 26.0
+},
+"2026-09-05 18": {
+"przejscia": 25,
+"tempo": 4.4,
+"tempo_s": 383,
+"serwis": false,
+"niska_pewnosc_pct": 1.49,
+"rozbieznosc_szac": 17.2
+},
+"2026-09-05 19": {
+"przejscia": 16,
+"tempo": 4.3,
+"tempo_s": 1403,
+"serwis": false,
+"niska_pewnosc_pct": 0.59,
+"rozbieznosc_szac": 10.9
+},
+"2026-09-05 20": {
+"przejscia": 24,
+"tempo": 4.66,
+"tempo_s": 1478,
+"serwis": false,
+"niska_pewnosc_pct": 1.19,
+"rozbieznosc_szac": 15.1
+},
+"2026-09-05 21": {
+"przejscia": 27,
+"tempo": 5.03,
+"tempo_s": 1593,
+"serwis": false,
+"niska_pewnosc_pct": 0.8,
+"rozbieznosc_szac": 12.4
+},
+"2026-09-05 22": {
+"przejscia": 18,
+"tempo": 4.63,
+"tempo_s": 1366,
+"serwis": false,
+"niska_pewnosc_pct": 1.29,
+"rozbieznosc_szac": 15.8
+},
+"2026-09-05 23": {
+"przejscia": 7,
+"tempo": 4.83,
+"tempo_s": 2704,
+"serwis": false,
+"niska_pewnosc_pct": 0.16,
+"rozbieznosc_szac": 7.8
+},
+"2026-09-06 00": {
+"przejscia": 4,
+"tempo": 5.44,
+"tempo_s": 3022,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.1,
+"mowa_muzyka_s": 6.5
+},
+"2026-09-06 06": {
+"przejscia": 14,
+"tempo": null,
+"tempo_s": 0,
+"serwis": false,
+"mowa_muzyka_s": 9.5
+},
+"2026-09-06 07": {
+"przejscia": 12,
+"tempo": null,
+"tempo_s": 19,
+"serwis": false,
+"mowa_muzyka_s": 5.0,
+"dwie_transkrypcje": true
+},
+"2026-09-06 08": {
+"przejscia": 9,
+"tempo": 4.02,
+"tempo_s": 2599,
+"serwis": false,
+"niska_pewnosc_pct": 0.65,
+"rozbieznosc_szac": 11.3
+},
+"2026-09-06 09": {
+"przejscia": 8,
+"tempo": 4.46,
+"tempo_s": 2362,
+"serwis": false,
+"niska_pewnosc_pct": 0.29,
+"rozbieznosc_szac": 8.7
+},
+"2026-09-06 10": {
+"przejscia": 11,
+"tempo": 4.96,
+"tempo_s": 2204,
+"serwis": false,
+"niska_pewnosc_pct": 0.57,
+"rozbieznosc_szac": 10.7
+},
+"2026-09-06 11": {
+"przejscia": 24,
+"tempo": null,
+"tempo_s": 100,
+"serwis": false,
+"niska_pewnosc_pct": 1.84,
+"rozbieznosc_szac": 19.7,
+"mowa_muzyka_s": 63.0
+},
+"2026-09-06 12": {
+"przejscia": 10,
+"tempo": 4.71,
+"tempo_s": 1637,
+"serwis": false,
+"niska_pewnosc_pct": 1.54,
+"rozbieznosc_szac": 17.5
+},
+"2026-09-06 13": {
+"przejscia": 7,
+"tempo": 5.0,
+"tempo_s": 3156,
+"serwis": false,
+"niska_pewnosc_pct": 0.3,
+"rozbieznosc_szac": 8.8
+},
+"2026-09-06 14": {
+"przejscia": 7,
+"tempo": 4.69,
+"tempo_s": 3109,
+"serwis": false,
+"niska_pewnosc_pct": 0.41,
+"rozbieznosc_szac": 9.6
+},
+"2026-09-06 15": {
+"przejscia": 7,
+"tempo": 5.24,
+"tempo_s": 3065,
+"serwis": false,
+"niska_pewnosc_pct": 0.37,
+"rozbieznosc_szac": 9.3,
+"mowa_muzyka_s": 58.5
+},
+"2026-09-06 16": {
+"przejscia": 29,
+"tempo": 4.15,
+"tempo_s": 1649,
+"serwis": false,
+"niska_pewnosc_pct": 1.04,
+"rozbieznosc_szac": 14.0
+},
+"2026-09-06 17": {
+"przejscia": 0,
+"tempo": 4.38,
+"tempo_s": 3454,
+"serwis": false,
+"niska_pewnosc_pct": 0.55,
+"rozbieznosc_szac": 10.6,
+"mowa_muzyka_s": 7.5,
+"dwie_transkrypcje": true,
+"rozbieznosc_zmierzona": 9.7
+},
+"2026-09-06 18": {
+"przejscia": 25,
+"tempo": 4.74,
+"tempo_s": 999,
+"serwis": false,
+"niska_pewnosc_pct": 0.54,
+"rozbieznosc_szac": 10.5,
+"mowa_muzyka_s": 78.0
+},
+"2026-09-06 19": {
+"przejscia": 6,
+"tempo": 4.17,
+"tempo_s": 2821,
+"serwis": false,
+"niska_pewnosc_pct": 0.43,
+"rozbieznosc_szac": 9.7
+},
+"2026-09-06 20": {
+"przejscia": 10,
+"tempo": 4.14,
+"tempo_s": 2752,
+"serwis": false,
+"niska_pewnosc_pct": 0.67,
+"rozbieznosc_szac": 11.5
+},
+"2026-09-06 21": {
+"przejscia": 11,
+"tempo": 4.57,
+"tempo_s": 611,
+"serwis": false,
+"niska_pewnosc_pct": 1.03,
+"rozbieznosc_szac": 13.9,
+"mowa_muzyka_s": 17.0
+},
+"2026-09-06 22": {
+"przejscia": 18,
+"tempo": null,
+"tempo_s": 13,
+"serwis": false,
+"mowa_muzyka_s": 20.5
+},
+"2026-09-06 23": {
+"przejscia": 8,
+"tempo": 4.15,
+"tempo_s": 2152,
+"serwis": false,
+"niska_pewnosc_pct": 0.62,
+"rozbieznosc_szac": 11.1
+},
+"2026-09-07 00": {
+"przejscia": 13,
+"tempo": 4.81,
+"tempo_s": 2689,
+"serwis": false,
+"niska_pewnosc_pct": 0.63,
+"rozbieznosc_szac": 11.2
+},
+"2026-09-07 01": {
+"przejscia": 17,
+"tempo": 4.33,
+"tempo_s": 2083,
+"serwis": false,
+"niska_pewnosc_pct": 0.45,
+"rozbieznosc_szac": 9.8
+},
+"2026-09-07 02": {
+"przejscia": 6,
+"tempo": 4.71,
+"tempo_s": 2997,
+"serwis": false,
+"niska_pewnosc_pct": 0.46,
+"rozbieznosc_szac": 9.9
+},
+"2026-09-07 03": {
+"przejscia": 5,
+"tempo": 4.3,
+"tempo_s": 3038,
+"serwis": false,
+"niska_pewnosc_pct": 0.36,
+"rozbieznosc_szac": 9.2
+},
+"2026-09-07 04": {
+"przejscia": 18,
+"tempo": 4.69,
+"tempo_s": 124,
+"serwis": false,
+"niska_pewnosc_pct": 0.3,
+"rozbieznosc_szac": 8.9,
+"mowa_muzyka_s": 17.0,
+"dwie_transkrypcje": true,
+"rozbieznosc_zmierzona": 10.2
+},
+"2026-09-07 05": {
+"przejscia": 16,
+"tempo": null,
+"tempo_s": 5,
+"serwis": false,
+"mowa_muzyka_s": 8.0
+},
+"2026-09-07 06": {
+"przejscia": 6,
+"tempo": 5.56,
+"tempo_s": 2354,
+"serwis": false,
+"niska_pewnosc_pct": 0.02,
+"rozbieznosc_szac": 6.8
+},
+"2026-09-07 07": {
+"przejscia": 8,
+"tempo": 4.67,
+"tempo_s": 2990,
+"serwis": true,
+"niska_pewnosc_pct": 0.27,
+"rozbieznosc_szac": 8.6,
+"mowa_muzyka_s": 92.5
+},
+"2026-09-07 08": {
+"przejscia": 4,
+"tempo": 5.39,
+"tempo_s": 2472,
+"serwis": true,
+"niska_pewnosc_pct": 0.08,
+"rozbieznosc_szac": 7.3
+},
+"2026-09-07 09": {
+"przejscia": 6,
+"tempo": 5.2,
+"tempo_s": 2495,
+"serwis": true,
+"niska_pewnosc_pct": 0.09,
+"rozbieznosc_szac": 7.3
+},
+"2026-09-07 10": {
+"przejscia": 6,
+"tempo": 4.67,
+"tempo_s": 2414,
+"serwis": true,
+"niska_pewnosc_pct": 0.06,
+"rozbieznosc_szac": 7.2
+},
+"2026-09-07 11": {
+"przejscia": 2,
+"tempo": 6.34,
+"tempo_s": 2852,
+"serwis": true,
+"niska_pewnosc_pct": 0.02,
+"rozbieznosc_szac": 6.9,
+"mowa_muzyka_s": 17.0
+},
+"2026-09-07 12": {
+"przejscia": 14,
+"tempo": 4.97,
+"tempo_s": 2202,
+"serwis": true,
+"niska_pewnosc_pct": 0.03,
+"rozbieznosc_szac": 6.9,
+"mowa_muzyka_s": 103.0
+},
+"2026-09-07 13": {
+"przejscia": 6,
+"tempo": 5.6,
+"tempo_s": 2569,
+"serwis": true,
+"niska_pewnosc_pct": 0.04,
+"rozbieznosc_szac": 7.0
+},
+"2026-09-07 14": {
+"przejscia": 14,
+"tempo": 5.67,
+"tempo_s": 2208,
+"serwis": false,
+"niska_pewnosc_pct": 0.22,
+"rozbieznosc_szac": 8.3,
+"mowa_muzyka_s": 64.5
+},
+"2026-09-07 15": {
+"przejscia": 24,
+"tempo": 4.92,
+"tempo_s": 261,
+"serwis": false,
+"niska_pewnosc_pct": 0.0,
+"rozbieznosc_szac": 6.7,
+"mowa_muzyka_s": 69.5
+},
+"2026-09-07 16": {
+"przejscia": 4,
+"tempo": 6.17,
+"tempo_s": 2842,
+"serwis": false,
+"niska_pewnosc_pct": 0.11,
+"rozbieznosc_szac": 7.5
+},
+"2026-09-07 17": {
+"przejscia": 2,
+"tempo": 2.98,
+"tempo_s": 3082,
+"serwis": true,
+"niska_pewnosc_pct": 0.02,
+"rozbieznosc_szac": 6.9
+},
+"2026-09-07 18": {
+"przejscia": 2,
+"tempo": 5.63,
+"tempo_s": 2639,
+"serwis": true,
+"niska_pewnosc_pct": 0.08,
+"rozbieznosc_szac": 7.3,
+"mowa_muzyka_s": 61.0
+},
+"2026-09-07 19": {
+"przejscia": 14,
+"tempo": 4.45,
+"tempo_s": 2201,
+"serwis": false,
+"niska_pewnosc_pct": 0.06,
+"rozbieznosc_szac": 7.1
+},
+"2026-09-07 20": {
+"przejscia": 27,
+"tempo": 3.5,
+"tempo_s": 520,
+"serwis": false,
+"niska_pewnosc_pct": 0.6,
+"rozbieznosc_szac": 10.9,
+"mowa_muzyka_s": 15.5
+},
+"2026-09-07 22": {
+"przejscia": 11,
+"tempo": 0.04,
+"tempo_s": 2179,
+"serwis": false,
+"mowa_muzyka_s": 17.0
+},
+"2026-09-07 23": {
+"przejscia": 6,
+"tempo": 4.73,
+"tempo_s": 2433,
+"serwis": false,
+"niska_pewnosc_pct": 0.55,
+"rozbieznosc_szac": 10.6
+},
+"2026-09-08 00": {
+"przejscia": 5,
+"tempo": 4.61,
+"tempo_s": 2291,
+"serwis": false,
+"niska_pewnosc_pct": 0.53,
+"rozbieznosc_szac": 10.5
+},
+"2026-09-08 01": {
+"przejscia": 6,
+"tempo": 4.28,
+"tempo_s": 2658,
+"serwis": false,
+"niska_pewnosc_pct": 0.72,
+"rozbieznosc_szac": 11.8
+},
+"2026-09-08 02": {
+"przejscia": 6,
+"tempo": 4.32,
+"tempo_s": 2722,
+"serwis": false,
+"niska_pewnosc_pct": 1.04,
+"rozbieznosc_szac": 14.0
+},
+"2026-09-08 03": {
+"przejscia": 16,
+"tempo": 4.59,
+"tempo_s": 2677,
+"serwis": false,
+"niska_pewnosc_pct": 0.97,
+"rozbieznosc_szac": 13.5
+},
+"2026-09-08 04": {
+"przejscia": 12,
+"tempo": 5.61,
+"tempo_s": 2052,
+"serwis": false,
+"niska_pewnosc_pct": 0.51,
+"rozbieznosc_szac": 10.3
+},
+"2026-09-08 05": {
+"przejscia": 0,
+"tempo": 4.08,
+"tempo_s": 1576,
+"serwis": true,
+"niska_pewnosc_pct": 0.0,
+"rozbieznosc_szac": 6.7,
+"mowa_muzyka_s": 2.5
+},
+"2026-09-08 06": {
+"przejscia": 0,
+"tempo": 4.93,
+"tempo_s": 2170,
+"serwis": false,
+"niska_pewnosc_pct": 0.07,
+"rozbieznosc_szac": 7.2,
+"mowa_muzyka_s": 7.5
+},
+"2026-09-08 07": {
+"przejscia": 0,
+"tempo": 4.56,
+"tempo_s": 2100,
+"serwis": true,
+"niska_pewnosc_pct": 0.03,
+"rozbieznosc_szac": 7.0,
+"mowa_muzyka_s": 60.0
+},
+"2026-09-08 08": {
+"przejscia": 0,
+"tempo": 5.85,
+"tempo_s": 3040,
+"serwis": false,
+"niska_pewnosc_pct": 0.0,
+"rozbieznosc_szac": 6.7,
+"mowa_muzyka_s": 58.5
+},
+"2026-09-08 09": {
+"przejscia": 0,
+"tempo": 4.99,
+"tempo_s": 2583,
+"serwis": true,
+"niska_pewnosc_pct": 0.04,
+"rozbieznosc_szac": 7.0,
+"mowa_muzyka_s": 151.0
+},
+"2026-09-08 10": {
+"przejscia": 0,
+"tempo": 5.4,
+"tempo_s": 2299,
+"serwis": false,
+"niska_pewnosc_pct": 0.12,
+"rozbieznosc_szac": 7.5,
+"mowa_muzyka_s": 49.5
+},
+"2026-09-08 11": {
+"przejscia": 0,
+"tempo": 4.52,
+"tempo_s": 2098,
+"serwis": true,
+"niska_pewnosc_pct": 0.07,
+"rozbieznosc_szac": 7.2,
+"mowa_muzyka_s": 28.0
+},
+"2026-09-08 12": {
+"przejscia": 0,
+"tempo": 2.67,
+"tempo_s": 1870,
+"serwis": true,
+"niska_pewnosc_pct": 0.05,
+"rozbieznosc_szac": 7.1,
+"mowa_muzyka_s": 26.0
+},
+"2026-09-08 13": {
+"przejscia": 0,
+"tempo": 3.59,
+"tempo_s": 2891,
+"serwis": false,
+"niska_pewnosc_pct": 0.06,
+"rozbieznosc_szac": 7.1,
+"mowa_muzyka_s": 101.5
+},
+"2026-09-08 14": {
+"przejscia": 0,
+"tempo": 5.62,
+"tempo_s": 2827,
+"serwis": false,
+"niska_pewnosc_pct": 0.18,
+"rozbieznosc_szac": 8.0,
+"mowa_muzyka_s": 44.0
+},
+"2026-09-08 15": {
+"przejscia": 0,
+"tempo": 2.87,
+"tempo_s": 1253,
+"serwis": true,
+"niska_pewnosc_pct": 0.22,
+"rozbieznosc_szac": 8.3,
+"mowa_muzyka_s": 97.0
+},
+"2026-09-08 16": {
+"przejscia": 16,
+"tempo": 5.32,
+"tempo_s": 2062,
+"serwis": false,
+"niska_pewnosc_pct": 0.04,
+"rozbieznosc_szac": 7.0,
+"mowa_muzyka_s": 34.0
+},
+"2026-09-08 17": {
+"przejscia": 0,
+"tempo": 5.66,
+"tempo_s": 2631,
+"serwis": true,
+"niska_pewnosc_pct": 0.03,
+"rozbieznosc_szac": 6.9,
+"mowa_muzyka_s": 50.0
+},
+"2026-09-08 18": {
+"przejscia": 0,
+"tempo": 5.56,
+"tempo_s": 2618,
+"serwis": true,
+"niska_pewnosc_pct": 0.01,
+"rozbieznosc_szac": 6.8,
+"mowa_muzyka_s": 51.5
+},
+"2026-09-08 19": {
+"przejscia": 0,
+"tempo": 4.61,
+"tempo_s": 2096,
+"serwis": false,
+"niska_pewnosc_pct": 0.43,
+"rozbieznosc_szac": 9.7,
+"mowa_muzyka_s": 51.0
+},
+"2026-09-08 20": {
+"przejscia": 0,
+"tempo": 5.64,
+"tempo_s": 2771,
+"serwis": false,
+"niska_pewnosc_pct": 0.03,
+"rozbieznosc_szac": 6.9,
+"mowa_muzyka_s": 4.0
+},
+"2026-09-08 21": {
+"przejscia": 0,
+"tempo": 5.53,
+"tempo_s": 2876,
+"serwis": false,
+"niska_pewnosc_pct": 0.02,
+"rozbieznosc_szac": 6.9,
+"mowa_muzyka_s": 34.0
+},
+"2026-09-08 22": {
+"przejscia": 0,
+"tempo": 0.12,
+"tempo_s": 2736,
+"serwis": false,
+"niska_pewnosc_pct": 0.18,
+"rozbieznosc_szac": 8.0,
+"mowa_muzyka_s": 17.5
+},
+"2026-09-08 23": {
+"przejscia": 0,
+"tempo": 3.61,
+"tempo_s": 1873,
+"serwis": false,
+"niska_pewnosc_pct": 0.09,
+"rozbieznosc_szac": 7.4,
+"mowa_muzyka_s": 20.5
+},
+"2026-09-09 00": {
+"przejscia": 16,
+"tempo": 4.93,
+"tempo_s": 2579,
+"serwis": false,
+"niska_pewnosc_pct": 0.34,
+"rozbieznosc_szac": 9.1
+},
+"2026-09-09 01": {
+"przejscia": 12,
+"tempo": 4.53,
+"tempo_s": 2619,
+"serwis": false,
+"niska_pewnosc_pct": 0.42,
+"rozbieznosc_szac": 9.7
+},
+"2026-09-09 02": {
+"przejscia": 12,
+"tempo": 4.48,
+"tempo_s": 2765,
+"serwis": false,
+"niska_pewnosc_pct": 1.18,
+"rozbieznosc_szac": 15.0
+},
+"2026-09-09 03": {
+"przejscia": 17,
+"tempo": 4.17,
+"tempo_s": 2013,
+"serwis": false,
+"niska_pewnosc_pct": 0.37,
+"rozbieznosc_szac": 9.3
+},
+"2026-09-09 04": {
+"przejscia": 7,
+"tempo": 4.28,
+"tempo_s": 1385,
+"serwis": false,
+"niska_pewnosc_pct": 0.66,
+"rozbieznosc_szac": 11.4
+},
+"2026-09-09 05": {
+"przejscia": 7,
+"tempo": 4.09,
+"tempo_s": 771,
+"serwis": false,
+"niska_pewnosc_pct": 0.71,
+"rozbieznosc_szac": 11.7,
+"mowa_muzyka_s": 6.0,
+"dwie_transkrypcje": true,
+"rozbieznosc_zmierzona": 14.3
+},
+"2026-09-09 06": {
+"przejscia": 8,
+"tempo": 4.04,
+"tempo_s": 2813,
+"serwis": false,
+"niska_pewnosc_pct": 0.54,
+"rozbieznosc_szac": 10.5
+},
+"2026-09-09 07": {
+"przejscia": 4,
+"tempo": 4.87,
+"tempo_s": 3342,
+"serwis": false,
+"niska_pewnosc_pct": 0.41,
+"rozbieznosc_szac": 9.6,
+"mowa_muzyka_s": 35.0
+},
+"2026-09-09 08": {
+"przejscia": 2,
+"tempo": 5.34,
+"tempo_s": 3336,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.1,
+"mowa_muzyka_s": 38.0
+},
+"2026-09-09 09": {
+"przejscia": 10,
+"tempo": 4.72,
+"tempo_s": 2557,
+"serwis": false,
+"niska_pewnosc_pct": 0.41,
+"rozbieznosc_szac": 9.6
+},
+"2026-09-09 10": {
+"przejscia": 6,
+"tempo": 4.99,
+"tempo_s": 2772,
+"serwis": true,
+"niska_pewnosc_pct": 0.46,
+"rozbieznosc_szac": 9.9
+},
+"2026-09-09 11": {
+"przejscia": 5,
+"tempo": 4.96,
+"tempo_s": 2902,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.1
+},
+"2026-09-09 12": {
+"przejscia": 6,
+"tempo": 5.71,
+"tempo_s": 2971,
+"serwis": false,
+"niska_pewnosc_pct": 0.25,
+"rozbieznosc_szac": 8.4
+},
+"2026-09-09 13": {
+"przejscia": 16,
+"tempo": 4.65,
+"tempo_s": 2364,
+"serwis": false,
+"niska_pewnosc_pct": 0.84,
+"rozbieznosc_szac": 12.6
+},
+"2026-09-09 14": {
+"przejscia": 5,
+"tempo": 5.48,
+"tempo_s": 2870,
+"serwis": false,
+"niska_pewnosc_pct": 0.59,
+"rozbieznosc_szac": 10.9
+},
+"2026-09-09 15": {
+"przejscia": 24,
+"tempo": 4.02,
+"tempo_s": 268,
+"serwis": false,
+"niska_pewnosc_pct": 1.36,
+"rozbieznosc_szac": 16.3
+},
+"2026-09-09 16": {
+"przejscia": 10,
+"tempo": 5.34,
+"tempo_s": 2509,
+"serwis": false,
+"niska_pewnosc_pct": 0.23,
+"rozbieznosc_szac": 8.3
+},
+"2026-09-09 17": {
+"przejscia": 7,
+"tempo": 4.22,
+"tempo_s": 1866,
+"serwis": false,
+"niska_pewnosc_pct": 0.26,
+"rozbieznosc_szac": 8.5
+},
+"2026-09-09 18": {
+"przejscia": 21,
+"tempo": 4.75,
+"tempo_s": 184,
+"serwis": false,
+"niska_pewnosc_pct": 0.96,
+"rozbieznosc_szac": 13.4,
+"mowa_muzyka_s": 57.0
+},
+"2026-09-09 19": {
+"przejscia": 18,
+"tempo": 4.15,
+"tempo_s": 2351,
+"serwis": true,
+"niska_pewnosc_pct": 0.39,
+"rozbieznosc_szac": 9.4
+},
+"2026-09-09 20": {
+"przejscia": 3,
+"tempo": 4.34,
+"tempo_s": 3170,
+"serwis": false,
+"niska_pewnosc_pct": 0.41,
+"rozbieznosc_szac": 9.6
+},
+"2026-09-09 21": {
+"przejscia": 26,
+"tempo": 4.22,
+"tempo_s": 1110,
+"serwis": false,
+"niska_pewnosc_pct": 0.58,
+"rozbieznosc_szac": 10.8,
+"mowa_muzyka_s": 40.5
+},
+"2026-09-09 22": {
+"przejscia": 25,
+"tempo": 4.33,
+"tempo_s": 1078,
+"serwis": false,
+"niska_pewnosc_pct": 1.18,
+"rozbieznosc_szac": 15.0,
+"mowa_muzyka_s": 24.5
+},
+"2026-09-09 23": {
+"przejscia": 11,
+"tempo": 4.67,
+"tempo_s": 2266,
+"serwis": false,
+"niska_pewnosc_pct": 0.32,
+"rozbieznosc_szac": 9.0
+},
+"2026-09-10 00": {
+"przejscia": 12,
+"tempo": 5.38,
+"tempo_s": 2086,
+"serwis": false,
+"niska_pewnosc_pct": 0.59,
+"rozbieznosc_szac": 10.8
+},
+"2026-09-10 01": {
+"przejscia": 23,
+"tempo": 5.15,
+"tempo_s": 1968,
+"serwis": false,
+"niska_pewnosc_pct": 0.61,
+"rozbieznosc_szac": 11.0
+},
+"2026-09-10 02": {
+"przejscia": 9,
+"tempo": 4.52,
+"tempo_s": 2327,
+"serwis": false,
+"niska_pewnosc_pct": 0.44,
+"rozbieznosc_szac": 9.8
+},
+"2026-09-10 03": {
+"przejscia": 4,
+"tempo": 5.15,
+"tempo_s": 2728,
+"serwis": false,
+"niska_pewnosc_pct": 0.56,
+"rozbieznosc_szac": 10.7
+},
+"2026-09-10 04": {
+"przejscia": 11,
+"tempo": 5.03,
+"tempo_s": 2539,
+"serwis": true,
+"niska_pewnosc_pct": 0.34,
+"rozbieznosc_szac": 9.1
+},
+"2026-09-10 05": {
+"przejscia": 8,
+"tempo": 5.68,
+"tempo_s": 1389,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.1
+},
+"2026-09-10 06": {
+"przejscia": 32,
+"tempo": 4.62,
+"tempo_s": 2248,
+"serwis": false,
+"niska_pewnosc_pct": 0.31,
+"rozbieznosc_szac": 8.9
+},
+"2026-09-10 07": {
+"przejscia": 6,
+"tempo": 4.93,
+"tempo_s": 3054,
+"serwis": false,
+"niska_pewnosc_pct": 0.35,
+"rozbieznosc_szac": 9.2
+},
+"2026-09-10 08": {
+"przejscia": 4,
+"tempo": 5.51,
+"tempo_s": 2318,
+"serwis": true,
+"niska_pewnosc_pct": 0.04,
+"rozbieznosc_szac": 7.0,
+"mowa_muzyka_s": 41.5
+},
+"2026-09-10 09": {
+"przejscia": 8,
+"tempo": 4.31,
+"tempo_s": 2928,
+"serwis": false,
+"niska_pewnosc_pct": 0.46,
+"rozbieznosc_szac": 9.9,
+"mowa_muzyka_s": 44.0
+},
+"2026-09-10 10": {
+"przejscia": 6,
+"tempo": 4.48,
+"tempo_s": 2982,
+"serwis": false,
+"niska_pewnosc_pct": 0.4,
+"rozbieznosc_szac": 9.5
+},
+"2026-09-10 11": {
+"przejscia": 5,
+"tempo": 4.98,
+"tempo_s": 2379,
+"serwis": false,
+"niska_pewnosc_pct": 0.47,
+"rozbieznosc_szac": 10.0
+},
+"2026-09-10 12": {
+"przejscia": 5,
+"tempo": 5.09,
+"tempo_s": 3066,
+"serwis": false,
+"niska_pewnosc_pct": 0.27,
+"rozbieznosc_szac": 8.6
+},
+"2026-09-10 13": {
+"przejscia": 2,
+"tempo": 4.8,
+"tempo_s": 3229,
+"serwis": false,
+"niska_pewnosc_pct": 0.43,
+"rozbieznosc_szac": 9.7,
+"mowa_muzyka_s": 18.0
+},
+"2026-09-10 14": {
+"przejscia": 11,
+"tempo": 4.56,
+"tempo_s": 2533,
+"serwis": false,
+"niska_pewnosc_pct": 0.31,
+"rozbieznosc_szac": 8.9
+},
+"2026-09-10 15": {
+"przejscia": 12,
+"tempo": 4.89,
+"tempo_s": 2124,
+"serwis": false,
+"niska_pewnosc_pct": 0.35,
+"rozbieznosc_szac": 9.2
+},
+"2026-09-10 16": {
+"przejscia": 14,
+"tempo": 5.33,
+"tempo_s": 1996,
+"serwis": false,
+"niska_pewnosc_pct": 0.34,
+"rozbieznosc_szac": 9.1
+},
+"2026-09-10 17": {
+"przejscia": 3,
+"tempo": 5.38,
+"tempo_s": 2267,
+"serwis": false,
+"niska_pewnosc_pct": 0.8,
+"rozbieznosc_szac": 12.3
+},
+"2026-09-10 18": {
+"przejscia": 6,
+"tempo": 5.07,
+"tempo_s": 2451,
+"serwis": true,
+"niska_pewnosc_pct": 0.69,
+"rozbieznosc_szac": 11.6,
+"mowa_muzyka_s": 14.5
+},
+"2026-09-10 19": {
+"przejscia": 11,
+"tempo": 3.98,
+"tempo_s": 2674,
+"serwis": false,
+"niska_pewnosc_pct": 0.66,
+"rozbieznosc_szac": 11.4
+},
+"2026-09-10 20": {
+"przejscia": 27,
+"tempo": 5.44,
+"tempo_s": 1820,
+"serwis": true,
+"niska_pewnosc_pct": 0.84,
+"rozbieznosc_szac": 12.6
+},
+"2026-09-10 21": {
+"przejscia": 34,
+"tempo": 4.04,
+"tempo_s": 262,
+"serwis": false,
+"niska_pewnosc_pct": 3.74,
+"rozbieznosc_szac": 33.0
+},
+"2026-09-10 22": {
+"przejscia": 33,
+"tempo": null,
+"tempo_s": 73,
+"serwis": false,
+"niska_pewnosc_pct": 1.37,
+"rozbieznosc_szac": 16.3
+},
+"2026-09-10 23": {
+"przejscia": 7,
+"tempo": 4.95,
+"tempo_s": 2108,
+"serwis": false,
+"niska_pewnosc_pct": 0.4,
+"rozbieznosc_szac": 9.5
+},
+"2026-09-11 00": {
+"przejscia": 11,
+"tempo": 4.38,
+"tempo_s": 1875,
+"serwis": false,
+"niska_pewnosc_pct": 0.52,
+"rozbieznosc_szac": 10.4
+},
+"2026-09-11 01": {
+"przejscia": 11,
+"tempo": 4.46,
+"tempo_s": 2225,
+"serwis": false,
+"niska_pewnosc_pct": 0.31,
+"rozbieznosc_szac": 8.9
+},
+"2026-09-11 02": {
+"przejscia": 9,
+"tempo": 4.27,
+"tempo_s": 1944,
+"serwis": true,
+"niska_pewnosc_pct": 0.43,
+"rozbieznosc_szac": 9.7
+},
+"2026-09-11 03": {
+"przejscia": 9,
+"tempo": 4.95,
+"tempo_s": 2256,
+"serwis": false,
+"niska_pewnosc_pct": 0.24,
+"rozbieznosc_szac": 8.4
+},
+"2026-09-11 04": {
+"przejscia": 6,
+"tempo": 5.06,
+"tempo_s": 2789,
+"serwis": false,
+"niska_pewnosc_pct": 0.37,
+"rozbieznosc_szac": 9.3
+},
+"2026-09-11 05": {
+"przejscia": 9,
+"tempo": 4.83,
+"tempo_s": 636,
+"serwis": false,
+"niska_pewnosc_pct": 0.8,
+"rozbieznosc_szac": 12.3,
+"mowa_muzyka_s": 72.0
+},
+"2026-09-11 06": {
+"przejscia": 19,
+"tempo": null,
+"tempo_s": 100,
+"serwis": false,
+"niska_pewnosc_pct": 0.46,
+"rozbieznosc_szac": 9.9,
+"mowa_muzyka_s": 65.5
+},
+"2026-09-11 07": {
+"przejscia": 3,
+"tempo": 4.68,
+"tempo_s": 3298,
+"serwis": false,
+"niska_pewnosc_pct": 0.38,
+"rozbieznosc_szac": 9.4,
+"mowa_muzyka_s": 17.5
+},
+"2026-09-11 08": {
+"przejscia": 4,
+"tempo": 5.0,
+"tempo_s": 3214,
+"serwis": false,
+"niska_pewnosc_pct": 0.29,
+"rozbieznosc_szac": 8.8,
+"mowa_muzyka_s": 25.0
+},
+"2026-09-11 09": {
+"przejscia": 0,
+"tempo": 5.13,
+"tempo_s": 3524,
+"serwis": false,
+"niska_pewnosc_pct": 0.5,
+"rozbieznosc_szac": 10.3,
+"mowa_muzyka_s": 29.5
+},
+"2026-09-11 10": {
+"przejscia": 0,
+"tempo": 5.24,
+"tempo_s": 3477,
+"serwis": false,
+"niska_pewnosc_pct": 0.63,
+"rozbieznosc_szac": 11.2,
+"mowa_muzyka_s": 71.0
+},
+"2026-09-11 11": {
+"przejscia": 0,
+"tempo": 4.95,
+"tempo_s": 3420,
+"serwis": false,
+"niska_pewnosc_pct": 0.87,
+"rozbieznosc_szac": 12.8
+},
+"2026-09-11 12": {
+"przejscia": 4,
+"tempo": 5.07,
+"tempo_s": 3033,
+"serwis": false,
+"niska_pewnosc_pct": 1.16,
+"rozbieznosc_szac": 14.8
+},
+"2026-09-11 13": {
+"przejscia": 9,
+"tempo": 4.36,
+"tempo_s": 2376,
+"serwis": false,
+"niska_pewnosc_pct": 0.49,
+"rozbieznosc_szac": 10.2,
+"mowa_muzyka_s": 143.0
+},
+"2026-09-11 14": {
+"przejscia": 19,
+"tempo": 4.02,
+"tempo_s": 886,
+"serwis": false,
+"niska_pewnosc_pct": 1.4,
+"rozbieznosc_szac": 16.6,
+"mowa_muzyka_s": 128.5
+},
+"2026-09-11 15": {
+"przejscia": 1,
+"tempo": 3.42,
+"tempo_s": 3020,
+"serwis": false,
+"niska_pewnosc_pct": 1.9,
+"rozbieznosc_szac": 20.0
+},
+"2026-09-11 16": {
+"przejscia": 2,
+"tempo": 4.82,
+"tempo_s": 3338,
+"serwis": false,
+"niska_pewnosc_pct": 0.27,
+"rozbieznosc_szac": 8.6,
+"mowa_muzyka_s": 90.0
+},
+"2026-09-11 17": {
+"przejscia": 2,
+"tempo": 4.76,
+"tempo_s": 3235,
+"serwis": false,
+"niska_pewnosc_pct": 0.28,
+"rozbieznosc_szac": 8.7,
+"mowa_muzyka_s": 93.5
+},
+"2026-09-11 18": {
+"przejscia": 17,
+"tempo": 5.09,
+"tempo_s": 251,
+"serwis": false,
+"niska_pewnosc_pct": 0.19,
+"rozbieznosc_szac": 8.0,
+"mowa_muzyka_s": 63.5
+},
+"2026-09-11 19": {
+"przejscia": 16,
+"tempo": 5.36,
+"tempo_s": 2296,
+"serwis": false,
+"niska_pewnosc_pct": 0.28,
+"rozbieznosc_szac": 8.7
+},
+"2026-09-11 20": {
+"przejscia": 35,
+"tempo": 4.61,
+"tempo_s": 553,
+"serwis": false,
+"niska_pewnosc_pct": 0.74,
+"rozbieznosc_szac": 11.9,
+"mowa_muzyka_s": 18.5
+},
+"2026-09-11 21": {
+"przejscia": 15,
+"tempo": 4.63,
+"tempo_s": 2039,
+"serwis": false,
+"niska_pewnosc_pct": 0.9,
+"rozbieznosc_szac": 13.0
+},
+"2026-09-11 22": {
+"przejscia": 25,
+"tempo": 4.63,
+"tempo_s": 1464,
+"serwis": false,
+"niska_pewnosc_pct": 0.75,
+"rozbieznosc_szac": 12.0
+},
+"2026-09-11 23": {
+"przejscia": 9,
+"tempo": 4.41,
+"tempo_s": 2538,
+"serwis": false,
+"niska_pewnosc_pct": 0.46,
+"rozbieznosc_szac": 10.0
+},
+"2026-09-12 00": {
+"przejscia": 8,
+"tempo": 5.17,
+"tempo_s": 2889,
+"serwis": false,
+"niska_pewnosc_pct": 0.43,
+"rozbieznosc_szac": 9.7
+},
+"2026-09-12 01": {
+"przejscia": 9,
+"tempo": 5.15,
+"tempo_s": 3026,
+"serwis": false,
+"niska_pewnosc_pct": 0.49,
+"rozbieznosc_szac": 10.2
+},
+"2026-09-12 02": {
+"przejscia": 3,
+"tempo": 5.24,
+"tempo_s": 3291,
+"serwis": false,
+"niska_pewnosc_pct": 0.67,
+"rozbieznosc_szac": 11.4
+},
+"2026-09-12 04": {
+"przejscia": 4,
+"tempo": 3.35,
+"tempo_s": 2812,
+"serwis": true,
+"niska_pewnosc_pct": 1.47,
+"rozbieznosc_szac": 17.0
+},
+"2026-09-12 05": {
+"przejscia": 9,
+"tempo": 3.16,
+"tempo_s": 130,
+"serwis": false,
+"niska_pewnosc_pct": 0.47,
+"rozbieznosc_szac": 10.0,
+"mowa_muzyka_s": 8.0
+},
+"2026-09-12 06": {
+"przejscia": 21,
+"tempo": null,
+"tempo_s": 13,
+"serwis": false,
+"mowa_muzyka_s": 3.5
+},
+"2026-09-12 07": {
+"przejscia": 11,
+"tempo": null,
+"tempo_s": 36,
+"serwis": false,
+"mowa_muzyka_s": 13.5
+},
+"2026-09-12 08": {
+"przejscia": 6,
+"tempo": 4.77,
+"tempo_s": 2780,
+"serwis": false,
+"niska_pewnosc_pct": 0.42,
+"rozbieznosc_szac": 9.6
+},
+"2026-09-12 09": {
+"przejscia": 2,
+"tempo": 4.76,
+"tempo_s": 3350,
+"serwis": false,
+"niska_pewnosc_pct": 0.31,
+"rozbieznosc_szac": 8.9
+},
+"2026-09-12 10": {
+"przejscia": 10,
+"tempo": 4.73,
+"tempo_s": 2315,
+"serwis": true,
+"niska_pewnosc_pct": 0.02,
+"rozbieznosc_szac": 6.8,
+"mowa_muzyka_s": 54.0
+},
+"2026-09-12 11": {
+"przejscia": 17,
+"tempo": 4.31,
+"tempo_s": 1104,
+"serwis": false,
+"niska_pewnosc_pct": 0.23,
+"rozbieznosc_szac": 8.3,
+"mowa_muzyka_s": 99.0
+},
+"2026-09-12 12": {
+"przejscia": 24,
+"tempo": null,
+"tempo_s": 117,
+"serwis": true,
+"niska_pewnosc_pct": 0.8,
+"rozbieznosc_szac": 12.4,
+"mowa_muzyka_s": 31.5
+},
+"2026-09-12 13": {
+"przejscia": 15,
+"tempo": 3.57,
+"tempo_s": 2328,
+"serwis": false,
+"niska_pewnosc_pct": 0.49,
+"rozbieznosc_szac": 10.2,
+"mowa_muzyka_s": 389.0
+},
+"2026-09-12 14": {
+"przejscia": 6,
+"tempo": 4.19,
+"tempo_s": 2848,
+"serwis": false,
+"niska_pewnosc_pct": 0.08,
+"rozbieznosc_szac": 7.3,
+"mowa_muzyka_s": 418.5
+},
+"2026-09-12 15": {
+"przejscia": 4,
+"tempo": 5.08,
+"tempo_s": 2914,
+"serwis": false,
+"niska_pewnosc_pct": 0.45,
+"rozbieznosc_szac": 9.8,
+"mowa_muzyka_s": 49.0
+},
+"2026-09-12 16": {
+"przejscia": 0,
+"tempo": 4.36,
+"tempo_s": 3360,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.0
+},
+"2026-09-12 17": {
+"przejscia": 21,
+"tempo": 4.18,
+"tempo_s": 554,
+"serwis": true,
+"niska_pewnosc_pct": 0.47,
+"rozbieznosc_szac": 10.0,
+"mowa_muzyka_s": 101.5
+},
+"2026-09-12 18": {
+"przejscia": 36,
+"tempo": 3.94,
+"tempo_s": 386,
+"serwis": false,
+"niska_pewnosc_pct": 1.02,
+"rozbieznosc_szac": 13.9
+},
+"2026-09-12 19": {
+"przejscia": 16,
+"tempo": 4.02,
+"tempo_s": 269,
+"serwis": false,
+"niska_pewnosc_pct": 0.0,
+"rozbieznosc_szac": 6.7,
+"mowa_muzyka_s": 157.5
+},
+"2026-09-12 20": {
+"przejscia": 21,
+"tempo": 4.46,
+"tempo_s": 2452,
+"serwis": false,
+"niska_pewnosc_pct": 1.6,
+"rozbieznosc_szac": 18.0
+},
+"2026-09-12 21": {
+"przejscia": 25,
+"tempo": 4.42,
+"tempo_s": 2222,
+"serwis": false,
+"niska_pewnosc_pct": 0.92,
+"rozbieznosc_szac": 13.2
+},
+"2026-09-12 22": {
+"przejscia": 24,
+"tempo": 4.46,
+"tempo_s": 809,
+"serwis": false,
+"niska_pewnosc_pct": 0.53,
+"rozbieznosc_szac": 10.5,
+"mowa_muzyka_s": 48.5
+},
+"2026-09-12 23": {
+"przejscia": 9,
+"tempo": 4.64,
+"tempo_s": 1226,
+"serwis": false,
+"niska_pewnosc_pct": 0.95,
+"rozbieznosc_szac": 13.4,
+"mowa_muzyka_s": 24.5
+},
+"2026-09-13 00": {
+"przejscia": 4,
+"tempo": 4.65,
+"tempo_s": 2365,
+"serwis": false,
+"niska_pewnosc_pct": 0.9,
+"rozbieznosc_szac": 13.0
+},
+"2026-09-13 01": {
+"przejscia": 0,
+"tempo": 4.69,
+"tempo_s": 3538,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.1,
+"mowa_muzyka_s": 0.0,
+"dwie_transkrypcje": true,
+"rozbieznosc_zmierzona": 7.7
+},
+"2026-09-13 02": {
+"przejscia": 4,
+"tempo": 4.38,
+"tempo_s": 2556,
+"serwis": false,
+"niska_pewnosc_pct": 0.45,
+"rozbieznosc_szac": 9.9
+},
+"2026-09-13 03": {
+"przejscia": 20,
+"tempo": 4.89,
+"tempo_s": 1124,
+"serwis": false,
+"niska_pewnosc_pct": 2.14,
+"rozbieznosc_szac": 21.7,
+"mowa_muzyka_s": 10.5
+},
+"2026-09-13 04": {
+"przejscia": 17,
+"tempo": 4.84,
+"tempo_s": 1170,
+"serwis": false,
+"niska_pewnosc_pct": 0.91,
+"rozbieznosc_szac": 13.1
+},
+"2026-09-13 05": {
+"przejscia": 12,
+"tempo": null,
+"tempo_s": 0,
+"serwis": false,
+"mowa_muzyka_s": 0.0,
+"dwie_transkrypcje": true
+},
+"2026-09-13 06": {
+"przejscia": 14,
+"tempo": null,
+"tempo_s": 3,
+"serwis": false,
+"mowa_muzyka_s": 2.5
+},
+"2026-09-13 07": {
+"przejscia": 24,
+"tempo": null,
+"tempo_s": 28,
+"serwis": false,
+"mowa_muzyka_s": 19.0
+},
+"2026-09-13 09": {
+"przejscia": 14,
+"tempo": 4.91,
+"tempo_s": 222,
+"serwis": false,
+"niska_pewnosc_pct": 0.0,
+"rozbieznosc_szac": 6.7,
+"mowa_muzyka_s": 134.5
+},
+"2026-09-13 10": {
+"przejscia": 8,
+"tempo": null,
+"tempo_s": 111,
+"serwis": false,
+"mowa_muzyka_s": 96.5
+},
+"2026-09-13 11": {
+"przejscia": 17,
+"tempo": 4.87,
+"tempo_s": 750,
+"serwis": false,
+"niska_pewnosc_pct": 0.54,
+"rozbieznosc_szac": 10.5,
+"mowa_muzyka_s": 44.0
+},
+"2026-09-13 12": {
+"przejscia": 9,
+"tempo": 4.53,
+"tempo_s": 1471,
+"serwis": false,
+"niska_pewnosc_pct": 2.09,
+"rozbieznosc_szac": 21.4
+},
+"2026-09-13 13": {
+"przejscia": 16,
+"tempo": 5.06,
+"tempo_s": 1888,
+"serwis": true,
+"niska_pewnosc_pct": 0.07,
+"rozbieznosc_szac": 7.2
+},
+"2026-09-13 14": {
+"przejscia": 5,
+"tempo": 4.59,
+"tempo_s": 3030,
+"serwis": false,
+"niska_pewnosc_pct": 1.43,
+"rozbieznosc_szac": 16.8,
+"mowa_muzyka_s": 118.5
+},
+"2026-09-13 15": {
+"przejscia": 8,
+"tempo": 4.96,
+"tempo_s": 3222,
+"serwis": false,
+"niska_pewnosc_pct": 0.28,
+"rozbieznosc_szac": 8.7
+},
+"2026-09-13 16": {
+"przejscia": 32,
+"tempo": 4.25,
+"tempo_s": 1606,
+"serwis": false,
+"niska_pewnosc_pct": 0.6,
+"rozbieznosc_szac": 11.0
+},
+"2026-09-13 17": {
+"przejscia": 3,
+"tempo": 5.05,
+"tempo_s": 2840,
+"serwis": false,
+"niska_pewnosc_pct": 0.01,
+"rozbieznosc_szac": 6.8
+},
+"2026-09-13 18": {
+"przejscia": 2,
+"tempo": 4.85,
+"tempo_s": 3359,
+"serwis": false,
+"niska_pewnosc_pct": 0.43,
+"rozbieznosc_szac": 9.7,
+"mowa_muzyka_s": 74.0
+},
+"2026-09-13 19": {
+"przejscia": 4,
+"tempo": 4.53,
+"tempo_s": 2716,
+"serwis": false,
+"niska_pewnosc_pct": 3.16,
+"rozbieznosc_szac": 28.9,
+"mowa_muzyka_s": 111.0
+},
+"2026-09-13 20": {
+"przejscia": 2,
+"tempo": 4.65,
+"tempo_s": 3088,
+"serwis": false,
+"niska_pewnosc_pct": 4.34,
+"rozbieznosc_szac": 37.2,
+"mowa_muzyka_s": 9.0
+},
+"2026-09-13 21": {
+"przejscia": 6,
+"tempo": 4.5,
+"tempo_s": 2765,
+"serwis": false,
+"niska_pewnosc_pct": 0.66,
+"rozbieznosc_szac": 11.3
+},
+"2026-09-13 22": {
+"przejscia": 4,
+"tempo": 4.63,
+"tempo_s": 2866,
+"serwis": false,
+"niska_pewnosc_pct": 0.56,
+"rozbieznosc_szac": 10.7
+},
+"2026-09-13 23": {
+"przejscia": 10,
+"tempo": 4.83,
+"tempo_s": 1849,
+"serwis": false,
+"niska_pewnosc_pct": 0.51,
+"rozbieznosc_szac": 10.3
+},
+"2026-09-14 00": {
+"przejscia": 13,
+"tempo": 4.66,
+"tempo_s": 2381,
+"serwis": false,
+"niska_pewnosc_pct": 0.36,
+"rozbieznosc_szac": 9.2
+},
+"2026-09-14 01": {
+"przejscia": 23,
+"tempo": 4.16,
+"tempo_s": 1580,
+"serwis": false,
+"niska_pewnosc_pct": 0.54,
+"rozbieznosc_szac": 10.5
+},
+"2026-09-14 02": {
+"przejscia": 2,
+"tempo": 4.39,
+"tempo_s": 3076,
+"serwis": false,
+"niska_pewnosc_pct": 0.53,
+"rozbieznosc_szac": 10.4,
+"mowa_muzyka_s": 50.5
+},
+"2026-09-14 03": {
+"przejscia": 5,
+"tempo": 4.37,
+"tempo_s": 3139,
+"serwis": false,
+"niska_pewnosc_pct": 0.34,
+"rozbieznosc_szac": 9.1
+},
+"2026-09-14 04": {
+"przejscia": 8,
+"tempo": null,
+"tempo_s": 3,
+"serwis": false,
+"mowa_muzyka_s": 6.5
+},
+"2026-09-14 05": {
+"przejscia": 12,
+"tempo": null,
+"tempo_s": 7,
+"serwis": false,
+"mowa_muzyka_s": 7.0
+},
+"2026-09-14 06": {
+"przejscia": 9,
+"tempo": 4.29,
+"tempo_s": 2796,
+"serwis": false,
+"niska_pewnosc_pct": 0.87,
+"rozbieznosc_szac": 12.8
+},
+"2026-09-14 07": {
+"przejscia": 6,
+"tempo": 4.89,
+"tempo_s": 2856,
+"serwis": true,
+"niska_pewnosc_pct": 0.01,
+"rozbieznosc_szac": 6.8
+},
+"2026-09-14 08": {
+"przejscia": 4,
+"tempo": 4.86,
+"tempo_s": 3249,
+"serwis": false,
+"niska_pewnosc_pct": 0.22,
+"rozbieznosc_szac": 8.3,
+"mowa_muzyka_s": 59.5
+},
+"2026-09-14 09": {
+"przejscia": 7,
+"tempo": 5.0,
+"tempo_s": 2488,
+"serwis": false,
+"niska_pewnosc_pct": 0.3,
+"rozbieznosc_szac": 8.8
+},
+"2026-09-14 10": {
+"przejscia": 8,
+"tempo": 4.74,
+"tempo_s": 2767,
+"serwis": false,
+"niska_pewnosc_pct": 0.57,
+"rozbieznosc_szac": 10.7
+},
+"2026-09-14 11": {
+"przejscia": 2,
+"tempo": 5.12,
+"tempo_s": 3378,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.1,
+"mowa_muzyka_s": 44.5
+},
+"2026-09-14 13": {
+"przejscia": 21,
+"tempo": 4.37,
+"tempo_s": 2471,
+"serwis": false,
+"niska_pewnosc_pct": 0.37,
+"rozbieznosc_szac": 9.3
+},
+"2026-09-14 14": {
+"przejscia": 14,
+"tempo": 4.31,
+"tempo_s": 161,
+"serwis": false,
+"niska_pewnosc_pct": 0.0,
+"rozbieznosc_szac": 6.7,
+"mowa_muzyka_s": 73.0
+},
+"2026-09-14 15": {
+"przejscia": 25,
+"tempo": 4.39,
+"tempo_s": 1777,
+"serwis": false,
+"niska_pewnosc_pct": 0.66,
+"rozbieznosc_szac": 11.3
+},
+"2026-09-14 16": {
+"przejscia": 4,
+"tempo": 5.23,
+"tempo_s": 3156,
+"serwis": true,
+"niska_pewnosc_pct": 0.37,
+"rozbieznosc_szac": 9.3
+},
+"2026-09-14 17": {
+"przejscia": 2,
+"tempo": 4.97,
+"tempo_s": 3268,
+"serwis": false,
+"niska_pewnosc_pct": 0.29,
+"rozbieznosc_szac": 8.8,
+"mowa_muzyka_s": 51.5
+},
+"2026-09-14 18": {
+"przejscia": 5,
+"tempo": 4.7,
+"tempo_s": 3102,
+"serwis": false,
+"niska_pewnosc_pct": 0.44,
+"rozbieznosc_szac": 9.8,
+"mowa_muzyka_s": 76.5
+},
+"2026-09-14 19": {
+"przejscia": 15,
+"tempo": 4.13,
+"tempo_s": 2097,
+"serwis": false,
+"niska_pewnosc_pct": 0.62,
+"rozbieznosc_szac": 11.1
+},
+"2026-09-14 20": {
+"przejscia": 20,
+"tempo": 4.33,
+"tempo_s": 1091,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.1
+},
+"2026-09-14 21": {
+"przejscia": 40,
+"tempo": 3.96,
+"tempo_s": 397,
+"serwis": false,
+"niska_pewnosc_pct": 1.32,
+"rozbieznosc_szac": 16.0,
+"mowa_muzyka_s": 45.5
+},
+"2026-09-14 22": {
+"przejscia": 21,
+"tempo": null,
+"tempo_s": 97,
+"serwis": false,
+"mowa_muzyka_s": 24.0
+},
+"2026-09-14 23": {
+"przejscia": 6,
+"tempo": 4.8,
+"tempo_s": 2399,
+"serwis": false,
+"niska_pewnosc_pct": 0.74,
+"rozbieznosc_szac": 11.9
+},
+"2026-09-15 00": {
+"przejscia": 6,
+"tempo": 4.67,
+"tempo_s": 1912,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.1
+},
+"2026-09-15 01": {
+"przejscia": 5,
+"tempo": 5.08,
+"tempo_s": 2412,
+"serwis": false,
+"niska_pewnosc_pct": 0.37,
+"rozbieznosc_szac": 9.3
+},
+"2026-09-15 02": {
+"przejscia": 7,
+"tempo": 5.2,
+"tempo_s": 2072,
+"serwis": false,
+"niska_pewnosc_pct": 0.64,
+"rozbieznosc_szac": 11.2
+},
+"2026-09-15 03": {
+"przejscia": 7,
+"tempo": 4.27,
+"tempo_s": 2354,
+"serwis": false,
+"niska_pewnosc_pct": 0.53,
+"rozbieznosc_szac": 10.4
+},
+"2026-09-15 04": {
+"przejscia": 6,
+"tempo": 4.56,
+"tempo_s": 1678,
+"serwis": false,
+"niska_pewnosc_pct": 0.1,
+"rozbieznosc_szac": 7.4
+},
+"2026-09-15 05": {
+"przejscia": 14,
+"tempo": null,
+"tempo_s": 8,
+"serwis": false,
+"mowa_muzyka_s": 3.5
+},
+"2026-09-15 06": {
+"przejscia": 8,
+"tempo": 5.01,
+"tempo_s": 2814,
+"serwis": false,
+"niska_pewnosc_pct": 0.27,
+"rozbieznosc_szac": 8.6
+},
+"2026-09-15 08": {
+"przejscia": 4,
+"tempo": 5.33,
+"tempo_s": 2626,
+"serwis": true,
+"niska_pewnosc_pct": 0.01,
+"rozbieznosc_szac": 6.8,
+"mowa_muzyka_s": 78.0
+},
+"2026-09-15 10": {
+"przejscia": 6,
+"tempo": 5.67,
+"tempo_s": 2180,
+"serwis": true,
+"niska_pewnosc_pct": 0.0,
+"rozbieznosc_szac": 6.7
+},
+"2026-09-15 11": {
+"przejscia": 2,
+"tempo": 5.51,
+"tempo_s": 2772,
+"serwis": false,
+"niska_pewnosc_pct": 0.02,
+"rozbieznosc_szac": 6.8,
+"mowa_muzyka_s": 29.0
+},
+"2026-09-15 12": {
+"przejscia": 4,
+"tempo": 5.17,
+"tempo_s": 3202,
+"serwis": false,
+"niska_pewnosc_pct": 0.43,
+"rozbieznosc_szac": 9.7
+},
+"2026-09-15 13": {
+"przejscia": 6,
+"tempo": 4.92,
+"tempo_s": 3137,
+"serwis": false,
+"niska_pewnosc_pct": 0.71,
+"rozbieznosc_szac": 11.7,
+"mowa_muzyka_s": 59.5
+},
+"2026-09-15 14": {
+"przejscia": 11,
+"tempo": 5.22,
+"tempo_s": 2410,
+"serwis": false,
+"niska_pewnosc_pct": 0.88,
+"rozbieznosc_szac": 12.9
+},
+"2026-09-15 15": {
+"przejscia": 19,
+"tempo": 4.27,
+"tempo_s": 1683,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.1
+},
+"2026-09-15 16": {
+"przejscia": 12,
+"tempo": 5.78,
+"tempo_s": 2220,
+"serwis": true,
+"niska_pewnosc_pct": 0.03,
+"rozbieznosc_szac": 6.9,
+"mowa_muzyka_s": 59.5
+},
+"2026-09-15 17": {
+"przejscia": 7,
+"tempo": 4.72,
+"tempo_s": 2688,
+"serwis": false,
+"niska_pewnosc_pct": 0.28,
+"rozbieznosc_szac": 8.7
+},
+"2026-09-15 18": {
+"przejscia": 3,
+"tempo": 4.77,
+"tempo_s": 3272,
+"serwis": false,
+"niska_pewnosc_pct": 0.4,
+"rozbieznosc_szac": 9.5,
+"mowa_muzyka_s": 15.0
+},
+"2026-09-15 19": {
+"przejscia": 14,
+"tempo": 4.68,
+"tempo_s": 1375,
+"serwis": false,
+"niska_pewnosc_pct": 0.5,
+"rozbieznosc_szac": 10.3
+},
+"2026-09-15 20": {
+"przejscia": 1,
+"tempo": 5.1,
+"tempo_s": 3470,
+"serwis": false,
+"niska_pewnosc_pct": 0.54,
+"rozbieznosc_szac": 10.5,
+"mowa_muzyka_s": 14.5
+},
+"2026-09-15 21": {
+"przejscia": 11,
+"tempo": 4.58,
+"tempo_s": 2761,
+"serwis": false,
+"niska_pewnosc_pct": 0.23,
+"rozbieznosc_szac": 8.3
+},
+"2026-09-15 22": {
+"przejscia": 5,
+"tempo": 4.06,
+"tempo_s": 3069,
+"serwis": false,
+"niska_pewnosc_pct": 14.53,
+"rozbieznosc_szac": 40.0
+},
+"2026-09-15 23": {
+"przejscia": 6,
+"tempo": 4.34,
+"tempo_s": 2138,
+"serwis": false,
+"niska_pewnosc_pct": 0.26,
+"rozbieznosc_szac": 8.5
+},
+"2026-09-16 00": {
+"przejscia": 9,
+"tempo": 5.27,
+"tempo_s": 1489,
+"serwis": true,
+"niska_pewnosc_pct": 0.31,
+"rozbieznosc_szac": 8.9
+},
+"2026-09-16 01": {
+"przejscia": 5,
+"tempo": 4.78,
+"tempo_s": 2471,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.1
+},
+"2026-09-16 02": {
+"przejscia": 4,
+"tempo": 4.75,
+"tempo_s": 2454,
+"serwis": false,
+"niska_pewnosc_pct": 0.51,
+"rozbieznosc_szac": 10.3
+},
+"2026-09-16 03": {
+"przejscia": 4,
+"tempo": 4.85,
+"tempo_s": 2701,
+"serwis": false,
+"niska_pewnosc_pct": 0.56,
+"rozbieznosc_szac": 10.6
+},
+"2026-09-16 04": {
+"przejscia": 3,
+"tempo": 5.24,
+"tempo_s": 2897,
+"serwis": false,
+"niska_pewnosc_pct": 0.52,
+"rozbieznosc_szac": 10.4
+},
+"2026-09-16 05": {
+"przejscia": 20,
+"tempo": null,
+"tempo_s": 16,
+"serwis": false,
+"mowa_muzyka_s": 3.0
+},
+"2026-09-16 06": {
+"przejscia": 8,
+"tempo": 4.38,
+"tempo_s": 2843,
+"serwis": false,
+"niska_pewnosc_pct": 0.24,
+"rozbieznosc_szac": 8.4
+},
+"2026-09-16 07": {
+"przejscia": 5,
+"tempo": 5.72,
+"tempo_s": 3157,
+"serwis": false,
+"niska_pewnosc_pct": 0.3,
+"rozbieznosc_szac": 8.8
+},
+"2026-09-16 08": {
+"przejscia": 2,
+"tempo": 5.13,
+"tempo_s": 3304,
+"serwis": false,
+"niska_pewnosc_pct": 0.41,
+"rozbieznosc_szac": 9.6,
+"mowa_muzyka_s": 42.5
+},
+"2026-09-16 09": {
+"przejscia": 8,
+"tempo": 4.85,
+"tempo_s": 2755,
+"serwis": false,
+"niska_pewnosc_pct": 0.21,
+"rozbieznosc_szac": 8.2
+},
+"2026-09-16 10": {
+"przejscia": 6,
+"tempo": 4.53,
+"tempo_s": 2792,
+"serwis": true,
+"niska_pewnosc_pct": 0.33,
+"rozbieznosc_szac": 9.1,
+"mowa_muzyka_s": 64.0
+},
+"2026-09-16 11": {
+"przejscia": 6,
+"tempo": 4.86,
+"tempo_s": 2963,
+"serwis": false,
+"niska_pewnosc_pct": 0.21,
+"rozbieznosc_szac": 8.2
+},
+"2026-09-16 12": {
+"przejscia": 6,
+"tempo": 4.95,
+"tempo_s": 2995,
+"serwis": false,
+"niska_pewnosc_pct": 0.53,
+"rozbieznosc_szac": 10.4
+},
+"2026-09-16 13": {
+"przejscia": 11,
+"tempo": 4.81,
+"tempo_s": 2941,
+"serwis": false,
+"niska_pewnosc_pct": 0.55,
+"rozbieznosc_szac": 10.6
+},
+"2026-09-16 14": {
+"przejscia": 18,
+"tempo": 5.12,
+"tempo_s": 2089,
+"serwis": false,
+"niska_pewnosc_pct": 0.87,
+"rozbieznosc_szac": 12.8
+},
+"2026-09-16 15": {
+"przejscia": 20,
+"tempo": 3.68,
+"tempo_s": 1583,
+"serwis": false,
+"niska_pewnosc_pct": 0.58,
+"rozbieznosc_szac": 10.8
+},
+"2026-09-16 16": {
+"przejscia": 8,
+"tempo": 4.78,
+"tempo_s": 2899,
+"serwis": false,
+"niska_pewnosc_pct": 0.45,
+"rozbieznosc_szac": 9.9
+},
+"2026-09-16 17": {
+"przejscia": 7,
+"tempo": 5.01,
+"tempo_s": 2594,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.1
+},
+"2026-09-16 18": {
+"przejscia": 10,
+"tempo": 4.76,
+"tempo_s": 1865,
+"serwis": false,
+"niska_pewnosc_pct": 0.3,
+"rozbieznosc_szac": 8.8
+},
+"2026-09-16 19": {
+"przejscia": 20,
+"tempo": null,
+"tempo_s": 25,
+"serwis": false,
+"mowa_muzyka_s": 43.5
+},
+"2026-09-16 20": {
+"przejscia": 4,
+"tempo": 4.24,
+"tempo_s": 3039,
+"serwis": false,
+"niska_pewnosc_pct": 0.36,
+"rozbieznosc_szac": 9.2
+},
+"2026-09-16 21": {
+"przejscia": 23,
+"tempo": 3.92,
+"tempo_s": 1122,
+"serwis": true,
+"niska_pewnosc_pct": 0.86,
+"rozbieznosc_szac": 12.8
+},
+"2026-09-16 22": {
+"przejscia": 14,
+"tempo": 3.95,
+"tempo_s": 886,
+"serwis": false,
+"niska_pewnosc_pct": 0.7,
+"rozbieznosc_szac": 11.6,
+"mowa_muzyka_s": 17.0
+},
+"2026-09-16 23": {
+"przejscia": 4,
+"tempo": 6.04,
+"tempo_s": 2267,
+"serwis": false,
+"niska_pewnosc_pct": 0.41,
+"rozbieznosc_szac": 9.6
+},
+"2026-09-17 00": {
+"przejscia": 11,
+"tempo": 5.13,
+"tempo_s": 2152,
+"serwis": false,
+"niska_pewnosc_pct": 0.53,
+"rozbieznosc_szac": 10.5
+},
+"2026-09-17 01": {
+"przejscia": 6,
+"tempo": 4.79,
+"tempo_s": 2487,
+"serwis": false,
+"niska_pewnosc_pct": 0.22,
+"rozbieznosc_szac": 8.2
+},
+"2026-09-17 02": {
+"przejscia": 16,
+"tempo": 4.32,
+"tempo_s": 1659,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.1
+},
+"2026-09-17 03": {
+"przejscia": 4,
+"tempo": 4.79,
+"tempo_s": 2495,
+"serwis": false,
+"niska_pewnosc_pct": 0.26,
+"rozbieznosc_szac": 8.5
+},
+"2026-09-17 04": {
+"przejscia": 6,
+"tempo": 4.4,
+"tempo_s": 1999,
+"serwis": false,
+"niska_pewnosc_pct": 0.81,
+"rozbieznosc_szac": 12.4
+},
+"2026-09-17 05": {
+"przejscia": 11,
+"tempo": 4.92,
+"tempo_s": 1089,
+"serwis": false,
+"niska_pewnosc_pct": 0.27,
+"rozbieznosc_szac": 8.6,
+"mowa_muzyka_s": 4.5,
+"dwie_transkrypcje": true,
+"rozbieznosc_zmierzona": 15.8
+},
+"2026-09-17 06": {
+"przejscia": 11,
+"tempo": 4.63,
+"tempo_s": 2767,
+"serwis": false,
+"niska_pewnosc_pct": 0.41,
+"rozbieznosc_szac": 9.6
+},
+"2026-09-17 07": {
+"przejscia": 7,
+"tempo": 5.25,
+"tempo_s": 2200,
+"serwis": true,
+"niska_pewnosc_pct": 0.0,
+"rozbieznosc_szac": 6.7
+},
+"2026-09-17 08": {
+"przejscia": 4,
+"tempo": 5.74,
+"tempo_s": 2198,
+"serwis": true,
+"niska_pewnosc_pct": 0.06,
+"rozbieznosc_szac": 7.1,
+"mowa_muzyka_s": 28.5
+},
+"2026-09-17 09": {
+"przejscia": 10,
+"tempo": 4.86,
+"tempo_s": 3014,
+"serwis": false,
+"niska_pewnosc_pct": 0.4,
+"rozbieznosc_szac": 9.5
+},
+"2026-09-17 10": {
+"przejscia": 4,
+"tempo": 6.09,
+"tempo_s": 2255,
+"serwis": true,
+"niska_pewnosc_pct": 0.04,
+"rozbieznosc_szac": 7.0
+},
+"2026-09-17 11": {
+"przejscia": 2,
+"tempo": 5.65,
+"tempo_s": 3252,
+"serwis": false,
+"niska_pewnosc_pct": 0.2,
+"rozbieznosc_szac": 8.1,
+"mowa_muzyka_s": 39.0
+},
+"2026-09-17 12": {
+"przejscia": 4,
+"tempo": 4.6,
+"tempo_s": 2907,
+"serwis": true,
+"niska_pewnosc_pct": 0.47,
+"rozbieznosc_szac": 10.0,
+"mowa_muzyka_s": 50.0
+},
+"2026-09-17 13": {
+"przejscia": 12,
+"tempo": 4.41,
+"tempo_s": 2869,
+"serwis": false,
+"niska_pewnosc_pct": 0.44,
+"rozbieznosc_szac": 9.8,
+"mowa_muzyka_s": 51.5
+},
+"2026-09-17 14": {
+"przejscia": 31,
+"tempo": 4.45,
+"tempo_s": 1934,
+"serwis": false,
+"niska_pewnosc_pct": 0.53,
+"rozbieznosc_szac": 10.4
+},
+"2026-09-17 15": {
+"przejscia": 23,
+"tempo": 5.06,
+"tempo_s": 1964,
+"serwis": false,
+"niska_pewnosc_pct": 0.34,
+"rozbieznosc_szac": 9.1
+},
+"2026-09-17 16": {
+"przejscia": 11,
+"tempo": 6.09,
+"tempo_s": 1994,
+"serwis": false,
+"niska_pewnosc_pct": 0.05,
+"rozbieznosc_szac": 7.1
+},
+"2026-09-17 17": {
+"przejscia": 4,
+"tempo": 5.09,
+"tempo_s": 3173,
+"serwis": false,
+"niska_pewnosc_pct": 0.33,
+"rozbieznosc_szac": 9.0,
+"mowa_muzyka_s": 63.5
+},
+"2026-09-17 18": {
+"przejscia": 21,
+"tempo": 4.82,
+"tempo_s": 1639,
+"serwis": false,
+"niska_pewnosc_pct": 0.74,
+"rozbieznosc_szac": 11.9,
+"mowa_muzyka_s": 47.5
+},
+"2026-09-17 19": {
+"przejscia": 9,
+"tempo": 4.5,
+"tempo_s": 2671,
+"serwis": false,
+"niska_pewnosc_pct": 0.65,
+"rozbieznosc_szac": 11.3
+},
+"2026-09-17 20": {
+"przejscia": 19,
+"tempo": 5.0,
+"tempo_s": 1982,
+"serwis": false,
+"niska_pewnosc_pct": 0.47,
+"rozbieznosc_szac": 10.0
+},
+"2026-09-17 21": {
+"przejscia": 26,
+"tempo": 4.2,
+"tempo_s": 259,
+"serwis": false,
+"niska_pewnosc_pct": 1.98,
+"rozbieznosc_szac": 20.6
+},
+"2026-09-17 22": {
+"przejscia": 34,
+"tempo": 3.2,
+"tempo_s": 198,
+"serwis": false,
+"niska_pewnosc_pct": 5.02,
+"rozbieznosc_szac": 40.0,
+"mowa_muzyka_s": 21.5
+},
+"2026-09-17 23": {
+"przejscia": 7,
+"tempo": 4.66,
+"tempo_s": 2049,
+"serwis": false,
+"niska_pewnosc_pct": 0.89,
+"rozbieznosc_szac": 12.9
+},
+"2026-09-18 00": {
+"przejscia": 9,
+"tempo": 4.63,
+"tempo_s": 2345,
+"serwis": false,
+"niska_pewnosc_pct": 0.43,
+"rozbieznosc_szac": 9.7
+},
+"2026-09-18 01": {
+"przejscia": 12,
+"tempo": 4.73,
+"tempo_s": 2243,
+"serwis": false,
+"niska_pewnosc_pct": 0.33,
+"rozbieznosc_szac": 9.0
+},
+"2026-09-18 02": {
+"przejscia": 13,
+"tempo": 5.24,
+"tempo_s": 2052,
+"serwis": false,
+"niska_pewnosc_pct": 0.49,
+"rozbieznosc_szac": 10.1
+},
+"2026-09-18 03": {
+"przejscia": 5,
+"tempo": 5.81,
+"tempo_s": 2221,
+"serwis": false,
+"niska_pewnosc_pct": 0.39,
+"rozbieznosc_szac": 9.5
+},
+"2026-09-18 04": {
+"przejscia": 5,
+"tempo": 4.79,
+"tempo_s": 2928,
+"serwis": false,
+"niska_pewnosc_pct": 0.35,
+"rozbieznosc_szac": 9.2
+},
+"2026-09-18 05": {
+"przejscia": 12,
+"tempo": 4.01,
+"tempo_s": 324,
+"serwis": false,
+"niska_pewnosc_pct": 0.68,
+"rozbieznosc_szac": 11.5,
+"mowa_muzyka_s": 5.0
+},
+"2026-09-18 06": {
+"przejscia": 13,
+"tempo": null,
+"tempo_s": 44,
+"serwis": false,
+"mowa_muzyka_s": 14.0
+},
+"2026-09-18 07": {
+"przejscia": 4,
+"tempo": 4.77,
+"tempo_s": 3229,
+"serwis": false,
+"niska_pewnosc_pct": 0.42,
+"rozbieznosc_szac": 9.7,
+"mowa_muzyka_s": 73.0
+},
+"2026-09-18 08": {
+"przejscia": 4,
+"tempo": 5.0,
+"tempo_s": 3273,
+"serwis": false,
+"niska_pewnosc_pct": 0.32,
+"rozbieznosc_szac": 9.0,
+"mowa_muzyka_s": 47.5
+},
+"2026-09-18 09": {
+"przejscia": 3,
+"tempo": 5.07,
+"tempo_s": 3417,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.1,
+"mowa_muzyka_s": 71.0
+},
+"2026-09-18 10": {
+"przejscia": 3,
+"tempo": 5.9,
+"tempo_s": 2393,
+"serwis": true,
+"niska_pewnosc_pct": 0.01,
+"rozbieznosc_szac": 6.8
+},
+"2026-09-18 11": {
+"przejscia": 6,
+"tempo": 4.87,
+"tempo_s": 3351,
+"serwis": false,
+"niska_pewnosc_pct": 0.25,
+"rozbieznosc_szac": 8.5,
+"mowa_muzyka_s": 30.0
+},
+"2026-09-18 12": {
+"przejscia": 2,
+"tempo": 5.25,
+"tempo_s": 3373,
+"serwis": false,
+"niska_pewnosc_pct": 0.39,
+"rozbieznosc_szac": 9.5
+},
+"2026-09-18 13": {
+"przejscia": 5,
+"tempo": 5.61,
+"tempo_s": 2779,
+"serwis": false,
+"niska_pewnosc_pct": 0.41,
+"rozbieznosc_szac": 9.6,
+"mowa_muzyka_s": 6.0
+},
+"2026-09-18 14": {
+"przejscia": 30,
+"tempo": 3.89,
+"tempo_s": 122,
+"serwis": false,
+"niska_pewnosc_pct": 2.09,
+"rozbieznosc_szac": 21.4,
+"mowa_muzyka_s": 43.0
+},
+"2026-09-18 15": {
+"przejscia": 9,
+"tempo": 3.53,
+"tempo_s": 2374,
+"serwis": false,
+"niska_pewnosc_pct": 2.46,
+"rozbieznosc_szac": 24.0
+},
+"2026-09-18 16": {
+"przejscia": 5,
+"tempo": 4.56,
+"tempo_s": 2972,
+"serwis": false,
+"niska_pewnosc_pct": 0.41,
+"rozbieznosc_szac": 9.6,
+"mowa_muzyka_s": 75.0
+},
+"2026-09-18 17": {
+"przejscia": 9,
+"tempo": 5.11,
+"tempo_s": 1801,
+"serwis": false,
+"niska_pewnosc_pct": 0.29,
+"rozbieznosc_szac": 8.8,
+"mowa_muzyka_s": 101.0
+},
+"2026-09-18 18": {
+"przejscia": 12,
+"tempo": 4.96,
+"tempo_s": 1368,
+"serwis": false,
+"niska_pewnosc_pct": 0.51,
+"rozbieznosc_szac": 10.3
+},
+"2026-09-18 19": {
+"przejscia": 18,
+"tempo": null,
+"tempo_s": 95,
+"serwis": false,
+"mowa_muzyka_s": 50.5
+},
+"2026-09-18 20": {
+"przejscia": 15,
+"tempo": null,
+"tempo_s": 115,
+"serwis": false,
+"niska_pewnosc_pct": 2.58,
+"rozbieznosc_szac": 24.8,
+"mowa_muzyka_s": 53.5
+},
+"2026-09-18 21": {
+"przejscia": 8,
+"tempo": 4.01,
+"tempo_s": 2278,
+"serwis": false,
+"niska_pewnosc_pct": 1.03,
+"rozbieznosc_szac": 14.0
+},
+"2026-09-18 22": {
+"przejscia": 27,
+"tempo": 3.99,
+"tempo_s": 1572,
+"serwis": false,
+"niska_pewnosc_pct": 0.73,
+"rozbieznosc_szac": 11.8
+},
+"2026-09-18 23": {
+"przejscia": 7,
+"tempo": 4.63,
+"tempo_s": 2460,
+"serwis": false,
+"niska_pewnosc_pct": 0.65,
+"rozbieznosc_szac": 11.3
+},
+"2026-09-19 00": {
+"przejscia": 5,
+"tempo": 5.15,
+"tempo_s": 2281,
+"serwis": false,
+"niska_pewnosc_pct": 0.37,
+"rozbieznosc_szac": 9.3
+},
+"2026-09-19 01": {
+"przejscia": 9,
+"tempo": 4.87,
+"tempo_s": 2492,
+"serwis": false,
+"niska_pewnosc_pct": 0.76,
+"rozbieznosc_szac": 12.1
+},
+"2026-09-19 02": {
+"przejscia": 7,
+"tempo": 4.66,
+"tempo_s": 2998,
+"serwis": false,
+"niska_pewnosc_pct": 0.59,
+"rozbieznosc_szac": 10.8
+},
+"2026-09-19 03": {
+"przejscia": 3,
+"tempo": 5.27,
+"tempo_s": 2574,
+"serwis": false,
+"niska_pewnosc_pct": 0.41,
+"rozbieznosc_szac": 9.6
+},
+"2026-09-19 04": {
+"przejscia": 7,
+"tempo": 4.99,
+"tempo_s": 2115,
+"serwis": false,
+"niska_pewnosc_pct": 0.2,
+"rozbieznosc_szac": 8.1
+},
+"2026-09-19 05": {
+"przejscia": 14,
+"tempo": null,
+"tempo_s": 7,
+"serwis": false,
+"mowa_muzyka_s": 6.0
+},
+"2026-09-19 06": {
+"przejscia": 16,
+"tempo": null,
+"tempo_s": 13,
+"serwis": false,
+"mowa_muzyka_s": 2.0
+},
+"2026-09-19 07": {
+"przejscia": 26,
+"tempo": null,
+"tempo_s": 22,
+"serwis": false,
+"mowa_muzyka_s": 8.5
+},
+"2026-09-19 08": {
+"przejscia": 1,
+"tempo": 3.92,
+"tempo_s": 3218,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.1,
+"mowa_muzyka_s": 35.0
+},
+"2026-09-19 09": {
+"przejscia": 6,
+"tempo": 4.67,
+"tempo_s": 3305,
+"serwis": false,
+"niska_pewnosc_pct": 0.45,
+"rozbieznosc_szac": 9.9
+},
+"2026-09-19 10": {
+"przejscia": 10,
+"tempo": 4.51,
+"tempo_s": 2802,
+"serwis": false,
+"niska_pewnosc_pct": 0.65,
+"rozbieznosc_szac": 11.3
+},
+"2026-09-19 11": {
+"przejscia": 13,
+"tempo": 4.68,
+"tempo_s": 234,
+"serwis": false,
+"niska_pewnosc_pct": 0.41,
+"rozbieznosc_szac": 9.6,
+"mowa_muzyka_s": 41.0
+},
+"2026-09-19 12": {
+"przejscia": 7,
+"tempo": 5.57,
+"tempo_s": 2607,
+"serwis": false,
+"niska_pewnosc_pct": 0.54,
+"rozbieznosc_szac": 10.5
+},
+"2026-09-19 13": {
+"przejscia": 23,
+"tempo": 4.26,
+"tempo_s": 1178,
+"serwis": true,
+"niska_pewnosc_pct": 1.21,
+"rozbieznosc_szac": 15.2,
+"mowa_muzyka_s": 174.0
+},
+"2026-09-19 14": {
+"przejscia": 18,
+"tempo": 4.36,
+"tempo_s": 1775,
+"serwis": false,
+"niska_pewnosc_pct": 0.54,
+"rozbieznosc_szac": 10.5,
+"mowa_muzyka_s": 183.5
+},
+"2026-09-19 15": {
+"przejscia": 15,
+"tempo": 4.66,
+"tempo_s": 1628,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.1,
+"mowa_muzyka_s": 119.0
+},
+"2026-09-19 16": {
+"przejscia": 7,
+"tempo": 4.59,
+"tempo_s": 1948,
+"serwis": false,
+"niska_pewnosc_pct": 0.35,
+"rozbieznosc_szac": 9.2
+},
+"2026-09-19 17": {
+"przejscia": 10,
+"tempo": 4.36,
+"tempo_s": 288,
+"serwis": false,
+"niska_pewnosc_pct": 0.35,
+"rozbieznosc_szac": 9.2,
+"mowa_muzyka_s": 95.5
+},
+"2026-09-19 18": {
+"przejscia": 24,
+"tempo": 4.79,
+"tempo_s": 211,
+"serwis": false,
+"niska_pewnosc_pct": 0.41,
+"rozbieznosc_szac": 9.6,
+"mowa_muzyka_s": 70.0
+},
+"2026-09-19 19": {
+"przejscia": 14,
+"tempo": null,
+"tempo_s": 82,
+"serwis": false,
+"mowa_muzyka_s": 40.5
+},
+"2026-09-19 20": {
+"przejscia": 17,
+"tempo": 4.28,
+"tempo_s": 1832,
+"serwis": false,
+"niska_pewnosc_pct": 0.74,
+"rozbieznosc_szac": 11.9
+},
+"2026-09-19 21": {
+"przejscia": 6,
+"tempo": 4.55,
+"tempo_s": 2507,
+"serwis": false,
+"niska_pewnosc_pct": 0.45,
+"rozbieznosc_szac": 9.8
+},
+"2026-09-19 22": {
+"przejscia": 16,
+"tempo": 4.61,
+"tempo_s": 1851,
+"serwis": false,
+"niska_pewnosc_pct": 0.63,
+"rozbieznosc_szac": 11.1
+},
+"2026-09-19 23": {
+"przejscia": 2,
+"tempo": 4.4,
+"tempo_s": 3047,
+"serwis": false,
+"niska_pewnosc_pct": 0.44,
+"rozbieznosc_szac": 9.8
+},
+"2026-09-20 00": {
+"przejscia": 1,
+"tempo": 4.91,
+"tempo_s": 2981,
+"serwis": false,
+"niska_pewnosc_pct": 0.43,
+"rozbieznosc_szac": 9.7,
+"mowa_muzyka_s": 1.5
+},
+"2026-09-20 01": {
+"przejscia": 3,
+"tempo": 4.66,
+"tempo_s": 2650,
+"serwis": false,
+"niska_pewnosc_pct": 0.51,
+"rozbieznosc_szac": 10.3
+},
+"2026-09-20 02": {
+"przejscia": 4,
+"tempo": 4.68,
+"tempo_s": 2856,
+"serwis": false,
+"niska_pewnosc_pct": 0.45,
+"rozbieznosc_szac": 9.9
+},
+"2026-09-20 03": {
+"przejscia": 8,
+"tempo": 4.63,
+"tempo_s": 2649,
+"serwis": false,
+"niska_pewnosc_pct": 0.39,
+"rozbieznosc_szac": 9.4
+},
+"2026-09-20 04": {
+"przejscia": 5,
+"tempo": 4.79,
+"tempo_s": 3022,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.1
+},
+"2026-09-20 05": {
+"przejscia": 8,
+"tempo": null,
+"tempo_s": 3,
+"serwis": false,
+"mowa_muzyka_s": 4.5
+},
+"2026-09-20 06": {
+"przejscia": 16,
+"tempo": null,
+"tempo_s": 21,
+"serwis": false,
+"mowa_muzyka_s": 4.0
+},
+"2026-09-20 07": {
+"przejscia": 14,
+"tempo": null,
+"tempo_s": 31,
+"serwis": false,
+"mowa_muzyka_s": 7.0
+},
+"2026-09-20 08": {
+"przejscia": 5,
+"tempo": 4.13,
+"tempo_s": 2814,
+"serwis": false,
+"niska_pewnosc_pct": 0.2,
+"rozbieznosc_szac": 8.1
+},
+"2026-09-20 09": {
+"przejscia": 19,
+"tempo": 4.33,
+"tempo_s": 362,
+"serwis": false,
+"niska_pewnosc_pct": 1.65,
+"rozbieznosc_szac": 18.3,
+"mowa_muzyka_s": 89.5
+},
+"2026-09-20 10": {
+"przejscia": 16,
+"tempo": null,
+"tempo_s": 79,
+"serwis": true,
+"mowa_muzyka_s": 49.5
+},
+"2026-09-20 11": {
+"przejscia": 3,
+"tempo": 4.54,
+"tempo_s": 3154,
+"serwis": true,
+"niska_pewnosc_pct": 0.36,
+"rozbieznosc_szac": 9.2
+},
+"2026-09-20 12": {
+"przejscia": 9,
+"tempo": 4.3,
+"tempo_s": 1296,
+"serwis": false,
+"niska_pewnosc_pct": 0.34,
+"rozbieznosc_szac": 9.1
+},
+"2026-09-20 13": {
+"przejscia": 12,
+"tempo": 5.71,
+"tempo_s": 2969,
+"serwis": false,
+"niska_pewnosc_pct": 0.32,
+"rozbieznosc_szac": 9.0
+},
+"2026-09-20 14": {
+"przejscia": 0,
+"tempo": 4.45,
+"tempo_s": 3449,
+"serwis": false,
+"niska_pewnosc_pct": 0.55,
+"rozbieznosc_szac": 10.6,
+"mowa_muzyka_s": 16.5
+},
+"2026-09-20 15": {
+"przejscia": 8,
+"tempo": 4.79,
+"tempo_s": 2811,
+"serwis": false,
+"niska_pewnosc_pct": 0.39,
+"rozbieznosc_szac": 9.5
+},
+"2026-09-20 16": {
+"przejscia": 27,
+"tempo": 4.08,
+"tempo_s": 1206,
+"serwis": false,
+"niska_pewnosc_pct": 1.03,
+"rozbieznosc_szac": 14.0,
+"mowa_muzyka_s": 52.0
+},
+"2026-09-20 17": {
+"przejscia": 1,
+"tempo": 4.29,
+"tempo_s": 3453,
+"serwis": false,
+"niska_pewnosc_pct": 0.46,
+"rozbieznosc_szac": 9.9,
+"mowa_muzyka_s": 5.5
+},
+"2026-09-20 18": {
+"przejscia": 2,
+"tempo": 4.56,
+"tempo_s": 3185,
+"serwis": true,
+"niska_pewnosc_pct": 0.33,
+"rozbieznosc_szac": 9.0
+},
+"2026-09-20 19": {
+"przejscia": 26,
+"tempo": 4.44,
+"tempo_s": 2128,
+"serwis": true,
+"niska_pewnosc_pct": 0.71,
+"rozbieznosc_szac": 11.7
+},
+"2026-09-20 20": {
+"przejscia": 19,
+"tempo": 4.29,
+"tempo_s": 2330,
+"serwis": false,
+"niska_pewnosc_pct": 0.76,
+"rozbieznosc_szac": 12.1
+},
+"2026-09-20 21": {
+"przejscia": 21,
+"tempo": 4.33,
+"tempo_s": 1348,
+"serwis": false,
+"niska_pewnosc_pct": 0.89,
+"rozbieznosc_szac": 13.0
+},
+"2026-09-20 22": {
+"przejscia": 14,
+"tempo": null,
+"tempo_s": 21,
+"serwis": false,
+"mowa_muzyka_s": 12.5
+},
+"2026-09-20 23": {
+"przejscia": 24,
+"tempo": 4.85,
+"tempo_s": 1181,
+"serwis": false,
+"niska_pewnosc_pct": 0.72,
+"rozbieznosc_szac": 11.8
+},
+"2026-09-21 00": {
+"przejscia": 25,
+"tempo": 4.55,
+"tempo_s": 1520,
+"serwis": false,
+"niska_pewnosc_pct": 0.28,
+"rozbieznosc_szac": 8.7
+},
+"2026-09-21 01": {
+"przejscia": 14,
+"tempo": 4.44,
+"tempo_s": 2276,
+"serwis": false,
+"niska_pewnosc_pct": 0.31,
+"rozbieznosc_szac": 8.9
+},
+"2026-09-21 02": {
+"przejscia": 9,
+"tempo": 4.53,
+"tempo_s": 2467,
+"serwis": false,
+"niska_pewnosc_pct": 0.28,
+"rozbieznosc_szac": 8.6
+},
+"2026-09-21 03": {
+"przejscia": 3,
+"tempo": 4.79,
+"tempo_s": 3120,
+"serwis": false,
+"niska_pewnosc_pct": 0.25,
+"rozbieznosc_szac": 8.5
+},
+"2026-09-21 04": {
+"przejscia": 1,
+"tempo": 4.41,
+"tempo_s": 3216,
+"serwis": false,
+"niska_pewnosc_pct": 0.61,
+"rozbieznosc_szac": 11.0
+},
+"2026-09-21 05": {
+"przejscia": 18,
+"tempo": null,
+"tempo_s": 81,
+"serwis": false,
+"niska_pewnosc_pct": 1.0,
+"rozbieznosc_szac": 13.7,
+"mowa_muzyka_s": 2.5,
+"dwie_transkrypcje": true
+},
+"2026-09-21 06": {
+"przejscia": 11,
+"tempo": 3.98,
+"tempo_s": 2694,
+"serwis": false,
+"niska_pewnosc_pct": 0.45,
+"rozbieznosc_szac": 9.9
+},
+"2026-09-21 07": {
+"przejscia": 7,
+"tempo": 5.02,
+"tempo_s": 2979,
+"serwis": false,
+"niska_pewnosc_pct": 0.26,
+"rozbieznosc_szac": 8.6
+},
+"2026-09-21 08": {
+"przejscia": 6,
+"tempo": 5.15,
+"tempo_s": 3042,
+"serwis": false,
+"niska_pewnosc_pct": 0.28,
+"rozbieznosc_szac": 8.7,
+"mowa_muzyka_s": 54.5
+},
+"2026-09-21 09": {
+"przejscia": 7,
+"tempo": 4.36,
+"tempo_s": 2384,
+"serwis": true,
+"niska_pewnosc_pct": 0.27,
+"rozbieznosc_szac": 8.6
+},
+"2026-09-21 10": {
+"przejscia": 8,
+"tempo": 6.11,
+"tempo_s": 2254,
+"serwis": true,
+"niska_pewnosc_pct": 0.04,
+"rozbieznosc_szac": 7.0,
+"mowa_muzyka_s": 87.5
+},
+"2026-09-21 11": {
+"przejscia": 0,
+"tempo": 4.62,
+"tempo_s": 3487,
+"serwis": false,
+"niska_pewnosc_pct": 0.65,
+"rozbieznosc_szac": 11.3,
+"mowa_muzyka_s": 10.5
+},
+"2026-09-21 12": {
+"przejscia": 6,
+"tempo": 4.47,
+"tempo_s": 2929,
+"serwis": false,
+"niska_pewnosc_pct": 0.45,
+"rozbieznosc_szac": 9.9
+},
+"2026-09-21 13": {
+"przejscia": 13,
+"tempo": 4.6,
+"tempo_s": 2737,
+"serwis": false,
+"niska_pewnosc_pct": 0.33,
+"rozbieznosc_szac": 9.0
+},
+"2026-09-21 14": {
+"przejscia": 19,
+"tempo": null,
+"tempo_s": 81,
+"serwis": false,
+"mowa_muzyka_s": 12.0
+},
+"2026-09-21 15": {
+"przejscia": 24,
+"tempo": 4.16,
+"tempo_s": 1540,
+"serwis": false,
+"niska_pewnosc_pct": 1.23,
+"rozbieznosc_szac": 15.4
+},
+"2026-09-21 16": {
+"przejscia": 3,
+"tempo": 4.7,
+"tempo_s": 2985,
+"serwis": false,
+"niska_pewnosc_pct": 0.66,
+"rozbieznosc_szac": 11.4,
+"mowa_muzyka_s": 57.0
+},
+"2026-09-21 17": {
+"przejscia": 4,
+"tempo": 5.22,
+"tempo_s": 3347,
+"serwis": false,
+"niska_pewnosc_pct": 0.31,
+"rozbieznosc_szac": 8.9
+},
+"2026-09-21 18": {
+"przejscia": 2,
+"tempo": 4.58,
+"tempo_s": 3436,
+"serwis": false,
+"niska_pewnosc_pct": 0.62,
+"rozbieznosc_szac": 11.1,
+"mowa_muzyka_s": 42.0
+},
+"2026-09-21 19": {
+"przejscia": 11,
+"tempo": 4.46,
+"tempo_s": 2201,
+"serwis": false,
+"niska_pewnosc_pct": 0.57,
+"rozbieznosc_szac": 10.7
+},
+"2026-09-21 20": {
+"przejscia": 20,
+"tempo": 3.9,
+"tempo_s": 998,
+"serwis": false,
+"niska_pewnosc_pct": 0.29,
+"rozbieznosc_szac": 8.7,
+"mowa_muzyka_s": 5.5
+},
+"2026-09-21 21": {
+"przejscia": 26,
+"tempo": 3.89,
+"tempo_s": 428,
+"serwis": false,
+"niska_pewnosc_pct": 0.63,
+"rozbieznosc_szac": 11.1,
+"mowa_muzyka_s": 0.0
+},
+"2026-09-21 22": {
+"przejscia": 12,
+"tempo": null,
+"tempo_s": 26,
+"serwis": false,
+"mowa_muzyka_s": 22.0
+},
+"2026-09-21 23": {
+"przejscia": 8,
+"tempo": 5.11,
+"tempo_s": 2238,
+"serwis": false,
+"niska_pewnosc_pct": 0.54,
+"rozbieznosc_szac": 10.5
+},
+"2026-09-22 00": {
+"przejscia": 8,
+"tempo": 5.12,
+"tempo_s": 2420,
+"serwis": false,
+"niska_pewnosc_pct": 0.35,
+"rozbieznosc_szac": 9.2
+},
+"2026-09-22 01": {
+"przejscia": 12,
+"tempo": 4.4,
+"tempo_s": 2011,
+"serwis": false,
+"niska_pewnosc_pct": 0.4,
+"rozbieznosc_szac": 9.5
+},
+"2026-09-22 02": {
+"przejscia": 3,
+"tempo": 4.72,
+"tempo_s": 2746,
+"serwis": false,
+"niska_pewnosc_pct": 0.6,
+"rozbieznosc_szac": 10.9
+},
+"2026-09-22 03": {
+"przejscia": 5,
+"tempo": 4.98,
+"tempo_s": 3222,
+"serwis": false,
+"niska_pewnosc_pct": 0.51,
+"rozbieznosc_szac": 10.3
+},
+"2026-09-22 04": {
+"przejscia": 16,
+"tempo": 4.2,
+"tempo_s": 1149,
+"serwis": false,
+"niska_pewnosc_pct": 0.27,
+"rozbieznosc_szac": 8.6,
+"mowa_muzyka_s": 38.5
+},
+"2026-09-22 05": {
+"przejscia": 22,
+"tempo": null,
+"tempo_s": 3,
+"serwis": false,
+"mowa_muzyka_s": 0.0
+},
+"2026-09-22 06": {
+"przejscia": 10,
+"tempo": 5.37,
+"tempo_s": 2975,
+"serwis": false,
+"niska_pewnosc_pct": 0.31,
+"rozbieznosc_szac": 8.9
+},
+"2026-09-22 07": {
+"przejscia": 6,
+"tempo": 4.96,
+"tempo_s": 2751,
+"serwis": true,
+"niska_pewnosc_pct": 0.27,
+"rozbieznosc_szac": 8.6,
+"mowa_muzyka_s": 33.0
+},
+"2026-09-22 08": {
+"przejscia": 11,
+"tempo": 5.09,
+"tempo_s": 2944,
+"serwis": false,
+"niska_pewnosc_pct": 0.23,
+"rozbieznosc_szac": 8.3
+},
+"2026-09-22 09": {
+"przejscia": 8,
+"tempo": 4.95,
+"tempo_s": 2768,
+"serwis": false,
+"niska_pewnosc_pct": 0.28,
+"rozbieznosc_szac": 8.7
+},
+"2026-09-22 10": {
+"przejscia": 4,
+"tempo": 5.16,
+"tempo_s": 2926,
+"serwis": false,
+"niska_pewnosc_pct": 0.74,
+"rozbieznosc_szac": 11.9,
+"mowa_muzyka_s": 70.0
+},
+"2026-09-22 11": {
+"przejscia": 6,
+"tempo": 4.84,
+"tempo_s": 3233,
+"serwis": false,
+"niska_pewnosc_pct": 0.75,
+"rozbieznosc_szac": 12.0,
+"mowa_muzyka_s": 17.0
+},
+"2026-09-22 12": {
+"przejscia": 6,
+"tempo": 4.65,
+"tempo_s": 3095,
+"serwis": false,
+"niska_pewnosc_pct": 0.23,
+"rozbieznosc_szac": 8.3,
+"mowa_muzyka_s": 13.5
+},
+"2026-09-22 13": {
+"przejscia": 20,
+"tempo": 4.76,
+"tempo_s": 2991,
+"serwis": false,
+"niska_pewnosc_pct": 0.33,
+"rozbieznosc_szac": 9.0,
+"mowa_muzyka_s": 33.0
+},
+"2026-09-22 14": {
+"przejscia": 9,
+"tempo": 5.0,
+"tempo_s": 2387,
+"serwis": true,
+"niska_pewnosc_pct": 0.75,
+"rozbieznosc_szac": 12.0
+},
+"2026-09-22 15": {
+"przejscia": 18,
+"tempo": 4.65,
+"tempo_s": 1889,
+"serwis": false,
+"niska_pewnosc_pct": 0.51,
+"rozbieznosc_szac": 10.3
+},
+"2026-09-22 16": {
+"przejscia": 15,
+"tempo": 4.64,
+"tempo_s": 2624,
+"serwis": false,
+"niska_pewnosc_pct": 0.4,
+"rozbieznosc_szac": 9.6
+},
+"2026-09-22 17": {
+"przejscia": 4,
+"tempo": 4.24,
+"tempo_s": 2986,
+"serwis": false,
+"niska_pewnosc_pct": 0.24,
+"rozbieznosc_szac": 8.4
+},
+"2026-09-22 18": {
+"przejscia": 2,
+"tempo": 5.38,
+"tempo_s": 3201,
+"serwis": true,
+"niska_pewnosc_pct": 0.54,
+"rozbieznosc_szac": 10.5,
+"mowa_muzyka_s": 33.5
+},
+"2026-09-22 19": {
+"przejscia": 7,
+"tempo": 5.52,
+"tempo_s": 1557,
+"serwis": false,
+"niska_pewnosc_pct": 0.6,
+"rozbieznosc_szac": 10.9
+},
+"2026-09-22 20": {
+"przejscia": 2,
+"tempo": 4.86,
+"tempo_s": 3317,
+"serwis": false,
+"niska_pewnosc_pct": 0.31,
+"rozbieznosc_szac": 8.9,
+"mowa_muzyka_s": 34.5
+},
+"2026-09-22 21": {
+"przejscia": 5,
+"tempo": 4.89,
+"tempo_s": 2691,
+"serwis": false,
+"niska_pewnosc_pct": 0.32,
+"rozbieznosc_szac": 9.0
+},
+"2026-09-22 22": {
+"przejscia": 11,
+"tempo": 4.37,
+"tempo_s": 2689,
+"serwis": false,
+"niska_pewnosc_pct": 11.97,
+"rozbieznosc_szac": 40.0
+},
+"2026-09-22 23": {
+"przejscia": 8,
+"tempo": 4.98,
+"tempo_s": 2782,
+"serwis": false,
+"niska_pewnosc_pct": 0.28,
+"rozbieznosc_szac": 8.7
+},
+"2026-09-23 00": {
+"przejscia": 6,
+"tempo": 5.06,
+"tempo_s": 2309,
+"serwis": false,
+"niska_pewnosc_pct": 0.36,
+"rozbieznosc_szac": 9.2
+},
+"2026-09-23 01": {
+"przejscia": 8,
+"tempo": 4.88,
+"tempo_s": 2443,
+"serwis": false,
+"niska_pewnosc_pct": 0.31,
+"rozbieznosc_szac": 8.9
+},
+"2026-09-23 02": {
+"przejscia": 4,
+"tempo": 5.09,
+"tempo_s": 3001,
+"serwis": false,
+"niska_pewnosc_pct": 1.35,
+"rozbieznosc_szac": 16.2,
+"mowa_muzyka_s": 2.0
+},
+"2026-09-23 03": {
+"przejscia": 6,
+"tempo": 4.63,
+"tempo_s": 2640,
+"serwis": false,
+"niska_pewnosc_pct": 0.59,
+"rozbieznosc_szac": 10.9
+},
+"2026-09-23 04": {
+"przejscia": 5,
+"tempo": 4.94,
+"tempo_s": 1573,
+"serwis": false,
+"niska_pewnosc_pct": 0.69,
+"rozbieznosc_szac": 11.6
+},
+"2026-09-23 05": {
+"przejscia": 15,
+"tempo": null,
+"tempo_s": 31,
+"serwis": false,
+"mowa_muzyka_s": 11.5,
+"dwie_transkrypcje": true
+},
+"2026-09-23 06": {
+"przejscia": 16,
+"tempo": 4.45,
+"tempo_s": 2636,
+"serwis": false,
+"niska_pewnosc_pct": 0.31,
+"rozbieznosc_szac": 8.9
+},
+"2026-09-23 07": {
+"przejscia": 5,
+"tempo": 5.33,
+"tempo_s": 2878,
+"serwis": false,
+"niska_pewnosc_pct": 0.4,
+"rozbieznosc_szac": 9.5
+},
+"2026-09-23 08": {
+"przejscia": 2,
+"tempo": 5.16,
+"tempo_s": 3397,
+"serwis": false,
+"niska_pewnosc_pct": 0.47,
+"rozbieznosc_szac": 10.0,
+"mowa_muzyka_s": 25.5
+},
+"2026-09-23 09": {
+"przejscia": 6,
+"tempo": 5.22,
+"tempo_s": 3011,
+"serwis": false,
+"niska_pewnosc_pct": 0.28,
+"rozbieznosc_szac": 8.7
+},
+"2026-09-23 10": {
+"przejscia": 6,
+"tempo": 4.68,
+"tempo_s": 3163,
+"serwis": false,
+"niska_pewnosc_pct": 0.32,
+"rozbieznosc_szac": 8.9,
+"mowa_muzyka_s": 32.5
+},
+"2026-09-23 11": {
+"przejscia": 4,
+"tempo": 4.55,
+"tempo_s": 3288,
+"serwis": false,
+"niska_pewnosc_pct": 0.35,
+"rozbieznosc_szac": 9.2,
+"mowa_muzyka_s": 21.0
+},
+"2026-09-23 12": {
+"przejscia": 2,
+"tempo": 4.99,
+"tempo_s": 3294,
+"serwis": false,
+"niska_pewnosc_pct": 0.4,
+"rozbieznosc_szac": 9.5
+},
+"2026-09-23 13": {
+"przejscia": 2,
+"tempo": 5.44,
+"tempo_s": 3514,
+"serwis": false,
+"niska_pewnosc_pct": 0.56,
+"rozbieznosc_szac": 10.6,
+"mowa_muzyka_s": 8.0
+},
+"2026-09-23 14": {
+"przejscia": 5,
+"tempo": 5.46,
+"tempo_s": 2078,
+"serwis": false,
+"niska_pewnosc_pct": 0.43,
+"rozbieznosc_szac": 9.7
+},
+"2026-09-23 15": {
+"przejscia": 16,
+"tempo": 5.51,
+"tempo_s": 1966,
+"serwis": false,
+"niska_pewnosc_pct": 0.49,
+"rozbieznosc_szac": 10.2
+},
+"2026-09-23 16": {
+"przejscia": 10,
+"tempo": 4.77,
+"tempo_s": 2568,
+"serwis": false,
+"niska_pewnosc_pct": 0.31,
+"rozbieznosc_szac": 8.9
+},
+"2026-09-23 17": {
+"przejscia": 2,
+"tempo": 4.74,
+"tempo_s": 3220,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.1,
+"mowa_muzyka_s": 76.0
+},
+"2026-09-23 18": {
+"przejscia": 5,
+"tempo": 4.76,
+"tempo_s": 1920,
+"serwis": false,
+"niska_pewnosc_pct": 0.42,
+"rozbieznosc_szac": 9.7
+},
+"2026-09-23 19": {
+"przejscia": 18,
+"tempo": null,
+"tempo_s": 85,
+"serwis": false
+},
+"2026-09-23 20": {
+"przejscia": 17,
+"tempo": 4.6,
+"tempo_s": 2729,
+"serwis": false,
+"niska_pewnosc_pct": 0.35,
+"rozbieznosc_szac": 9.2
+},
+"2026-09-23 21": {
+"przejscia": 11,
+"tempo": 4.26,
+"tempo_s": 1103,
+"serwis": false,
+"niska_pewnosc_pct": 0.58,
+"rozbieznosc_szac": 10.8,
+"mowa_muzyka_s": 63.0
+},
+"2026-09-23 22": {
+"przejscia": 11,
+"tempo": 4.35,
+"tempo_s": 707,
+"serwis": false,
+"niska_pewnosc_pct": 0.36,
+"rozbieznosc_szac": 9.2,
+"mowa_muzyka_s": 62.5
+},
+"2026-09-23 23": {
+"przejscia": 9,
+"tempo": 5.34,
+"tempo_s": 2842,
+"serwis": false,
+"niska_pewnosc_pct": 0.59,
+"rozbieznosc_szac": 10.8
+},
+"2026-09-24 00": {
+"przejscia": 7,
+"tempo": 5.07,
+"tempo_s": 2625,
+"serwis": false,
+"niska_pewnosc_pct": 0.54,
+"rozbieznosc_szac": 10.5
+},
+"2026-09-24 01": {
+"przejscia": 12,
+"tempo": 5.19,
+"tempo_s": 2321,
+"serwis": false,
+"niska_pewnosc_pct": 0.18,
+"rozbieznosc_szac": 8.0
+},
+"2026-09-24 02": {
+"przejscia": 7,
+"tempo": 4.63,
+"tempo_s": 3025,
+"serwis": false,
+"niska_pewnosc_pct": 0.38,
+"rozbieznosc_szac": 9.4
+},
+"2026-09-24 03": {
+"przejscia": 5,
+"tempo": 4.53,
+"tempo_s": 3001,
+"serwis": false,
+"niska_pewnosc_pct": 0.47,
+"rozbieznosc_szac": 10.0,
+"mowa_muzyka_s": 4.5
+},
+"2026-09-24 04": {
+"przejscia": 9,
+"tempo": 4.36,
+"tempo_s": 1079,
+"serwis": true,
+"niska_pewnosc_pct": 0.85,
+"rozbieznosc_szac": 12.7
+},
+"2026-09-24 05": {
+"przejscia": 24,
+"tempo": null,
+"tempo_s": 5,
+"serwis": false,
+"mowa_muzyka_s": 4.0,
+"dwie_transkrypcje": true
+},
+"2026-09-24 06": {
+"przejscia": 28,
+"tempo": null,
+"tempo_s": 66,
+"serwis": false,
+"mowa_muzyka_s": 22.5
+},
+"2026-09-24 07": {
+"przejscia": 4,
+"tempo": 4.27,
+"tempo_s": 2772,
+"serwis": true,
+"niska_pewnosc_pct": 0.4,
+"rozbieznosc_szac": 9.5,
+"mowa_muzyka_s": 74.0
+},
+"2026-09-24 08": {
+"przejscia": 0,
+"tempo": 5.26,
+"tempo_s": 3475,
+"serwis": false,
+"niska_pewnosc_pct": 0.36,
+"rozbieznosc_szac": 9.2,
+"mowa_muzyka_s": 15.0
+},
+"2026-09-24 09": {
+"przejscia": 8,
+"tempo": 5.08,
+"tempo_s": 2725,
+"serwis": false,
+"niska_pewnosc_pct": 0.66,
+"rozbieznosc_szac": 11.3
+},
+"2026-09-24 10": {
+"przejscia": 4,
+"tempo": 4.85,
+"tempo_s": 2784,
+"serwis": true,
+"niska_pewnosc_pct": 0.37,
+"rozbieznosc_szac": 9.3
+},
+"2026-09-24 11": {
+"przejscia": 2,
+"tempo": 4.75,
+"tempo_s": 3321,
+"serwis": false,
+"niska_pewnosc_pct": 0.6,
+"rozbieznosc_szac": 10.9,
+"mowa_muzyka_s": 3.0
+},
+"2026-09-24 12": {
+"przejscia": 6,
+"tempo": 5.36,
+"tempo_s": 1818,
+"serwis": false,
+"niska_pewnosc_pct": 0.6,
+"rozbieznosc_szac": 11.0
+},
+"2026-09-24 13": {
+"przejscia": 10,
+"tempo": 5.14,
+"tempo_s": 2758,
+"serwis": true,
+"niska_pewnosc_pct": 0.34,
+"rozbieznosc_szac": 9.1
+},
+"2026-09-24 14": {
+"przejscia": 35,
+"tempo": 4.65,
+"tempo_s": 1044,
+"serwis": false,
+"niska_pewnosc_pct": 0.51,
+"rozbieznosc_szac": 10.3,
+"mowa_muzyka_s": 58.5
+},
+"2026-09-24 15": {
+"przejscia": 15,
+"tempo": 4.93,
+"tempo_s": 2088,
+"serwis": false,
+"niska_pewnosc_pct": 0.14,
+"rozbieznosc_szac": 7.7
+},
+"2026-09-24 16": {
+"przejscia": 4,
+"tempo": 5.71,
+"tempo_s": 3039,
+"serwis": false,
+"niska_pewnosc_pct": 0.49,
+"rozbieznosc_szac": 10.1
+},
+"2026-09-24 17": {
+"przejscia": 15,
+"tempo": 5.26,
+"tempo_s": 1334,
+"serwis": false,
+"niska_pewnosc_pct": 0.53,
+"rozbieznosc_szac": 10.5
+},
+"2026-09-24 18": {
+"przejscia": 20,
+"tempo": 4.68,
+"tempo_s": 133,
+"serwis": false,
+"niska_pewnosc_pct": 0.33,
+"rozbieznosc_szac": 9.1,
+"mowa_muzyka_s": 56.0
+},
+"2026-09-24 19": {
+"przejscia": 3,
+"tempo": 3.92,
+"tempo_s": 2950,
+"serwis": false,
+"niska_pewnosc_pct": 0.73,
+"rozbieznosc_szac": 11.8,
+"mowa_muzyka_s": 17.5
+},
+"2026-09-24 20": {
+"przejscia": 22,
+"tempo": 4.95,
+"tempo_s": 1815,
+"serwis": false,
+"niska_pewnosc_pct": 0.69,
+"rozbieznosc_szac": 11.6
+},
+"2026-09-24 21": {
+"przejscia": 33,
+"tempo": 3.89,
+"tempo_s": 226,
+"serwis": false,
+"niska_pewnosc_pct": 1.33,
+"rozbieznosc_szac": 16.1,
+"mowa_muzyka_s": 58.0
+},
+"2026-09-24 22": {
+"przejscia": 40,
+"tempo": 4.03,
+"tempo_s": 251,
+"serwis": false,
+"niska_pewnosc_pct": 1.97,
+"rozbieznosc_szac": 20.5,
+"mowa_muzyka_s": 22.5
+},
+"2026-09-24 23": {
+"przejscia": 7,
+"tempo": 4.23,
+"tempo_s": 2458,
+"serwis": false,
+"niska_pewnosc_pct": 0.56,
+"rozbieznosc_szac": 10.6
+},
+"2026-09-25 00": {
+"przejscia": 6,
+"tempo": 5.29,
+"tempo_s": 2782,
+"serwis": false,
+"niska_pewnosc_pct": 0.3,
+"rozbieznosc_szac": 8.8
+},
+"2026-09-25 01": {
+"przejscia": 10,
+"tempo": 4.89,
+"tempo_s": 1938,
+"serwis": false,
+"niska_pewnosc_pct": 0.75,
+"rozbieznosc_szac": 12.0
+},
+"2026-09-25 02": {
+"przejscia": 6,
+"tempo": 4.81,
+"tempo_s": 3066,
+"serwis": false,
+"niska_pewnosc_pct": 0.64,
+"rozbieznosc_szac": 11.2
+},
+"2026-09-25 03": {
+"przejscia": 6,
+"tempo": 4.85,
+"tempo_s": 2947,
+"serwis": false,
+"niska_pewnosc_pct": 0.73,
+"rozbieznosc_szac": 11.9
+},
+"2026-09-25 04": {
+"przejscia": 5,
+"tempo": 5.15,
+"tempo_s": 2458,
+"serwis": false,
+"niska_pewnosc_pct": 0.57,
+"rozbieznosc_szac": 10.7
+},
+"2026-09-25 05": {
+"przejscia": 14,
+"tempo": null,
+"tempo_s": 43,
+"serwis": false,
+"mowa_muzyka_s": 1.5
+},
+"2026-09-25 06": {
+"przejscia": 21,
+"tempo": null,
+"tempo_s": 34,
+"serwis": false,
+"mowa_muzyka_s": 7.0
+},
+"2026-09-25 07": {
+"przejscia": 4,
+"tempo": 4.68,
+"tempo_s": 3291,
+"serwis": false,
+"niska_pewnosc_pct": 0.27,
+"rozbieznosc_szac": 8.6,
+"mowa_muzyka_s": 80.0
+},
+"2026-09-25 08": {
+"przejscia": 0,
+"tempo": 4.93,
+"tempo_s": 3460,
+"serwis": false,
+"niska_pewnosc_pct": 0.35,
+"rozbieznosc_szac": 9.2,
+"mowa_muzyka_s": 36.0
+},
+"2026-09-25 09": {
+"przejscia": 2,
+"tempo": 4.84,
+"tempo_s": 3383,
+"serwis": false,
+"niska_pewnosc_pct": 0.24,
+"rozbieznosc_szac": 8.4
+},
+"2026-09-25 10": {
+"przejscia": 4,
+"tempo": 4.87,
+"tempo_s": 3239,
+"serwis": false,
+"niska_pewnosc_pct": 0.37,
+"rozbieznosc_szac": 9.3
+},
+"2026-09-25 11": {
+"przejscia": 4,
+"tempo": 4.65,
+"tempo_s": 3099,
+"serwis": false,
+"niska_pewnosc_pct": 0.27,
+"rozbieznosc_szac": 8.6,
+"mowa_muzyka_s": 70.0
+},
+"2026-09-25 12": {
+"przejscia": 12,
+"tempo": 4.91,
+"tempo_s": 2716,
+"serwis": false,
+"niska_pewnosc_pct": 0.33,
+"rozbieznosc_szac": 9.0,
+"mowa_muzyka_s": 94.0
+},
+"2026-09-25 13": {
+"przejscia": 6,
+"tempo": 4.84,
+"tempo_s": 3184,
+"serwis": false,
+"niska_pewnosc_pct": 0.81,
+"rozbieznosc_szac": 12.4,
+"mowa_muzyka_s": 36.5
+},
+"2026-09-25 14": {
+"przejscia": 19,
+"tempo": 4.69,
+"tempo_s": 1407,
+"serwis": false,
+"niska_pewnosc_pct": 1.07,
+"rozbieznosc_szac": 14.3,
+"mowa_muzyka_s": 40.5
+},
+"2026-09-25 15": {
+"przejscia": 6,
+"tempo": 3.26,
+"tempo_s": 2751,
+"serwis": false,
+"niska_pewnosc_pct": 1.83,
+"rozbieznosc_szac": 19.6
+},
+"2026-09-25 16": {
+"przejscia": 2,
+"tempo": 4.7,
+"tempo_s": 3243,
+"serwis": false,
+"niska_pewnosc_pct": 0.53,
+"rozbieznosc_szac": 10.4
+},
+"2026-09-25 17": {
+"przejscia": 6,
+"tempo": 4.8,
+"tempo_s": 2968,
+"serwis": false,
+"niska_pewnosc_pct": 0.32,
+"rozbieznosc_szac": 8.9
+},
+"2026-09-25 18": {
+"przejscia": 7,
+"tempo": 4.51,
+"tempo_s": 2655,
+"serwis": true,
+"niska_pewnosc_pct": 2.06,
+"rozbieznosc_szac": 21.2,
+"mowa_muzyka_s": 29.0
+},
+"2026-09-25 19": {
+"przejscia": 15,
+"tempo": 4.5,
+"tempo_s": 2736,
+"serwis": false,
+"niska_pewnosc_pct": 0.88,
+"rozbieznosc_szac": 12.9
+},
+"2026-09-25 20": {
+"przejscia": 10,
+"tempo": 4.47,
+"tempo_s": 2777,
+"serwis": false,
+"niska_pewnosc_pct": 0.49,
+"rozbieznosc_szac": 10.2
+},
+"2026-09-25 21": {
+"przejscia": 4,
+"tempo": 4.44,
+"tempo_s": 2816,
+"serwis": false,
+"niska_pewnosc_pct": 0.34,
+"rozbieznosc_szac": 9.1
+},
+"2026-09-25 22": {
+"przejscia": 16,
+"tempo": 4.5,
+"tempo_s": 2613,
+"serwis": false,
+"niska_pewnosc_pct": 0.23,
+"rozbieznosc_szac": 8.4
+},
+"2026-09-25 23": {
+"przejscia": 12,
+"tempo": 4.57,
+"tempo_s": 2655,
+"serwis": false,
+"niska_pewnosc_pct": 0.34,
+"rozbieznosc_szac": 9.1
+},
+"2026-09-26 00": {
+"przejscia": 6,
+"tempo": 4.81,
+"tempo_s": 2903,
+"serwis": false,
+"niska_pewnosc_pct": 0.48,
+"rozbieznosc_szac": 10.1
+},
+"2026-09-26 01": {
+"przejscia": 7,
+"tempo": 4.79,
+"tempo_s": 2382,
+"serwis": false,
+"niska_pewnosc_pct": 0.59,
+"rozbieznosc_szac": 10.8
+},
+"2026-09-26 02": {
+"przejscia": 6,
+"tempo": 4.15,
+"tempo_s": 2586,
+"serwis": false,
+"niska_pewnosc_pct": 0.57,
+"rozbieznosc_szac": 10.7
+},
+"2026-09-26 03": {
+"przejscia": 4,
+"tempo": 4.89,
+"tempo_s": 2554,
+"serwis": false,
+"niska_pewnosc_pct": 0.32,
+"rozbieznosc_szac": 9.0
+},
+"2026-09-26 04": {
+"przejscia": 9,
+"tempo": 3.18,
+"tempo_s": 2721,
+"serwis": false,
+"niska_pewnosc_pct": 0.98,
+"rozbieznosc_szac": 13.6
+},
+"2026-09-26 05": {
+"przejscia": 20,
+"tempo": null,
+"tempo_s": 57,
+"serwis": false,
+"mowa_muzyka_s": 2.5
+},
+"2026-09-26 06": {
+"przejscia": 18,
+"tempo": null,
+"tempo_s": 8,
+"serwis": false,
+"mowa_muzyka_s": 7.0
+},
+"2026-09-26 07": {
+"przejscia": 18,
+"tempo": null,
+"tempo_s": 22,
+"serwis": false,
+"mowa_muzyka_s": 10.5
+},
+"2026-09-26 08": {
+"przejscia": 7,
+"tempo": 4.74,
+"tempo_s": 2822,
+"serwis": false,
+"niska_pewnosc_pct": 0.39,
+"rozbieznosc_szac": 9.5
+},
+"2026-09-26 09": {
+"przejscia": 2,
+"tempo": 4.7,
+"tempo_s": 3275,
+"serwis": false,
+"niska_pewnosc_pct": 0.22,
+"rozbieznosc_szac": 8.3,
+"mowa_muzyka_s": 12.0
+},
+"2026-09-26 10": {
+"przejscia": 18,
+"tempo": 4.78,
+"tempo_s": 2352,
+"serwis": false,
+"niska_pewnosc_pct": 0.36,
+"rozbieznosc_szac": 9.2
+},
+"2026-09-26 11": {
+"przejscia": 8,
+"tempo": 4.33,
+"tempo_s": 3135,
+"serwis": false,
+"niska_pewnosc_pct": 1.37,
+"rozbieznosc_szac": 16.4
+},
+"2026-09-26 12": {
+"przejscia": 5,
+"tempo": 4.74,
+"tempo_s": 2945,
+"serwis": false,
+"niska_pewnosc_pct": 0.3,
+"rozbieznosc_szac": 8.8,
+"mowa_muzyka_s": 44.5
+},
+"2026-09-26 13": {
+"przejscia": 12,
+"tempo": 4.69,
+"tempo_s": 2154,
+"serwis": false,
+"niska_pewnosc_pct": 0.49,
+"rozbieznosc_szac": 10.2,
+"mowa_muzyka_s": 51.5
+},
+"2026-09-26 14": {
+"przejscia": 23,
+"tempo": 4.41,
+"tempo_s": 1997,
+"serwis": false,
+"niska_pewnosc_pct": 0.59,
+"rozbieznosc_szac": 10.8,
+"mowa_muzyka_s": 36.0
+},
+"2026-09-26 15": {
+"przejscia": 15,
+"tempo": 4.66,
+"tempo_s": 2795,
+"serwis": false,
+"niska_pewnosc_pct": 0.53,
+"rozbieznosc_szac": 10.4,
+"mowa_muzyka_s": 109.5
+},
+"2026-09-26 16": {
+"przejscia": 1,
+"tempo": 4.58,
+"tempo_s": 3402,
+"serwis": false,
+"niska_pewnosc_pct": 0.72,
+"rozbieznosc_szac": 11.8,
+"mowa_muzyka_s": 44.5
+},
+"2026-09-26 17": {
+"przejscia": 30,
+"tempo": 4.31,
+"tempo_s": 613,
+"serwis": false,
+"niska_pewnosc_pct": 0.24,
+"rozbieznosc_szac": 8.4
+},
+"2026-09-26 18": {
+"przejscia": 31,
+"tempo": 4.42,
+"tempo_s": 382,
+"serwis": false,
+"niska_pewnosc_pct": 1.46,
+"rozbieznosc_szac": 17.0
+},
+"2026-09-26 19": {
+"przejscia": 17,
+"tempo": 4.55,
+"tempo_s": 1299,
+"serwis": false,
+"niska_pewnosc_pct": 0.6,
+"rozbieznosc_szac": 10.9
+},
+"2026-09-26 20": {
+"przejscia": 12,
+"tempo": 4.17,
+"tempo_s": 2471,
+"serwis": false,
+"niska_pewnosc_pct": 0.51,
+"rozbieznosc_szac": 10.3
+},
+"2026-09-26 21": {
+"przejscia": 14,
+"tempo": 4.1,
+"tempo_s": 2509,
+"serwis": false,
+"niska_pewnosc_pct": 0.68,
+"rozbieznosc_szac": 11.5
+},
+"2026-09-26 22": {
+"przejscia": 12,
+"tempo": 4.11,
+"tempo_s": 2275,
+"serwis": false,
+"niska_pewnosc_pct": 1.0,
+"rozbieznosc_szac": 13.7
+},
+"2026-09-26 23": {
+"przejscia": 4,
+"tempo": 4.64,
+"tempo_s": 2809,
+"serwis": false,
+"niska_pewnosc_pct": 0.38,
+"rozbieznosc_szac": 9.4,
+"mowa_muzyka_s": 107.0
+},
+"2026-09-27 00": {
+"przejscia": 2,
+"tempo": 5.44,
+"tempo_s": 3352,
+"serwis": false,
+"niska_pewnosc_pct": 0.68,
+"rozbieznosc_szac": 11.5
+},
+"2026-09-27 01": {
+"przejscia": 2,
+"tempo": 4.85,
+"tempo_s": 3236,
+"serwis": true,
+"niska_pewnosc_pct": 0.32,
+"rozbieznosc_szac": 9.0
+},
+"2026-09-27 02": {
+"przejscia": 2,
+"tempo": 3.89,
+"tempo_s": 2854,
+"serwis": false,
+"niska_pewnosc_pct": 0.6,
+"rozbieznosc_szac": 11.0
+},
+"2026-09-27 03": {
+"przejscia": 2,
+"tempo": 4.59,
+"tempo_s": 3327,
+"serwis": false,
+"niska_pewnosc_pct": 0.61,
+"rozbieznosc_szac": 11.0
+},
+"2026-09-27 04": {
+"przejscia": 8,
+"tempo": 5.35,
+"tempo_s": 1604,
+"serwis": false,
+"niska_pewnosc_pct": 0.33,
+"rozbieznosc_szac": 9.1
+},
+"2026-09-27 06": {
+"przejscia": 16,
+"tempo": null,
+"tempo_s": 11,
+"serwis": false
+},
+"2026-09-27 07": {
+"przejscia": 10,
+"tempo": null,
+"tempo_s": 3,
+"serwis": false
+},
+"2026-09-27 08": {
+"przejscia": 4,
+"tempo": 3.72,
+"tempo_s": 2820,
+"serwis": false,
+"niska_pewnosc_pct": 5.66,
+"rozbieznosc_szac": 40.0
+}
+}
+}

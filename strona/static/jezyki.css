@@ -1,0 +1,134 @@
+@font-face{font-family:'Exo 2';src:url(/s/fonty/exo2-600-900.woff2) format('woff2');font-weight:600 900;font-display:swap}
+@font-face{font-family:'Lato';src:url(/s/fonty/lato-400.woff2) format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'Lato';src:url(/s/fonty/lato-700.woff2) format('woff2');font-weight:700 900;font-display:swap}
+:root{--tlo:#0A1318;--tlo2:#13262D;--tekst:#F4ECEE;--tekst2:#B9C9CF;--roz:#F7A3B2;--roz2:#E4687F;--akc:#F9B009;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%}
+body{background:radial-gradient(120% 80% at 50% 10%,#1E3A44 0%,var(--tlo2) 35%,var(--tlo) 75%);color:var(--tekst);font:17px/1.55 Lato,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:720px;margin:0 auto;padding:max(28px,env(safe-area-inset-top)) 16px 32px;display:flex;flex-direction:column;align-items:center;text-align:center}
+.logo{width:168px;height:168px;filter:drop-shadow(0 10px 30px rgba(228,104,127,.35))}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.scena{width:100%;margin-top:6px}
+#napis{width:100%;height:auto;display:block;overflow:visible}
+#slowo{font-family:'Exo 2',system-ui,'Segoe UI','Noto Sans',sans-serif;font-weight:800;font-size:150px;fill:var(--roz);fill-opacity:0;stroke:var(--tekst);stroke-width:2.2;stroke-linejoin:round;paint-order:stroke}
+#slowo.pisze{animation:pisz 1.7s cubic-bezier(.45,0,.3,1) forwards,wypelnij .6s ease-out 1.25s forwards}
+#slowo.znika{animation:znika .45s ease-in forwards}
+@keyframes pisz{from{stroke-dashoffset:var(--dl)}to{stroke-dashoffset:0}}
+@keyframes wypelnij{to{fill-opacity:1;stroke-opacity:.15}}
+@keyframes znika{from{fill-opacity:1;opacity:1}to{opacity:0}}
+@media (prefers-reduced-motion:reduce){#slowo.pisze{animation:none;fill-opacity:1;stroke-opacity:.15}#slowo.znika{animation:none}}
+.jez{margin:0;color:var(--tekst2);font:600 14px 'Exo 2',system-ui,sans-serif;letter-spacing:.04em;min-height:1.6em}
+.licz{color:var(--roz)}
+.opis{margin:26px 0 10px;max-width:34em}
+.opis p{margin:0 0 12px;color:var(--tekst)}
+.zapis{width:100%;max-width:30em;margin-top:8px;padding:18px;border-radius:20px;background:rgba(255,255,255,.05);border:1px solid rgba(247,163,178,.25);text-align:left}
+.zapis>label:not(.zg){display:block;font:700 13px 'Exo 2';letter-spacing:.06em;text-transform:uppercase;color:var(--tekst2);margin-bottom:6px}
+.rz{display:flex;gap:8px;flex-wrap:wrap}
+.zapis input[type=email]{flex:1 1 200px;min-height:48px;border-radius:14px;border:1.5px solid rgba(255,255,255,.2);background:rgba(10,19,24,.6);color:var(--tekst);font:17px Lato,sans-serif;padding:0 14px}
+.zapis input[type=email]:focus{outline:3px solid var(--roz2);outline-offset:1px}
+.zapis button{min-height:48px;border-radius:14px;border:0;background:var(--roz2);color:#1B0A0F;font:800 16px 'Exo 2';padding:0 18px;cursor:pointer}
+.zapis button:disabled{opacity:.45;cursor:not-allowed}
+.zg{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--tekst2);margin-top:12px;cursor:pointer}
+.zg input{width:22px;height:22px;flex:none;margin-top:1px;accent-color:var(--roz2)}
+.pulapka{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.adm{font-size:13px;color:var(--tekst2);margin:10px 0 0}
+.kom{font-weight:700;margin:8px 0 0;min-height:1.4em}
+.kom.ok{color:#6FD3A3}.kom.bl{color:#F28B84}
+footer{margin-top:32px;font-size:12.5px;color:var(--tekst2);max-width:40em}
+footer a{color:var(--roz)}
+@media (max-width:480px){.logo{width:132px;height:132px}#slowo{font-size:150px}}
+.ust{text-align:left;align-items:stretch}.ust-t{font:800 26px 'Exo 2';margin:0 0 4px}.zapis.szer{max-width:none}.odst{margin-top:14px}
+.pole{width:100%;min-height:46px;border-radius:12px;border:1.5px solid rgba(255,255,255,.2);background:rgba(10,19,24,.6);color:var(--tekst);font:16px Lato,sans-serif;padding:0 12px}
+.wynik{white-space:pre-wrap;font-size:12px;color:var(--tekst2)}
+.wybor{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px 12px;margin-top:14px}
+.wybor label{font:700 12px 'Exo 2',system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--tekst2)}
+.sel{position:relative;max-width:min(78vw,340px)}
+.sel select{-webkit-appearance:none;appearance:none;width:100%;min-height:44px;padding:0 44px 0 18px;border-radius:999px;border:1.5px solid rgba(247,163,178,.45);background:linear-gradient(180deg,rgba(247,163,178,.12),rgba(10,19,24,.55));color:var(--tekst);font:700 15px 'Exo 2',system-ui,'Segoe UI','Noto Sans',sans-serif;cursor:pointer;text-overflow:ellipsis;box-shadow:0 6px 20px rgba(228,104,127,.18);transition:border-color .2s,box-shadow .2s}
+.sel select:hover{border-color:var(--roz)}
+.sel select:focus-visible{outline:3px solid var(--roz2);outline-offset:2px}
+.sel::after{content:'';position:absolute;right:18px;top:50%;width:8px;height:8px;border-right:2.5px solid var(--roz);border-bottom:2.5px solid var(--roz);transform:translateY(-70%) rotate(45deg);pointer-events:none}
+.sel select option,.sel select optgroup{background:#13262D;color:var(--tekst);font-weight:600}
+.sel select optgroup{color:var(--roz);font-style:normal}
+@media (prefers-reduced-motion:reduce){.sel select{transition:none}}
+.klauzula{margin-top:10px;font-size:13px;color:var(--tekst2)}.klauzula summary{cursor:pointer;font-weight:700;color:var(--roz);min-height:32px}
+.klauzula p{margin:6px 0 0;line-height:1.5}
+.wypis{margin-top:14px;background:transparent;border-style:dashed}.zapis button.drugi{background:transparent;color:var(--roz);border:1.5px solid var(--roz2)}
+/* ---- Świat anteny: gra planszowa do druku (strona główna + /zasady) ---- */
+.gra{width:100%;margin:34px 0 10px;text-align:left}
+.gra h2,.pobierz-sekcja h2{font:800 clamp(24px,5vw,34px)/1.15 'Exo 2',system-ui,sans-serif;margin:0 0 6px;color:var(--tekst)}
+.gra .znacznik{display:inline-block;font:800 11px 'Exo 2';letter-spacing:.12em;text-transform:uppercase;color:#1B0A0F;background:var(--akc);border-radius:999px;padding:4px 10px;margin-bottom:10px}
+.gra p{margin:0 0 12px;color:var(--tekst2)}
+.gra p b{color:var(--tekst)}
+.podglady{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0}
+.podglady figure{margin:0;border-radius:14px;overflow:hidden;background:#FBF8F2;box-shadow:0 12px 34px rgba(0,0,0,.45);display:flex;flex-direction:column}
+.podglady img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 12%}
+.podglady figcaption{font:700 12px 'Exo 2';color:#274F5C;padding:6px 10px;background:#FBF8F2}
+.cechy{list-style:none;padding:0;margin:0 0 16px;display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:8px}
+.cechy li{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:10px 12px;font-size:14px;color:var(--tekst2)}
+.cechy li b{display:block;font:800 15px 'Exo 2';color:var(--tekst)}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin:4px 0 8px}
+.btn{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 18px;border-radius:14px;font:800 16px 'Exo 2',system-ui,sans-serif;text-decoration:none;cursor:pointer}
+.btn.gl{background:var(--akc);color:#1B0A0F}.btn.gl:hover{filter:brightness(1.08)}
+.btn.dr{border:1.5px solid var(--roz2);color:var(--roz)}.btn.dr:hover{background:rgba(228,104,127,.12)}
+.btn:focus-visible{outline:3px solid var(--roz);outline-offset:2px}
+.pliki{display:flex;flex-direction:column;gap:12px;margin-top:10px;text-align:left;width:100%}
+.pliki h3{font:800 13px 'Exo 2';letter-spacing:.08em;text-transform:uppercase;color:var(--tekst2);margin:8px 0 0}
+.plik{display:flex;gap:12px;align-items:center;justify-content:space-between;padding:12px 14px;border-radius:14px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1)}
+.plik .t{font:800 16px 'Exo 2';color:var(--tekst)}.plik .o{font-size:13.5px;color:var(--tekst2);margin-top:2px}.plik .m{font:700 12px 'Exo 2';color:var(--roz);margin-top:4px;letter-spacing:.03em}
+.plik a{flex:none;min-height:44px;display:inline-flex;align-items:center;padding:0 14px;border-radius:12px;background:var(--roz2);color:#1B0A0F;font:800 14px 'Exo 2';text-decoration:none}
+.plik a:focus-visible{outline:3px solid var(--roz);outline-offset:2px}
+.uwaga{font-size:12.5px;color:var(--tekst2);margin-top:6px}
+@media (max-width:560px){.podglady figcaption{font-size:11px}.plik{flex-direction:column;align-items:stretch}.plik a{justify-content:center}}
+/* strona zasad */
+main.zasady{max-width:860px;text-align:left;align-items:stretch}
+.gora{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+.gora a{display:inline-flex;align-items:center;gap:8px;font:800 16px 'Exo 2';color:var(--tekst);text-decoration:none;min-height:44px}
+.gora a:last-child{color:#1B0A0F;background:var(--akc);border-radius:12px;padding:0 14px}
+main.zasady h1{font:900 clamp(30px,7vw,48px)/1.05 'Exo 2';color:var(--roz);margin:0}
+.podt{font:600 14px 'Exo 2';color:var(--tekst2);margin:6px 0 14px}
+.wst{color:var(--tekst);max-width:40em}.wst a,.zasady footer a{color:var(--roz)}
+.spis{background:rgba(255,255,255,.05);border-radius:14px;padding:10px 16px;margin:10px 0 18px}
+.spis summary{font:800 14px 'Exo 2';cursor:pointer;min-height:32px;color:var(--tekst2)}
+.spis ol{columns:2 220px;margin:6px 0 4px;padding-left:22px}.spis a{color:var(--tekst);line-height:1.9}
+.karta{position:relative;background:#FBF8F2;color:#0A1318;border-radius:6px;padding:26px clamp(18px,4vw,40px) 28px;margin:0 0 16px;box-shadow:0 14px 36px rgba(0,0,0,.4);scroll-margin-top:12px;overflow:hidden}
+.karta:nth-of-type(even){background:#F4EFE4}
+.knr{position:absolute;right:16px;top:12px;font:800 13px 'Exo 2';color:#75909A}
+.karta h2{font:800 26px 'Exo 2';color:#274F5C;margin:0 0 10px}.karta h3{font:800 17px 'Exo 2';color:#274F5C;margin:16px 0 6px}
+.karta p{font-size:16px;line-height:1.5;margin:0 0 10px}.karta .lead{font-size:18px;color:#3F5A66}.karta .drob{font-size:14px;color:#56717C}
+.karta .lista{font-size:16px;line-height:1.5;padding-left:22px;margin:0 0 10px}.karta .lista li{margin-bottom:6px}
+.karta .ramka{border-left:6px solid #F9B009;background:#FFF6DC;padding:12px 16px;font-size:15px;line-height:1.45;margin:12px 0}.karta .ramka b{display:block;font:800 16px 'Exo 2';margin-bottom:2px}
+.karta .tab{width:100%;border-collapse:collapse;font-size:15px;line-height:1.4}.karta .tab td{padding:7px 6px;border-bottom:1px dotted #C8D3D7;vertical-align:top}
+.karta .tab td.n{font:800 22px 'Exo 2';color:#274F5C;width:44px;text-align:center}.karta .pkt td.n{color:#B8860B}
+.karta .sw{width:48px}.sw.morze{background:#4E9DB8}.sw.plaza{background:#E6DDA8}.sw.pola{background:#DECC76}.sw.las{background:#5E9650}.sw.mgla{background:#F1F1EE;border:1px solid #bbb}
+.sw.perg{background:repeating-linear-gradient(45deg,#ECE0C4 0 6px,#AA966E 6px 8px)}.sw.osada{text-align:center;font-size:20px;color:#3A2A18}
+.karta .legteren{height:28px;border-radius:5px;margin:4px 0 12px;background:linear-gradient(90deg,#103A5E 0%,#78BED0 32.5%,#ECE0B0 32.6%,#CEDC96 42%,#AACE76 55%,#DECC76 68%,#96BE60 80%,#60964E 90%,#467642 97%)}
+.karta .rys{margin:12px 0}.karta svg.pelne{width:100%;height:auto;max-height:420px}.karta .rz3{display:flex;gap:18px;margin:10px 0 14px;flex-wrap:wrap}
+.karta .kat{display:flex;flex-direction:column;gap:6px}.karta .kr{display:flex;gap:12px;align-items:center}.karta .kr b{display:block;font:800 15px 'Exo 2'}
+.karta .kr span,.karta .kr .o{display:block;font-size:13px;color:#3F5A66;line-height:1.3}.karta .kr .wym{display:block;font-size:13px;line-height:1.3;color:#8A6A1E}
+.karta svg.zt{flex:none;font-family:'Exo 2',Lato,sans-serif;width:62px;height:62px}.karta .rz3 svg.zt{width:84px;height:84px}
+.karta .slow{font-size:15px;line-height:1.45;margin:0}.karta .slow dt{font:800 16px 'Exo 2';color:#274F5C;margin-top:8px}.karta .slow dd{margin:0}
+.karta .kolofon{margin-top:18px;padding-top:10px;border-top:2px solid #274F5C;font-size:13px;color:#3F5A66;line-height:1.45}
+.pobierz-sekcja{margin-top:18px;scroll-margin-top:12px}
+.zasady footer{text-align:left;max-width:none}
+.karta .tab th{font:800 13px 'Exo 2';color:#3F5A66;text-align:left;padding:6px;border-bottom:2px solid #C8D3D7}.karta .tab .c{text-align:center}
+.karta .akc{font-size:13.5px}.karta .akc td{padding:3px 5px;vertical-align:middle}.karta .akc svg.zt,.karta .ik svg.zt{width:34px;height:34px}
+.karta .akc .o{display:block;font-size:12px;color:#56717C}.karta .zd td.n{width:36px}.karta em{font-style:normal;font-weight:800}
+.karta .tab{display:block;overflow-x:auto}.karta .tab tbody{display:table;width:100%}
+.opis .intro-btn{font-size:18px;min-height:52px;padding:0 24px;margin-bottom:6px}
+/* ---- podstrony: legenda, świat 3D, społeczność ---- */
+.podstrona .blok{margin:28px 0}
+.podstrona h2{font:800 clamp(22px,4.5vw,30px)/1.2 'Exo 2',system-ui,sans-serif;margin:0 0 10px;color:var(--tekst);text-wrap:balance}
+.podstrona .gora{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center}
+.tabela{overflow-x:auto;margin:12px 0;border:1px solid rgba(255,255,255,.12);border-radius:12px}
+.tabela table{border-collapse:collapse;width:100%;min-width:560px;font-size:14.5px}
+.tabela th,.tabela td{padding:8px 10px;border-bottom:1px solid rgba(255,255,255,.08);text-align:left;vertical-align:top}
+.tabela th{font:700 12px 'Exo 2',system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--tekst2)}
+blockquote{margin:14px 0;padding:12px 18px;border-left:4px solid var(--akc);background:rgba(249,176,9,.07);border-radius:0 12px 12px 0}
+blockquote p{margin:0;font:800 clamp(20px,4vw,28px)/1.25 'Exo 2',system-ui,sans-serif}
+blockquote footer{margin:6px 0 0;font-size:14px}
+figure.szeroka{margin:14px 0}figure.szeroka img{width:100%;height:auto;border-radius:10px;display:block}
+figure.szeroka figcaption{font-size:13px;color:var(--tekst2);margin-top:6px}
+model-viewer.swiat3d{display:block;width:100%;height:min(72vh,640px);background:#13262D;border-radius:14px;--poster-color:#13262D}
+.dwie-mapy{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:14px 0}
+.dwie-mapy figure{margin:0}.dwie-mapy img{width:100%;height:auto;border-radius:10px;display:block}
+.dwie-mapy figcaption{font-size:13px;color:var(--tekst2);margin-top:6px}

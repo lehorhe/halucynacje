@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Języki — ustawienia tłumaczeń</title>
+<link rel="icon" href="/s/logo.svg?v=2" type="image/svg+xml">
+<link rel="stylesheet" href="/s/jezyki.css?v=2">
+</head>
+<body>
+<main class="ust">
+  <h1 class="ust-t">Ustawienia tłumaczeń</h1>
+  <p class="adm">Tylko operator przy ZBooku. Klucze zapisują się POZA gitem (<code>szpieg_media\jezyki\ustawienia.json</code>) i nigdy nie wracają na ekran w całości.
+    Tłumaczymy raz, przy budowie słownika — nie przy każdej wizycie gracza.</p>
+  <form id="f" class="zapis szer">
+    <label>Dostawcy (kolejność = pierwszeństwo przy dopełnianiu brakujących języków)</label>
+    <div id="dost"></div>
+    <label for="deepl" class="odst">DeepL — klucz API (free kończy się na „:fx”)</label>
+    <input id="deepl" type="password" autocomplete="off" class="pole" placeholder="zostaw puste, by nie zmieniać · „-” usuwa">
+    <label for="libre_url" class="odst">LibreTranslate — adres instancji</label>
+    <input id="libre_url" type="url" class="pole" placeholder="https://…">
+    <label for="libre" class="odst">LibreTranslate — klucz (jeśli wymagany)</label>
+    <input id="libre" type="password" autocomplete="off" class="pole" placeholder="zostaw puste, by nie zmieniać · „-” usuwa">
+    <div class="rz odst"><button type="submit">Zapisz</button><button type="button" id="przebuduj">Przebuduj słownik</button></div>
+    <p class="kom" id="kom" role="status"></p>
+    <pre id="wynik" class="wynik"></pre>
+  </form>
+</main>
+<script src="/s/ustawienia.js?v=2"></script>
+</body>
+</html>

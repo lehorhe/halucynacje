@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0A1318">
+<meta name="description" content="Społeczność open source gry HALUCYNACJE: publiczne repozytorium kodu, plansz i świata 3D. Pierwsza decyzja: wybór licencji.">
+<title>Open source — HALUCYNACJE</title>
+<link rel="icon" href="/s/logo.svg?v=3" type="image/svg+xml">
+<link rel="stylesheet" href="/s/jezyki.css?v=9">
+</head>
+<body>
+<main class="zasady podstrona">
+  <nav class="gora"><a href="/"><img src="/s/logo.svg?v=3" alt="" width="36" height="36"> HALUCYNACJE</a><a href="/zasady">Zasady</a><a href="/legenda">Legenda</a><a href="/swiat3d">Świat 3D</a></nav>
+  <h1>Społeczność open source</h1>
+  <p class="podt">Kod gry, generator plansz, świat 3D i strona gra.l00p.ai — w jednym publicznym repozytorium.</p>
+
+  <section class="blok">
+    <p class="wst">HALUCYNACJE powstały w redakcji Radia Wnet jako gra o tym, jak ludzie i maszyny mylą się, słuchając. Teraz otwieramy warsztat: każdy może zobaczyć, jak z pomiarów anteny powstaje teren, sprawdzić, czy mapa nie kłamie, wydrukować plansze albo przenieść świat do własnego silnika gry.</p>
+    <p><a class="btn gl" href="https://github.com/lehorhe/halucynacje" rel="noopener">Repozytorium na GitHubie</a></p>
+    <p class="uwaga">W repozytorium są kod, zagregowane dane mapy (procent słowa, głosy efektywne, warstwy terenu, ramówka bez nazwisk), pliki PDF i świat 3D. Nie ma w nim nagrań, transkrypcji ani danych osobowych — generator działa na migawce agregatów.</p>
+  </section>
+
+  <section class="blok">
+    <h2>Decyzja nr 1: licencja</h2>
+    <p>Pierwszą decyzją społeczności jest wybór licencji. Do tego czasu obowiązuje zasada „wszelkie prawa zastrzeżone”: wolno czytać, drukować do własnej gry i dyskutować, ale nie wolno jeszcze rozpowszechniać zmienionych wersji. Wybieramy osobno dla trzech rodzajów utworów:</p>
+    <div class="tabela"><table>
+      <thead><tr><th>Co</th><th>Kandydaci</th><th>Na co zwrócić uwagę</th></tr></thead>
+      <tbody>
+        <tr><td><b>Kod gry</b> — generator plansz, skrypty Blendera, test zgodności</td><td>MIT · Apache-2.0 · GPL-3.0</td><td>Skrypty dla Blendera korzystają z jego API (bpy); Blender Foundation uważa dodatki za utwory zależne objęte GPL — GPL-3.0 usuwa wątpliwość, MIT/Apache ułatwiają użycie gdzie indziej.</td></tr>
+        <tr><td><b>Strona gra.l00p.ai</b> — serwer i pliki strony</td><td>MIT · AGPL-3.0</td><td>AGPL wymaga udostępnienia zmian także przy uruchomieniu strony jako usługi.</td></tr>
+        <tr><td><b>Plansze PDF, karty, świat 3D, grafiki</b></td><td>CC BY 4.0 · CC BY-SA 4.0 · CC BY-NC-SA 4.0</td><td>NC zakazuje użycia komercyjnego (np. sprzedaży wydrukowanej gry); SA wymaga tej samej licencji dla przeróbek.</td></tr>
+      </tbody>
+    </table></div>
+    <p>Fonty Exo 2 i Lato mają już swoją licencję (SIL Open Font License 1.1), a przeglądarka 3D model-viewer — BSD-3-Clause. Tego nie zmieniamy.</p>
+    <p><a class="btn dr" href="https://github.com/lehorhe/halucynacje/issues/1" rel="noopener">Głosuj i dyskutuj (GitHub)</a></p>
+  </section>
+
+  <section class="blok">
+    <h2>Jak dołączyć</h2>
+    <ul class="cechy">
+      <li><b>Zagraj i napisz, co nie działa</b>zgłoszenie na GitHubie albo e-mail z formularza na stronie głównej</li>
+      <li><b>Sprawdź mapę</b>uruchom test zgodności: python test_zgodnosci.py — 2D i 3D muszą mówić to samo</li>
+      <li><b>Przenieś świat</b>Unreal Engine 5.8, Unity, Godot: plik .glb albo przepis sceny (mapa wysokości + obiekty.json)</li>
+      <li><b>Dodaj warstwę</b>każda nowa statystyka anteny najpierw trafia do wspólnej warstwy danych, potem do obu rysunków</li>
+    </ul>
+  </section>
+  <footer>HALUCYNACJE · Radio Wnet · Szpieg+ · przygotowane z pomocą AI (Claude, Anthropic) · <a href="/">gra.l00p.ai</a></footer>
+</main>
+</body>
+</html>

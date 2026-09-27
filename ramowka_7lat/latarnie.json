@@ -1,0 +1,182 @@
+[
+ {
+  "nazwa": "Poranek Wnet",
+  "dni": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "start": "07:07",
+  "koniec": "09:00",
+  "lat": 8,
+  "od": 2019,
+  "dowod": "rozne"
+ },
+ {
+  "nazwa": "Program Wschodni",
+  "dni": [
+   5
+  ],
+  "start": "10:00",
+  "koniec": "11:00",
+  "lat": 8,
+  "od": 2019,
+  "dowod": "rozne"
+ },
+ {
+  "nazwa": "Muzyczna Polska Tygodniówka",
+  "dni": [
+   5
+  ],
+  "start": "13:00",
+  "koniec": "16:00",
+  "lat": 8,
+  "od": 2019,
+  "dowod": "rozne"
+ },
+ {
+  "nazwa": "Riksza Miłosierdzia",
+  "dni": [
+   4
+  ],
+  "start": "15:00",
+  "koniec": "16:00",
+  "lat": 8,
+  "od": 2019,
+  "dowod": "rozne"
+ },
+ {
+  "nazwa": "Popołudnie Wnet",
+  "dni": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "start": "16:00",
+  "koniec": "17:30",
+  "lat": 8,
+  "od": 2019,
+  "dowod": "rozne"
+ },
+ {
+  "nazwa": "Kurier w samo południe",
+  "dni": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "start": "12:00",
+  "koniec": "13:00",
+  "lat": 8,
+  "od": 2019,
+  "dowod": "rozne"
+ },
+ {
+  "nazwa": "Tygodniowy Kalejdoskop Kulturalny",
+  "dni": [
+   5
+  ],
+  "start": "08:00",
+  "koniec": "10:00",
+  "lat": 7,
+  "od": 2020,
+  "dowod": "rozne"
+ },
+ {
+  "nazwa": "Studio Londyn",
+  "dni": [
+   6
+  ],
+  "start": "09:00",
+  "koniec": "11:00",
+  "lat": 7,
+  "od": 2020,
+  "dowod": "rozne"
+ },
+ {
+  "nazwa": "MiŚ",
+  "dni": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "start": "06:00",
+  "koniec": "07:00",
+  "lat": 7,
+  "od": 2020,
+  "dowod": "rozne"
+ },
+ {
+  "nazwa": "Czas nie tylko na Country",
+  "dni": [
+   0
+  ],
+  "start": "19:00",
+  "koniec": "20:30",
+  "lat": 7,
+  "od": 2020,
+  "dowod": "rozne"
+ },
+ {
+  "nazwa": "Muzyczne IQ",
+  "dni": [
+   4
+  ],
+  "start": "19:00",
+  "koniec": "20:00",
+  "lat": 6,
+  "od": 2021,
+  "dowod": "rozne"
+ },
+ {
+  "nazwa": "Polska muzyka",
+  "dni": [
+   5,
+   6
+  ],
+  "start": "05:00",
+  "koniec": "08:00",
+  "lat": 5,
+  "od": 2022,
+  "dowod": "jedna"
+ },
+ {
+  "nazwa": "Polish Chart",
+  "dni": [
+   5
+  ],
+  "start": "20:00",
+  "koniec": "23:00",
+  "lat": 5,
+  "od": 2022,
+  "dowod": "rozne"
+ },
+ {
+  "nazwa": "Ponad oceanami",
+  "dni": [
+   3
+  ],
+  "start": "15:30",
+  "koniec": "16:00",
+  "lat": 5,
+  "od": 2022,
+  "dowod": "rozne"
+ },
+ {
+  "nazwa": "Jak dobrze wstać skoro Wnet",
+  "dni": [
+   6
+  ],
+  "start": "08:00",
+  "koniec": "09:00",
+  "lat": 5,
+  "od": 2022,
+  "dowod": "rozne"
+ }
+]

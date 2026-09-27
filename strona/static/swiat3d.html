@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0A1318">
+<meta name="description" content="Świat 3D gry HALUCYNACJE: dwa tygodnie Radia Wnet jako teren zbudowany proceduralnie w Blenderze — do obracania w przeglądarce i do pobrania dla Unreal Engine, Unity i Godota.">
+<title>Świat 3D — HALUCYNACJE</title>
+<link rel="icon" href="/s/logo.svg?v=3" type="image/svg+xml">
+<link rel="stylesheet" href="/s/jezyki.css?v=9">
+<script type="module" src="/s/model-viewer.min.js?v=431"></script>
+</head>
+<body>
+<main class="zasady podstrona">
+  <nav class="gora"><a href="/"><img src="/s/logo.svg?v=3" alt="" width="36" height="36"> HALUCYNACJE</a><a href="/zasady">Zasady</a><a href="/legenda">Legenda</a><a href="/spolecznosc">Open source</a></nav>
+  <h1>Świat 3D</h1>
+  <p class="podt">31.08–13.09.2026, godziny 00–13 · 196 heksów · 1 heks = 1 godzina anteny ≈ 125 m</p>
+  <model-viewer class="swiat3d" src="/s/swiat.glb?v=1" alt="Proceduralny świat anteny: teren z procentu słowa, osady, latarnie i heksy z kolorowych laserów" camera-controls touch-action="pan-y"
+    camera-orbit="20deg 55deg 1900m" shadow-intensity="0.6" exposure="1.05" environment-image="neutral" loading="eager" poster="/s/img/swiat3d_orto.jpg?v=1"></model-viewer>
+  <p class="uwaga">Obracaj myszą lub palcem, przybliżaj kółkiem. Lekka wersja do przeglądarki (6 MB, bez lasu); pełny świat z 13 tys. drzew — do pobrania niżej.</p>
+
+  <section class="blok">
+    <h2>Dwa kadry z Blendera</h2>
+    <div class="podglady">
+      <figure><img src="/s/img/swiat3d_orto.jpg?v=1" alt="Widok z góry: zielone wzgórza z osadami, morze muzyki, siatka heksów z kolorowych laserów" loading="lazy" width="1200" height="1406"><figcaption>Orto — jak plansza, ale w prawdziwym świetle</figcaption></figure>
+      <figure><img src="/s/img/swiat3d_dron.jpg?v=1" alt="Widok z drona 90 m nad heksem: latarnia w paski, osada, las, brzeg morza i świecące wiązki laserów nad koronami drzew" loading="lazy" width="1600" height="1067"><figcaption>Dron 90 m — sobota 12.09, 10:00, Program Wschodni</figcaption></figure>
+    </div>
+    <p>Heksy nie są namalowane na ziemi. Wyznaczają je <b>lasery</b> między lustrami na niewidzialnych wieżach, 40 m nad najwyższym punktem okolicy — ponad drzewami i latarniami. Kolor wiązki to rodzaj audycji: bursztyn publicystyka, czerwień muzyka, zieleń kultura, błękit zagranica, niebieski informacja i styl, fiolet wiara, biel noc bez ramówki. Światło wiązek pada na korony drzew i dachy.</p>
+  </section>
+
+  <section class="blok">
+    <h2>Przenieś świat do swojego silnika</h2>
+    <p>Model powstaje proceduralnie z danych — nie z ręcznego modelowania — więc każdy może go odtworzyć albo przenieść:</p>
+    <ul class="cechy">
+      <li><b>glTF 2.0 (.glb)</b>jeden plik: teren z teksturą, domy, latarnie, świecące lasery (KHR_materials_emissive_strength). Unreal Engine 5.8 — przeciągnij do Content Browser (Interchange); Unity — pakiet glTFast; Godot 4 — natywnie; przeglądarka — model-viewer / three.js.</li>
+      <li><b>Przepis sceny</b>mapa wysokości 16-bit PNG (Landscape w UE, Terrain w Unity, HeightMap w Godocie), albedo terenu i obiekty.json z pozycjami każdego domu, drzewa, latarni i wiązki — zbudujesz scenę instancjami w dowolnym silniku.</li>
+      <li><b>Kod</b>skrypt Blendera uruchamiany bez okna (blender -b -P scena_blender.py) — w publicznym repozytorium.</li>
+    </ul>
+    <p><a class="btn dr" href="/zasady#pobierz">Pobierz pliki 3D</a> <a class="btn dr" href="/spolecznosc">Repozytorium i społeczność</a></p>
+  </section>
+  <footer>Render: Blender 5.2 · model-viewer (Google, BSD-3-Clause) · HALUCYNACJE · Radio Wnet · Szpieg+ · przygotowane z pomocą AI (Claude, Anthropic) · <a href="/">gra.l00p.ai</a></footer>
+</main>
+</body>
+</html>

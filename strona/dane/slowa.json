@@ -1,0 +1,691 @@
+{
+"opis": "Słowo „halucynacja” we wszystkich językach. Podstawa: Wikidane Q130741 (CC0); dopełnienia: dostawca wskazany przy słowie.",
+"liczba": 137,
+"slowa": [
+{
+"kod": "pl",
+"slowo": "Halucynacje",
+"zrodlo": "gra"
+},
+{
+"kod": "ta",
+"slowo": "மாயத்தோற்றம்",
+"zrodlo": "wikidata"
+},
+{
+"kod": "diq",
+"slowo": "halusinasyon",
+"zrodlo": "wikidata"
+},
+{
+"kod": "mt",
+"slowo": "alluċinazzjoni",
+"zrodlo": "mymemory"
+},
+{
+"kod": "hu",
+"slowo": "hallucináció",
+"zrodlo": "wikidata"
+},
+{
+"kod": "nn",
+"slowo": "hallusinasjon",
+"zrodlo": "wikidata"
+},
+{
+"kod": "km",
+"slowo": "ការរវើរវាយ",
+"zrodlo": "mymemory"
+},
+{
+"kod": "en",
+"slowo": "hallucination",
+"zrodlo": "wikidata"
+},
+{
+"kod": "es",
+"slowo": "alucinación",
+"zrodlo": "wikidata"
+},
+{
+"kod": "sv",
+"slowo": "hallucination",
+"zrodlo": "wikidata"
+},
+{
+"kod": "sh",
+"slowo": "halucinacija",
+"zrodlo": "wikidata"
+},
+{
+"kod": "or",
+"slowo": "ହାଲୁସିନେସନ ‎",
+"zrodlo": "wikidata"
+},
+{
+"kod": "mg",
+"slowo": "zavalihinn",
+"zrodlo": "mymemory"
+},
+{
+"kod": "bn",
+"slowo": "অমূলক প্রত্যক্ষণ বিভ্রম",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ca",
+"slowo": "al·lucinació",
+"zrodlo": "wikidata"
+},
+{
+"kod": "sq",
+"slowo": "halucinacioni",
+"zrodlo": "wikidata"
+},
+{
+"kod": "fa",
+"slowo": "توهم",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ky",
+"slowo": "галлюцинация",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ar",
+"slowo": "هلوسة",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ms",
+"slowo": "halusinasi",
+"zrodlo": "wikidata"
+},
+{
+"kod": "oc",
+"slowo": "allucinacion",
+"zrodlo": "wikidata"
+},
+{
+"kod": "sl",
+"slowo": "halucinacija",
+"zrodlo": "wikidata"
+},
+{
+"kod": "kk",
+"slowo": "елестеушілік",
+"zrodlo": "wikidata"
+},
+{
+"kod": "he",
+"slowo": "הזיה",
+"zrodlo": "wikidata"
+},
+{
+"kod": "cy",
+"slowo": "rhithweledigaeth",
+"zrodlo": "wikidata"
+},
+{
+"kod": "te",
+"slowo": "భ్రాంతి",
+"zrodlo": "wikidata"
+},
+{
+"kod": "rw",
+"slowo": "ihindurangero",
+"zrodlo": "mymemory"
+},
+{
+"kod": "su",
+"slowo": "Halusinasi",
+"zrodlo": "wikidata"
+},
+{
+"kod": "pa",
+"slowo": "ਭਰਮ",
+"zrodlo": "mymemory"
+},
+{
+"kod": "kab",
+"slowo": "tamunnawt",
+"zrodlo": "wikidata"
+},
+{
+"kod": "sm",
+"slowo": "faʻafiafiaga",
+"zrodlo": "mymemory"
+},
+{
+"kod": "my",
+"slowo": "လှည့်စားခြင်း",
+"zrodlo": "mymemory"
+},
+{
+"kod": "la",
+"slowo": "Halucinatio",
+"zrodlo": "wikidata"
+},
+{
+"kod": "sd",
+"slowo": "هالووین",
+"zrodlo": "mymemory"
+},
+{
+"kod": "sr",
+"slowo": "халуцинација",
+"zrodlo": "wikidata"
+},
+{
+"kod": "yi",
+"slowo": "האַלוצינאַציע",
+"zrodlo": "mymemory"
+},
+{
+"kod": "arz",
+"slowo": "هلوسه",
+"zrodlo": "wikidata"
+},
+{
+"kod": "lv",
+"slowo": "halucinācijas",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ckb",
+"slowo": "ھەلوەسە",
+"zrodlo": "wikidata"
+},
+{
+"kod": "el",
+"slowo": "παραίσθηση",
+"zrodlo": "wikidata"
+},
+{
+"kod": "tk",
+"slowo": "halusinasiýa",
+"zrodlo": "mymemory"
+},
+{
+"kod": "hr",
+"slowo": "halucinacija",
+"zrodlo": "wikidata"
+},
+{
+"kod": "gl",
+"slowo": "alucinación",
+"zrodlo": "wikidata"
+},
+{
+"kod": "zh-tw",
+"slowo": "幻覺",
+"zrodlo": "wikidata"
+},
+{
+"kod": "nl",
+"slowo": "hallucinatie",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ny",
+"slowo": "kusinkhasinkha",
+"zrodlo": "mymemory"
+},
+{
+"kod": "kn",
+"slowo": "ಭ್ರಮೆ",
+"zrodlo": "wikidata"
+},
+{
+"kod": "tl",
+"slowo": "halusinasyon",
+"zrodlo": "wikidata"
+},
+{
+"kod": "lt",
+"slowo": "haliucinacija",
+"zrodlo": "wikidata"
+},
+{
+"kod": "de",
+"slowo": "Halluzination",
+"zrodlo": "wikidata"
+},
+{
+"kod": "eu",
+"slowo": "Haluzinazio",
+"zrodlo": "wikidata"
+},
+{
+"kod": "pap",
+"slowo": "Halucinacion",
+"zrodlo": "wikidata"
+},
+{
+"kod": "lo",
+"slowo": "ຈິນຕະນາການ",
+"zrodlo": "mymemory"
+},
+{
+"kod": "ko",
+"slowo": "환각",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ku-arab",
+"slowo": "حالووسیناسیۆن",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ru",
+"slowo": "галлюцинация",
+"zrodlo": "wikidata"
+},
+{
+"kod": "cs",
+"slowo": "halucinace",
+"zrodlo": "wikidata"
+},
+{
+"kod": "zh",
+"slowo": "幻覺",
+"zrodlo": "wikidata"
+},
+{
+"kod": "uk",
+"slowo": "галюцинація",
+"zrodlo": "wikidata"
+},
+{
+"kod": "fi",
+"slowo": "hallusinaatio",
+"zrodlo": "wikidata"
+},
+{
+"kod": "kk-latn",
+"slowo": "elestewşilik",
+"zrodlo": "wikidata"
+},
+{
+"kod": "it",
+"slowo": "allucinazione",
+"zrodlo": "wikidata"
+},
+{
+"kod": "zh-cn",
+"slowo": "幻觉",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ga",
+"slowo": "bréagchéadfa",
+"zrodlo": "wikidata"
+},
+{
+"kod": "kk-cyrl",
+"slowo": "елестеушілік",
+"zrodlo": "wikidata"
+},
+{
+"kod": "kk-arab",
+"slowo": "ەلەستەۋشىلىك",
+"zrodlo": "wikidata"
+},
+{
+"kod": "hy",
+"slowo": "Զգայապատրանք",
+"zrodlo": "wikidata"
+},
+{
+"kod": "sk",
+"slowo": "halucinácia",
+"zrodlo": "wikidata"
+},
+{
+"kod": "be-tarask",
+"slowo": "галюцынацыя",
+"zrodlo": "wikidata"
+},
+{
+"kod": "mn",
+"slowo": "ариутгал",
+"zrodlo": "mymemory"
+},
+{
+"kod": "ku",
+"slowo": "halûsînasyon",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ur",
+"slowo": "واہمہ",
+"zrodlo": "wikidata"
+},
+{
+"kod": "si",
+"slowo": "මායාවන්",
+"zrodlo": "mymemory"
+},
+{
+"kod": "zh-hant",
+"slowo": "幻覺",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ht",
+"slowo": "alisinasyon/hallucination",
+"zrodlo": "mymemory"
+},
+{
+"kod": "bg",
+"slowo": "халюцинация",
+"zrodlo": "wikidata"
+},
+{
+"kod": "gu",
+"slowo": "ભ્રામકતા",
+"zrodlo": "mymemory"
+},
+{
+"kod": "vi",
+"slowo": "ảo giác",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ja",
+"slowo": "幻覚",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ku-latn",
+"slowo": "halûsînasyon",
+"zrodlo": "wikidata"
+},
+{
+"kod": "id",
+"slowo": "halusinasi",
+"zrodlo": "wikidata"
+},
+{
+"kod": "bxr",
+"slowo": "хии үзэгдэл",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ug",
+"slowo": "hallucination",
+"zrodlo": "mymemory"
+},
+{
+"kod": "tt",
+"slowo": "саташулар",
+"zrodlo": "wikidata"
+},
+{
+"kod": "sw",
+"slowo": "udanganyifu",
+"zrodlo": "mymemory"
+},
+{
+"kod": "bjn",
+"slowo": "Kasubalahan",
+"zrodlo": "wikidata"
+},
+{
+"kod": "mr",
+"slowo": "भास",
+"zrodlo": "wikidata"
+},
+{
+"kod": "sr-ec",
+"slowo": "халуцинација",
+"zrodlo": "wikidata"
+},
+{
+"kod": "az",
+"slowo": "halusunasiya",
+"zrodlo": "wikidata"
+},
+{
+"kod": "am",
+"slowo": "hallucination",
+"zrodlo": "mymemory"
+},
+{
+"kod": "be",
+"slowo": "галюцынацыя",
+"zrodlo": "wikidata"
+},
+{
+"kod": "lez",
+"slowo": "галлюцинация",
+"zrodlo": "wikidata"
+},
+{
+"kod": "st",
+"slowo": "ho lemoha",
+"zrodlo": "mymemory"
+},
+{
+"kod": "mi",
+"slowo": "whakapā Mai",
+"zrodlo": "mymemory"
+},
+{
+"kod": "et",
+"slowo": "hallutsinatsioon",
+"zrodlo": "wikidata"
+},
+{
+"kod": "yue",
+"slowo": "幻覺",
+"zrodlo": "wikidata"
+},
+{
+"kod": "zh-hk",
+"slowo": "幻覺",
+"zrodlo": "wikidata"
+},
+{
+"kod": "mk",
+"slowo": "халуцинација",
+"zrodlo": "wikidata"
+},
+{
+"kod": "sr-el",
+"slowo": "halucinacija",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ml",
+"slowo": "ഹാലൂസിനേഷൻ",
+"zrodlo": "wikidata"
+},
+{
+"kod": "is",
+"slowo": "ofskynjanir",
+"zrodlo": "mymemory"
+},
+{
+"kod": "fr",
+"slowo": "hallucination",
+"zrodlo": "wikidata"
+},
+{
+"kod": "wuu",
+"slowo": "幻觉",
+"zrodlo": "wikidata"
+},
+{
+"kod": "pt",
+"slowo": "alucinação",
+"zrodlo": "wikidata"
+},
+{
+"kod": "xh",
+"slowo": "ukungabonakali kakuhle",
+"zrodlo": "mymemory"
+},
+{
+"kod": "hi",
+"slowo": "विभ्रांति",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ast",
+"slowo": "allucinación",
+"zrodlo": "wikidata"
+},
+{
+"kod": "sn",
+"slowo": "chirwere cheshuga",
+"zrodlo": "mymemory"
+},
+{
+"kod": "yo",
+"slowo": "fojuinu",
+"zrodlo": "mymemory"
+},
+{
+"kod": "gpe",
+"slowo": "hallucination",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ps",
+"slowo": "د زړه اېشېدنه",
+"zrodlo": "mymemory"
+},
+{
+"kod": "lb",
+"slowo": "halluzinatioun",
+"zrodlo": "wikidata"
+},
+{
+"kod": "so",
+"slowo": "jidbo",
+"zrodlo": "wikidata"
+},
+{
+"kod": "da",
+"slowo": "hallucination",
+"zrodlo": "wikidata"
+},
+{
+"kod": "zh-hans",
+"slowo": "幻觉",
+"zrodlo": "wikidata"
+},
+{
+"kod": "af",
+"slowo": "hallusinasie",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ka",
+"slowo": "ჰალუცინაცია",
+"zrodlo": "wikidata"
+},
+{
+"kod": "zh-sg",
+"slowo": "幻觉",
+"zrodlo": "wikidata"
+},
+{
+"kod": "tr",
+"slowo": "varsanı",
+"zrodlo": "wikidata"
+},
+{
+"kod": "shn",
+"slowo": "လွင်ႈႁၼ်ၽိတ်း",
+"zrodlo": "wikidata"
+},
+{
+"kod": "as",
+"slowo": "অমূলপ্ৰত্যক্ষ",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ig",
+"slowo": "ahaziri ahazi",
+"zrodlo": "mymemory"
+},
+{
+"kod": "zu",
+"slowo": "i-hallucination",
+"zrodlo": "mymemory"
+},
+{
+"kod": "tg",
+"slowo": "таваҳҳум",
+"zrodlo": "wikidata"
+},
+{
+"kod": "nb",
+"slowo": "hallusinasjon",
+"zrodlo": "wikidata"
+},
+{
+"kod": "kk-kz",
+"slowo": "елестеушілік",
+"zrodlo": "wikidata"
+},
+{
+"kod": "jv",
+"slowo": "'JV' IS AN INVALID TARGET LANGUAGE . EXAMPLE: LANGPAIR=EN|IT USING 2 LETTER ISO OR RFC3066 LIKE ZH-CN. ALMOST ALL LANGUAGES SUPPORTED BUT SOME MAY HAVE NO CONTENT",
+"zrodlo": "mymemory"
+},
+{
+"kod": "ro",
+"slowo": "halucinație",
+"zrodlo": "wikidata"
+},
+{
+"kod": "kk-tr",
+"slowo": "elestewşilik",
+"zrodlo": "wikidata"
+},
+{
+"kod": "uz",
+"slowo": "gallyutsinatsiya",
+"zrodlo": "wikidata"
+},
+{
+"kod": "bs",
+"slowo": "halucinacija",
+"zrodlo": "wikidata"
+},
+{
+"kod": "eo",
+"slowo": "halucino",
+"zrodlo": "wikidata"
+},
+{
+"kod": "kk-cn",
+"slowo": "ەلەستەۋشىلىك",
+"zrodlo": "wikidata"
+},
+{
+"kod": "ne",
+"slowo": "मतिभ्रम",
+"zrodlo": "mymemory"
+},
+{
+"kod": "ha",
+"slowo": "Hallucination",
+"zrodlo": "wikidata"
+},
+{
+"kod": "th",
+"slowo": "ประสาทหลอน",
+"zrodlo": "wikidata"
+},
+{
+"kod": "no",
+"slowo": "hallusinasjon",
+"zrodlo": "mymemory"
+}
+]
+}
