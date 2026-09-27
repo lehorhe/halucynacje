@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.html.tmp
+/Mapa_prawdy_A0.pdf
+/Mapa_prawdy_A0.html
+/Plansza_A0_*.html
+/Plansza_A0_*.pdf
+/a0_*.jpg
+/legenda/
+/cache/
+strona/logs/
+*.log
+.env
+*.env
