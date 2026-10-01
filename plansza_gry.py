@@ -498,6 +498,10 @@ def dane_prawdy(start="2026-08-31", tygodnie=4):
     return dni, dane
 
 
+# Zajętość studia (studio_kp.py) godzina po godzinie = obecność prowadzących w redakcji — tylko do użytku redakcji, nigdy w migawce publicznej
+E1_PRYWATNE = ("studio_kp", "realizator_sm7b")
+
+
 def zapisz_migawke(dni, dane):
     import copy
     import sciezki
@@ -511,6 +515,8 @@ def zapisz_migawke(dni, dane):
                          "z_kalendarza": bool(g["prog"].get("z_kalendarza"))}
         if g:
             g.pop("program", None)                      # surowa nazwa z metadanych (bywa z prowadzącym)
+            for k in E1_PRYWATNE:
+                (g.get("e1") or {}).pop(k, None)
         heksy["%d,%d" % (i, j)] = g
     os.makedirs(os.path.dirname(sciezki.MIGAWKA), exist_ok=True)
     json.dump({"opis": "HALUCYNACJE · mapa prawdy Radia Wnet: agregaty godzin anteny (bez nagrań, transkrypcji i danych osobowych)",
