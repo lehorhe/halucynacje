@@ -105,7 +105,7 @@ STR = [
     ('okl', '<div class="logo">%(LOGO)s</div><h1 class="t1">HALUCYNACJE</h1><p class="t2">Świat anteny</p><p class="t3">zasady gry · wersja ' + WERSJA + '</p>'
      '<div class="mapa"></div><p class="t4">Kooperacyjna gra na planszy z heksów: każdy heks to godzina radia, a teren rośnie z tego, ile w niej słowa. '
      'Zespół redakcji ma tydzień, żeby z surowej anteny zrobić sprawdzoną wiedzę.</p>'
-     '<p class="t5">1–4 osoby · 30–45 minut · od 12 lat · 2 kości k6 · gra.l00p.ai</p>'),
+     '<p class="t5">1–4 osoby · 30–45 minut · od 16 lat · 2 kości k6 · gra.l00p.ai</p>'),
     # 2 o grze
     ('', '<h2>1 · O grze</h2><p class="lead">Gracie wspólnie jako redakcja radia. Przeciwnikiem jest czas: antena nadaje dzień po dniu, '
      'a materiał sprzed dwóch dni trafia do archiwum i nie da się go już opracować.</p>' + RAMKA_SKROT +

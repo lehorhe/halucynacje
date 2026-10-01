@@ -816,7 +816,9 @@ if os.path.exists(_PL):                     # pełna historia kalendarza (06.201
 LATARNIA = '<path d="M9 21h6M10 21l1-12h2l1 12M9.5 9h5l-1-3h-3z"/><path d="M12 6V4"/><path d="M4 7l3 1M20 7l-3 1M4 11l3-.5M20 11l-3-.5"/>'
 
 
-# Kolumna Zygmunta: prowadzący mówi z mikrofonu studia na Krakowskim Przedmieściu (odcisk toru, studio_kp.py) — był w redakcji
+# Kolumna Zygmunta: prowadzący mówi z mikrofonu studia na Krakowskim Przedmieściu (odcisk toru, studio_kp.py) — był w redakcji.
+# Godzina po godzinie to obecność ludzi w redakcji, więc warstwa jest WYŁĄCZONA (Lech, 01.10.2026); HAL_KOLUMNA=1 tylko do użytku wewnętrznego.
+KOLUMNA_ZYGMUNTA = os.environ.get("HAL_KOLUMNA") == "1"
 KOLUMNA = ('<path d="M6 22.6h12M7.6 20.8h8.8M11 20.8V9.6M13 20.8V9.6M9.6 9.6h4.8M10.2 8.4h3.6"/>'
            '<path d="M12 8.4V4.6"/><circle cx="12" cy="3.4" r=".95"/><path d="M12 5.4l3.4-3.2M14.1 2.6l1.9 1.5M12 5.6 9.4 7.2"/>')
 
@@ -836,7 +838,7 @@ def latarnie(dane, dni, ox, oy):
     h = ""
     for (i, j), g in dane.items():
         a = stala_audycja(i, j, dni)
-        kp = bool(((g or {}).get("e1") or {}).get("studio_kp"))
+        kp = KOLUMNA_ZYGMUNTA and bool(((g or {}).get("e1") or {}).get("studio_kp"))
         if not a and not kp:
             continue
         cx, cy = SA.srodek(i, j)

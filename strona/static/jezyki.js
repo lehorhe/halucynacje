@@ -18,7 +18,7 @@ J.opcje=function(kody,w,Intl_){var I=Intl_||(typeof Intl!=='undefined'?Intl:root
 J.kolejka=function(slowa){var out=[],ost=null;(slowa||[]).forEach(function(s){if(!s||!s.slowo)return;if(ost&&ost.slowo===s.slowo)return;out.push(s);ost=s;});return out;};
 /* Adres e-mail tak jak sprawdza serwer. */
 J.email=function(e){return /^[A-Za-z0-9._%+\-]{1,64}@[A-Za-z0-9.\-]{1,190}\.[A-Za-z]{2,24}$/.test(String(e||'').trim());};
-/* Klauzula informacyjna (art. 13 RODO) — treść do akceptacji IOD; dane administratora i IOD z serwera (/api/stan). */
+/* Klauzula informacyjna (art. 13 RODO) — wersja 2026-09-28.1 zaakceptowana przez IOD 01.10.2026; zmiana treści = nowa wersja KLAUZULA i ponowna akceptacja. Dane administratora i IOD z serwera (/api/stan). */
 J.klauzula=function(s){return 'Administratorem Twoich danych jest '+String(s.administrator||'').replace(/\.$/,'')+'. Kontakt z inspektorem ochrony danych: '+s.iod+'. '+
   'Cel: jedna wiadomość e-mail o resecie świata gry „Halucynacje” dla nowych graczy. Podstawa: Twoja zgoda (art. 6 ust. 1 lit. a RODO). '+
   'Przetwarzamy tylko adres e-mail, czas zapisu i język przeglądarki — bez adresu IP. Przechowujemy je do wysłania tej wiadomości albo do wycofania zgody. '+
@@ -65,7 +65,7 @@ var fw=q('wypis');fw.addEventListener('submit',function(ev){ev.preventDefault();
     .then(function(j){k.textContent=j.komunikat||'Gotowe.';k.className='kom '+(j.ok?'ok':'bl');if(j.ok)fw.reset();}).catch(function(){k.textContent='Brak połączenia — spróbuj za chwilę.';k.className='kom bl';});});
 f.addEventListener('submit',function(ev){ev.preventDefault();var e=q('email').value;
   if(!J.email(e)){komunikat('To nie wygląda na adres e-mail.');return;}
-  if(!q('zgoda').checked){komunikat('Zaznacz zgodę na jedną wiadomość o resecie świata gry.');return;}
+  if(!q('zgoda').checked){komunikat('Potwierdź, że masz ukończone 16 lat, i zaznacz zgodę na jedną wiadomość o resecie świata gry.');return;}
   btn.disabled=true;
   fetch('/api/zapis',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:e,zgoda:true,www:q('www').value})})
     .then(function(r){return r.json().then(function(j){return {ok:r.ok,j:j};});})

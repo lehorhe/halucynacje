@@ -140,8 +140,9 @@ def legenda(dane, dni, img, px_mm, rek, x0, y0, szer, wys):
     h += _txt(x0 + 8, yz, "Inne znaki na mapie", 4.8, 800, PET)
     znaki = [("♪", "teksty piosenek: ASR zapisał śpiew — to nie mowa"), ("2×T", "dwie niezależne transkrypcje (lokalna + chmura)"),
              ("mg", "mgła: metody pomiaru się nie zgadzają"), ("sk", "skały: wysoko, ale monolog"), ("st", "strumień: dużo utworów w godzinie słowa"),
-             ("po", "polana: oklaski, śmiech (zdarzenia audio)"), ("re", "rekord mapy (lista u góry)"), ("te", "słuchawka + piksele: łącza zdalne — pomiar w toku"),
-             ("ko", "Kolumna Zygmunta: studio na Krakowskim Przedmieściu zajęte — pomiar w toku")]
+             ("po", "polana: oklaski, śmiech (zdarzenia audio)"), ("re", "rekord mapy (lista u góry)"), ("te", "słuchawka + piksele: łącza zdalne — pomiar w toku")]
+    if PG.KOLUMNA_ZYGMUNTA:                         # warstwa wewnętrzna (plansza_gry.KOLUMNA_ZYGMUNTA)
+        znaki.append(("ko", "Kolumna Zygmunta: studio na Krakowskim Przedmieściu zajęte — pomiar w toku"))
     for k, (ik, t) in enumerate(znaki):
         yy = yz + 7 + k * 6.2
         xi = x0 + 9

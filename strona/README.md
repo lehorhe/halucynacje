@@ -27,7 +27,7 @@ w pamięci po skrócie IP+dnia, 500 zapisów na dobę); pole-pułapka dla botów
 ## Uruchomienie i testy
 
 - **Produkcja od 27.09.2026: https://gra.l00p.ai** (publicznie, BEZ Access) — tunel `szpieg-test`, reguła w `~/.cloudflared/config.yml` (kopia `config.yml.bak_20260927_przed_gra`), CNAME przez `cloudflared tunnel route dns`. Proces `server.py 8781` (127.0.0.1) startuje `python start_odlaczony.py` — konfiguracja z `szpieg_media\jezyki\jezyki.env` (poza gitem); **bez autostartu** (po restarcie maszyny uruchomić ręcznie).
-- Administrator danych: **Radio Wnet Sp. z o.o.**, IOD `iod@perfectinfo.pl` (decyzja Lecha 27.09; kontakt IOD z klauzuli RODO w Sejfie — potwierdzić u IOD). Zapis wymaga OBU (`JEZYKI_ADMINISTRATOR`, `JEZYKI_IOD`); klauzula art. 13 RODO na stronie (`J.klauzula`, wersja `KLAUZULA`) — **do akceptacji IOD**; `/api/wypisz` = wycofanie zgody.
+- Administrator danych: **Radio Wnet Sp. z o.o.**, IOD `iod@perfectinfo.pl` (decyzja Lecha 27.09). Zapis wymaga OBU (`JEZYKI_ADMINISTRATOR`, `JEZYKI_IOD`); klauzula art. 13 RODO na stronie (`J.klauzula`, wersja `KLAUZULA` = `2026-09-28.1`) — **zaakceptowana przez IOD 01.10.2026**. Każda zmiana treści klauzuli = nowa wersja `KLAUZULA` i ponowna akceptacja IOD; `/api/wypisz` = wycofanie zgody.
 - testy: `python -m unittest discover -s tests` (9; w tym klauzula, wypis, czyste funkcje frontu i lista języków pod node).
 - lista „Nazwy języków”: polski + najpopularniejsze na górze, reszta alfabetycznie wg nazwy własnej; tylko języki, które przeglądarka umie nazwać (`Intl.DisplayNames`); wybór w `localStorage`.
 - CSP `default-src 'self'` tylko na stronach HTML (SVG logo ma własną animację `<style>`); zero stylów w atrybutach; zasoby z `?v=` przy zmianie.
